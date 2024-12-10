@@ -2,7 +2,7 @@ main:
   - title: "Events"
     url: /events/
   - title: "Studium"
-    url: /program/
+    url: /wiki/
   - title: "Über uns"
     url: /about-us/
   - title: "Kontakt"
@@ -10,27 +10,27 @@ main:
   - title: "Impressum"
     url: /impressum/
 
-program:
+wiki:
   - title: 'Für Interessierte'
     url: /prospectives/
     children:
       - title: "Was ist Bioinformatik?"
         url: /prospectives/what-is-bioinformatics/
       - title: "Studieninhalte"
-        url: /prospectives/contents/
-      - title: "Berufsperspektiven"
-        url: /prospectives/career/
-      - title: "Bewerbung"
-        url: /prospectives/application/
-      - title: "Für Masterstudierende"
-        url: /prospectives/master-students/
+        url: /prospectives/program-contents/
+      - title: "Berufsaussichten"
+        url: /prospectives/career-perspectives/
+      - title: "Aufnahmeverfahren"
+        url: /prospectives/application-process/
+      - title: "Für Master-Interessierte"
+        url: /prospectives/master-prospectives/
   - title: "Bachelor"
     url: /bachelor/
     children:
       - title: "Prüfungsordnung"
         url: /bachelor/examination-regulations/
       - title: "Abschlussarbeit"
-        url: /bachelor/theses/
+        url: /bachelor/thesis/
       - title: "Auslandsaufenthalt"
         url: /bachelor/study-abroad/
       - title: "Übergang Bachelor/Master"
@@ -41,5 +41,6 @@ program:
       - title: "Prüfungsordnung"
         url: /master/examination-regulations/
       - title: "Abschlussarbeit"
-        url: /master/theses/
+        url: /master/thesis/
       - title: "Auslandsaufenthalt"
+        url: /master/study-abroad/
