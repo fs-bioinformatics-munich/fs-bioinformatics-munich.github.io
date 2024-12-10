@@ -68,12 +68,19 @@ defaults:
       type: pages
     values:
       layout: single
+  # _members
+  - scope:
+      path: "_members"
+      type: members
+    values:
+      layout: single
 
 # Collections
 collections:
-  - members
-  - alumni
-  - bioinformatics
+  members:
+    output: true
+  alumni:
+    output: false
 
 category_archive:
   type: liquid

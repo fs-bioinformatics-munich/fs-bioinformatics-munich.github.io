@@ -1,14 +1,14 @@
 ---
 permalink: /about-us/
-title: "About us"
+title: "Über uns"
 ---
 
 ![Die Fachschaft](/assets/images/bio-photo.jpg)
 
 
-## Members
+## Mitglieder
 <ul>
 {% for member in site.members %}
-  <li>{{ member.name }}: {{ member.position }}</li>
+  <li><a href="{{member.url}}">{{ member.name }}</a>: {{ member.position }}</li>
 {% endfor %}
 </ul>
