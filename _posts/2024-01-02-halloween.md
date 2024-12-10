@@ -1,9 +1,9 @@
 ---
 title: "Halloween-Party 2024"
 categories:
-  - Feiern
+  - parties
 tags:
-  - Halloween-Party
+  - halloween
 ---
 
 Das Event war ein voller Erfolg!

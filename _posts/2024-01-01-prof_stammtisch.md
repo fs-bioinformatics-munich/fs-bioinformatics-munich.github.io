@@ -1,9 +1,9 @@
 ---
 title: "Professoren-Stammtisch 2024"
 categories:
-  - Offizielle Termine
+  - official-events
 tags:
-  - Professoren-Stammtisch
+  - prof-stammtisch
 ---
 
 Das Event war ein voller Erfolg!
