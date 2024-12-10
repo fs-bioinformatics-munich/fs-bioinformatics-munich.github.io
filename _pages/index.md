@@ -1,6 +1,4 @@
 ---
 permalink: /
-title: "Impressum"
 ---
-
-Hello world!
+Hello World!
