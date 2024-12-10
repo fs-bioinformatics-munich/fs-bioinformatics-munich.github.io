@@ -1,5 +1,5 @@
 ---
-permalink: /master/examination-regulations/
+permalink: /wiki/master/examination-regulations/
 title: "Prüfungsordnung"
 ---
 

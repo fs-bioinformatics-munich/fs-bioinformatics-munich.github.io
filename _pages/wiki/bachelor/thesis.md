@@ -1,5 +1,5 @@
 ---
-permalink: /bachelor/thesis/
+permalink: /wiki/bachelor/thesis/
 title: "Abschlussarbeit"
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /prospectives/program-contents/
+permalink: /wiki/prospectives/program-contents/
 title: "Studieninhalte"
 ---
 

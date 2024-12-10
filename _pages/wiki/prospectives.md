@@ -1,5 +1,5 @@
 ---
-permalink: /prospectives/
+permalink: /wiki/prospectives/
 title: "Für Interessierte"
 ---
 

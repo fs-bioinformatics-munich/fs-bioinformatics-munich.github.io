@@ -1,5 +1,5 @@
 ---
-permalink: /master/study-abroad/
+permalink: /wiki/master/study-abroad/
 title: "Auslandsaufenthalt"
 ---
 

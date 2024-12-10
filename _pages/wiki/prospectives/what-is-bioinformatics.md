@@ -1,5 +1,5 @@
 ---
-permalink: /prospectives/what-is-bioinformatics/
+permalink: /wiki/prospectives/what-is-bioinformatics/
 title: "Was ist Bioinformatik?"
 ---
 

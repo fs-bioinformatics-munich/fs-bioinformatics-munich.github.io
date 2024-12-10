@@ -1,5 +1,5 @@
 ---
-permalink: /bachelor/
+permalink: /wiki/bachelor/
 title: "Bachelor-Studiengang"
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /prospectives/master-prospectives/
+permalink: /wiki/prospectives/master-prospectives/
 title: "Für Master-Interessierte"
 ---
 

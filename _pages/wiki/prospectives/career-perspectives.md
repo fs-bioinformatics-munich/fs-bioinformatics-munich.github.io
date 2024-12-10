@@ -1,5 +1,5 @@
 ---
-permalink: /prospectives/career-perspectives/
+permalink: /wiki/prospectives/career-perspectives/
 title: "Berufsaussichten"
 ---
 

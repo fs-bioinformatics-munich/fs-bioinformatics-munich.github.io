@@ -1,5 +1,5 @@
 ---
-permalink: /bachelor/examination-regulations/
+permalink: /wiki/bachelor/examination-regulations/
 title: "Prüfungsordnung"
 ---
 

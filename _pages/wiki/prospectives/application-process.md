@@ -1,5 +1,5 @@
 ---
-permalink: /prospectives/application-process/
+permalink: /wiki/prospectives/application-process/
 title: "Aufnahmeverfahren"
 ---
 

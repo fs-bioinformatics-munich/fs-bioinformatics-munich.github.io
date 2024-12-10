@@ -1,5 +1,5 @@
 ---
-permalink: /master/
+permalink: /wiki/master/
 title: "Master-Studiengang"
 ---
 

@@ -12,35 +12,35 @@ main:
 
 wiki:
   - title: 'Für Interessierte'
-    url: /prospectives/
+    url: /wiki/prospectives/
     children:
       - title: "Was ist Bioinformatik?"
-        url: /prospectives/what-is-bioinformatics/
+        url: /wiki/prospectives/what-is-bioinformatics/
       - title: "Studieninhalte"
-        url: /prospectives/program-contents/
+        url: /wiki/prospectives/program-contents/
       - title: "Berufsaussichten"
-        url: /prospectives/career-perspectives/
+        url: /wiki/prospectives/career-perspectives/
       - title: "Aufnahmeverfahren"
-        url: /prospectives/application-process/
+        url: /wiki/prospectives/application-process/
       - title: "Für Master-Interessierte"
-        url: /prospectives/master-prospectives/
+        url: /wiki/prospectives/master-prospectives/
   - title: "Bachelor"
-    url: /bachelor/
+    url: /wiki/bachelor/
     children:
       - title: "Prüfungsordnung"
-        url: /bachelor/examination-regulations/
+        url: /wiki/bachelor/examination-regulations/
       - title: "Abschlussarbeit"
-        url: /bachelor/thesis/
+        url: /wiki/bachelor/thesis/
       - title: "Auslandsaufenthalt"
-        url: /bachelor/study-abroad/
+        url: /wiki/bachelor/study-abroad/
       - title: "Übergang Bachelor/Master"
-        url: /bachelor/bachelor-master-transition/
+        url: /wiki/bachelor/bachelor-master-transition/
   - title: "Master"
-    url: /master/
+    url: /wiki/master/
     children:
       - title: "Prüfungsordnung"
-        url: /master/examination-regulations/
+        url: /wiki/master/examination-regulations/
       - title: "Abschlussarbeit"
-        url: /master/thesis/
+        url: /wiki/master/thesis/
       - title: "Auslandsaufenthalt"
-        url: /master/study-abroad/
+        url: /wiki/master/study-abroad/
