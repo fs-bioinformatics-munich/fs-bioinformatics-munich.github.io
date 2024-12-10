@@ -1,9 +1,45 @@
 main:
   - title: "Events"
     url: /events/
+  - title: "Studium"
+    url: /program/
   - title: "Über uns"
     url: /about-us/
   - title: "Kontakt"
     url: /contact/
   - title: "Impressum"
     url: /impressum/
+
+program:
+  - title: 'Für Interessierte'
+    url: /prospectives/
+    children:
+      - title: "Was ist Bioinformatik?"
+        url: /prospectives/what-is-bioinformatics/
+      - title: "Studieninhalte"
+        url: /prospectives/contents/
+      - title: "Berufsperspektiven"
+        url: /prospectives/career/
+      - title: "Bewerbung"
+        url: /prospectives/application/
+      - title: "Für Masterstudierende"
+        url: /prospectives/master-students/
+  - title: "Bachelor"
+    url: /bachelor/
+    children:
+      - title: "Prüfungsordnung"
+        url: /bachelor/examination-regulations/
+      - title: "Abschlussarbeit"
+        url: /bachelor/theses/
+      - title: "Auslandsaufenthalt"
+        url: /bachelor/study-abroad/
+      - title: "Übergang Bachelor/Master"
+        url: /bachelor/bachelor-master-transition/
+  - title: "Master"
+    url: /master/
+    children:
+      - title: "Prüfungsordnung"
+        url: /master/examination-regulations/
+      - title: "Abschlussarbeit"
+        url: /master/theses/
+      - title: "Auslandsaufenthalt"
