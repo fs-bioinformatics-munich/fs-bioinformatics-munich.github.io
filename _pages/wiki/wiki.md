@@ -1,6 +1,6 @@
 ---
 permalink: /wiki/
-title: "Studium"
+title: "Wiki"
 ---
 
 Hello, world!
