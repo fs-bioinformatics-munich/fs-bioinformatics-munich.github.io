@@ -45,18 +45,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://fs-bioinformatics-munich.github.io/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bioinformatik_muenchen"
-
 footer:
   links:
     - label: "Instagram"
@@ -70,7 +58,6 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -81,7 +68,12 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+
+# Collections
+collections:
+  - members
+  - alumni
+  - bioinformatics
 
 category_archive:
   type: liquid
