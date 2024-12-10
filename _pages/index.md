@@ -1,28 +1,30 @@
 ---
 permalink: /
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/bio-photo.jpg
+    alt: "events"
+    title: "Events"
+    excerpt: "Wir organisieren tolle Events für euch!"
+    url: "/events/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/bio-photo.jpg
+    alt: "wiki"
+    title: "Wiki"
+    excerpt: "Wir haben alle Infos für Studis und Interessierte!"
+    url: "/wiki/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/bio-photo.jpg
+    alt: "contact"
+    title: "Noch Fragen?"
+    excerpt: "Wir helfen gerne weiter!"
+    url: "/contact/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"  
+    btn_label: "Learn more"
 ---
-Hello World!
+Hallo und herzlich willkommen auf der Website der Fachschaft Bioinformatik!
+
+## Was findest du hier?
 
 {% include feature_row %}
