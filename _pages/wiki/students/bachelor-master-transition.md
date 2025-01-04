@@ -1,5 +1,5 @@
 ---
-permalink: /wiki/bachelor/bachelor-master-transition/
+permalink: /wiki/students/bachelor-master-transition/
 title: "Übergang Bachelor-Master"
 ---
 

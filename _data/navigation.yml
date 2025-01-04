@@ -24,7 +24,7 @@ wiki:
         url: /wiki/prospectives/application-process/
       - title: "Für Master-Interessierte"
         url: /wiki/prospectives/master-prospectives/
-  - title: "Fachschaft"
+  - title: "Die Fachschaft"
     url: /wiki/student_council/
     children:
       - title: "Organisation"
@@ -33,23 +33,14 @@ wiki:
         url: /wiki/student_council/events/
       - title: "Gremien"
         url: /wiki/student_council/committees/
-  - title: "Bachelor"
-    url: /wiki/bachelor/
+  - title: "Für Studierende"
+    url: /wiki/students/
     children:
       - title: "Prüfungsordnung"
-        url: /wiki/bachelor/examination-regulations/
+        url: /wiki/students/examination-regulations/
       - title: "Abschlussarbeit"
-        url: /wiki/bachelor/thesis/
+        url: /wiki/students/thesis/
       - title: "Auslandsaufenthalt"
-        url: /wiki/bachelor/study-abroad/
+        url: /wiki/students/study-abroad/
       - title: "Übergang Bachelor/Master"
-        url: /wiki/bachelor/bachelor-master-transition/
-  - title: "Master"
-    url: /wiki/master/
-    children:
-      - title: "Prüfungsordnung"
-        url: /wiki/master/examination-regulations/
-      - title: "Abschlussarbeit"
-        url: /wiki/master/thesis/
-      - title: "Auslandsaufenthalt"
-        url: /wiki/master/study-abroad/
+        url: /wiki/students/bachelor-master-transition/
