@@ -3,6 +3,24 @@ permalink: /impressum/
 title: "Impressum"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Informationen gemäß § 5 Telemediengesetz und § 55 Rundfunkstaatsvertrag
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Die Ludwig-Maximilians-Universität München ist eine Körperschaft des öffentlichen Rechts. Sie wird durch den Präsidenten Prof. Dr. Bernd Huber gesetzlich vertreten.
+
+# Anschrift
+
+Ludwig-Maximilians-Universität München  
+Geschwister-Scholl-Platz 1  
+80539 München  
+
+Telefon: +49 (0) 89 / 2180 - 0  
+E-Mail: [poststelle@verwaltung.uni-muenchen.de](mailto:poststelle@verwaltung.uni-muenchen.de)
+
+# Verantwortlicher für den Inhalt i.S.d. § 55 Abs. 2 RStV
+
+Ludwig-Maximilians-Universität München  
+Fachschaft Bioinformatik  
+Amalienstraße 17  
+80333 München
+
+E-Mail: [offizielle@bioinformatik-muenchen.de](mailto:offizielle@bioinformatik-muenchen.de)
