@@ -24,6 +24,15 @@ wiki:
         url: /wiki/prospectives/application-process/
       - title: "Für Master-Interessierte"
         url: /wiki/prospectives/master-prospectives/
+  - title: "Fachschaft"
+    url: /wiki/student_council/
+    children:
+      - title: "Organisation"
+        url: /wiki/student_council/organization/
+      - title: "Veranstaltungen"
+        url: /wiki/student_council/events/
+      - title: "Gremien"
+        url: /wiki/student_council/committees/
   - title: "Bachelor"
     url: /wiki/bachelor/
     children:
