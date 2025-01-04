@@ -87,4 +87,4 @@ defaults:
 # Collections
 collections:
   members:
-    output: true
+    output: false

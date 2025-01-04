@@ -12,7 +12,7 @@ title: "Über uns"
 {% for member in sorted %}
   {% if member.active %}
     <li>
-      <a href="{{member.url}}">{{ member.title }}</a>: {{ member.position }}</li>
+      <b>{{ member.title }}</b>: {{ member.position }}</li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -22,7 +22,7 @@ title: "Über uns"
 {% assign sorted = site.members | sort: 'active_during' %}
 {% for member in sorted reversed %}
   {% if member.active == false %}
-    <li><a href="{{member.url}}">{{ member.title }}</a> ({{ member.active_during }})</li>
+    <li><b>{{ member.title }}</b> ({{ member.active_during }})</li>
   {% endif %}
 {% endfor %}
 </ul>
