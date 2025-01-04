@@ -15,7 +15,7 @@ Hier muss man weiter unterscheiden zwischen Biologie und Biochemie.
 
 Biologie hat man ausschließlich im ersten und zweiten Semester. Man erhält einen breiten Überblick über die verschiedensten Bereiche der Biologie, von der Zelle bis hin zu Ökosystemen. Die Vorlesung stützt sich auf den [Purves](https://link.springer.com/book/10.1007/978-3-662-58172-8) - es ist jedoch nicht notwendig das Buch zu kaufen.
 
-Parallel dazu ist im ersten Semester _Organische Chemie_ vorgesehen. Dieses Modul soll Studierende mit verschiedenen Vorkenntnissen auf den gleichen Stand bringen. Danach hat man bis inklusive des vierten Semesters jedes Semester ein Biochemie-Modul. Im fünften Semester wird der Biochemie Block mit dem _Praktikum Molekularbiologie & Biochemie_ abgeschlossen. Hier verbringt man einige Tage in einem molekularbiologischen Labor und führt selbst biologische Experimente durch.
+Parallel dazu ist im ersten Semester _Organische Chemie_ vorgesehen. Dieses Modul soll Studierende mit verschiedenen Vorkenntnissen auf den gleichen Stand bringen. Danach hat man bis inklusive des vierten Semesters jedes Semester ein Biochemie-Modul. Im fünften Semester wird der Biochemie-Block mit dem _Praktikum Molekularbiologie & Biochemie_ abgeschlossen. Hier verbringt man einige Tage in einem molekularbiologischen Labor und führt selbst biologische Experimente durch.
 
 ## Informatik/Mathematik/Statistik
 
