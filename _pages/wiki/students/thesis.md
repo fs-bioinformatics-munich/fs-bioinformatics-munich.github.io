@@ -3,4 +3,10 @@ permalink: /wiki/students/thesis/
 title: "Abschlussarbeit"
 ---
 
-Bioinformatics is great!
+# Wie finde ich einen Betreuer?
+
+# Formale Regeln
+
+# Best practices
+
+## Druckereien
