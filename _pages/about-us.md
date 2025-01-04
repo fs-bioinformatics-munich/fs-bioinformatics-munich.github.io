@@ -22,7 +22,7 @@ title: "Über uns"
 {% assign sorted = site.members | sort: 'active_during' %}
 {% for member in sorted reversed %}
   {% if member.active == false %}
-    <li><b>{{ member.title }}</b> ({{ member.active_during }})</li>
+    <li><b>{{ member.title }}</b> ({{ member.active_during | array_to_sentence_string: 'and' }})</li>
   {% endif %}
 {% endfor %}
 </ul>
