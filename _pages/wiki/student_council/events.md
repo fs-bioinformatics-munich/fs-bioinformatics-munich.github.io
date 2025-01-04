@@ -9,6 +9,7 @@ title: "Veranstaltungen"
 - Weihnachtsfeier
 - Semester-Opening-Party
 - Sommerfest
+- Spieleabende
 
 # (Semi-) Offizielle Veranstaltungen
 
