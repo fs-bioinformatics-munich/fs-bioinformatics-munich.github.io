@@ -8,4 +8,4 @@ Weiters helfen wir dir bei der Entscheidung, ob München der richtige Ort für d
 
 Falls du dich für ein Studium der Bioinformatik in München entscheidest, findest du hier auch Informationen zum Aufnahmeverfahren und zum Studium selbst.
 
-Falls du Fragen hast, die hier nicht beantwortet werden, kannst du uns gerne kontaktieren.
+Falls du Fragen hast, die hier nicht beantwortet werden, kannst du uns gerne [kontaktieren](/contact/).
