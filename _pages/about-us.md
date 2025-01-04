@@ -3,7 +3,7 @@ permalink: /about-us/
 title: "Über uns"
 ---
 
-![Die Fachschaft](/assets/images/bio-photo.jpg)
+![Die Fachschaft](/assets/images/die-fachschaft.jpeg)
 
 
 ## Mitglieder
