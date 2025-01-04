@@ -8,9 +8,11 @@ title: "Über uns"
 
 ## Mitglieder
 <ul>
-{% for member in site.members %}
+{% assign sorted = site.members | sort: 'rank' %}
+{% for member in sorted %}
   {% if member.active %}
-    <li><a href="{{member.url}}">{{ member.name }}</a>: {{ member.position }}</li>
+    <li>
+      <a href="{{member.url}}">{{ member.title }}</a>: {{ member.position }}</li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -19,7 +21,7 @@ title: "Über uns"
 <ul>
 {% for member in site.members %}
   {% if member.active == false %}
-    <li><a href="{{member.url}}">{{ member.name }}</a> ({{ member.active_during }})</li>
+    <li><a href="{{member.url}}">{{ member.title }}</a> ({{ member.active_during }})</li>
   {% endif %}
 {% endfor %}
 </ul>
