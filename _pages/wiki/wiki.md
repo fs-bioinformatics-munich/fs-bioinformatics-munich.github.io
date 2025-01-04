@@ -3,8 +3,8 @@ permalink: /wiki/
 title: "Wiki"
 ---
 
-This wiki is a collection of information curated by students of the bioinformatics program at LMU and TU Munich. There is no guarantee for the information to be correct of complete. If you find errors, gaps, or have general improvement ideas, feel free to reach out to the student council via the channels provided via the [contact](/contact) page.
+Dieses Wiki ist eine Sammlung von Informationen, die von Studierenden des Bioinformatik-Programms an der LMU und der TU München zusammengestellt wurde. Es gibt keine Garantie für die Richtigkeit oder Vollständigkeit der Informationen. Wenn du Fehler, Lücken findest oder allgemeine Verbesserungsvorschläge hast, kannst du dich gerne über die auf der [Kontakt](/contact) Seite angegebenen Kanäle an den Studierendenrat wenden.
 
-The wiki provides separate [pages for prospective students and interested external people](/wiki/prospectives). 
-Furthermore, it gives insights into how the [student council](/wiki/student_council) is organized, what it does and how you can get involved.
-Lastly, it contains a collection of information that is relevant for [active students](/wiki/students).
+Das Wiki bietet separate [Seiten für zukünftige Studierende und interessierte externe Personen](/wiki/prospectives).  
+Außerdem gewährt es Einblicke in die Organisation der [Fachschaft](/wiki/student_council), ihrer Aufgaben und wie du dich engagieren kannst.  
+Zuletzt enthält es eine Sammlung von Informationen, die für [aktive Studierende](/wiki/students) relevant sind.
