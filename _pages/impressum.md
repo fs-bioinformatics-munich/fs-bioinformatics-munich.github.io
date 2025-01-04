@@ -23,4 +23,4 @@ Fachschaft Bioinformatik
 Amalienstraße 17  
 80333 München
 
-E-Mail: [offizielle@bioinformatik-muenchen.de](mailto:offizielle@bioinformatik-muenchen.de)
+E-Mail: [offizielle@bioinformatik-muenchen.com](mailto:offizielle@bioinformatik-muenchen.com)
