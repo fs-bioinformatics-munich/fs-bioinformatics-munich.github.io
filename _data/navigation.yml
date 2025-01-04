@@ -35,6 +35,8 @@ wiki:
         url: /wiki/student_council/events/
       - title: "Gremien"
         url: /wiki/student_council/committees/
+      - title: "Mitmachen"
+        url: /wiki/student_council/join-us/
   - title: "Für Studierende"
     url: /wiki/students/
     children:

@@ -3,4 +3,16 @@ permalink: /wiki/student_council/committees/
 title: "Gremien"
 ---
 
-Bioinformatics is great!
+# Übergeordnete Gremien der Studierendenvetretung
+
+## Fakultätsrat
+
+## Konvent der Fachschaften
+
+## Bayerischer Landesstudierendenrat
+
+# Studiengangsspezifische Gremien
+
+## Prüfungsausschuss Bioinformatik
+
+## QM-Zirkel
