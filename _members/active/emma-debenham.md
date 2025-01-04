@@ -6,5 +6,3 @@ active: true
 rank: 2
 ---
 ![Emma Debenham](/assets/images/bio-photo.jpg)
-
-Rank

@@ -19,7 +19,8 @@ title: "Über uns"
 
 ## Alumni
 <ul>
-{% for member in site.members %}
+{% assign sorted = site.members | sort: 'active_during' %}
+{% for member in sorted reversed %}
   {% if member.active == false %}
     <li><a href="{{member.url}}">{{ member.title }}</a> ({{ member.active_during }})</li>
   {% endif %}
