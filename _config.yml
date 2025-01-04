@@ -38,6 +38,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-gfm-admonitions
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
