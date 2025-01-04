@@ -13,5 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
+  gem 'jekyll-gfm-admonitions'
   gem "jekyll-algolia"
 end
