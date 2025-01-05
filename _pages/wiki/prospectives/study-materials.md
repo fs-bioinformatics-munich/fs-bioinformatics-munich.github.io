@@ -3,7 +3,9 @@ permalink: /wiki/prospectives/study-materials/
 title: "Schnuppermaterialien"
 ---
 
-Sie können die folgenden Materialien verwenden, um sich weiter über Bioinformatik zu informieren und zu entscheiden, ob Sie sich für ein Studium in diesem Bereich interessieren. Für das Studium ist es **nicht erforderlich**, sich bereits mit diesen Themen auszukennen - es ist **jedoch hilfreich**, wenn Sie sich für die Themen interessieren und bereit sind, sich damit auseinanderzusetzen.
+Du kannst die folgenden Materialien verwenden, um dich weiter über Bioinformatik zu informieren und zu entscheiden, ob du dich für ein Studium in diesem Bereich interessierst. Für das Studium ist es **nicht erforderlich**, sich bereits mit diesen Themen auszukennen - es ist **jedoch hilfreich**, wenn du dich für die Themen interessierst und bereit bist, dich damit auseinanderzusetzen.
+
+Hier findest du hauptsächlich Resourcen, die wenig bis keine Vorkenntnisse voraussetzen. Wenn du größere Herausforderungen suchst, schau [hier](/wiki/students/link-collection#nützliche-externe-resourcen) vorbei!
 
 # Bücher
 
