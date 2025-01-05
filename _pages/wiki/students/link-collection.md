@@ -1,18 +1,54 @@
 ---
 permalink: /wiki/students/link-collection/
 title: "Linksammlung"
+toc: true
 ---
 
-Von hier aus kannst du direkt zu allen wichtigen Portalen der LMU und TUM gelangen.
+# Uni-Portale
 
-# TUM
+## TUM
 
 - [TUM-Online](https://campus.tum.de/tumonline)
 - [Moodle](https://www.moodle.tum.de/my/)
 - Raumfinder
 
-# LMU
+## LMU
 
 - Verteilerportal
 - Moodle
 - Qissos
+
+# Nützliche externe Resourcen
+
+## Informatik, Programmieren und Software-Entwicklung
+
+### Programmiersprachen
+
+#### Python
+
+- [Software Carpentry course (programming)](https://swcarpentry.github.io/python-novice-inflammation/)
+- [Software Carpentry course (programming and plotting)](https://swcarpentry.github.io/python-novice-gapminder/)
+
+#### Java
+
+- [Course by Central Connecticut State University](https://chortle.ccsu.edu/javaLessons/index.html)
+
+#### R
+
+- [Software Carpentry course](https://swcarpentry.github.io/r-novice-inflammation/)
+
+### Versionskontrolle und Git
+
+- [Software Carpentry course](https://swcarpentry.github.io/git-novice/)
+
+### Linux
+
+- [Software Carpentry course](https://swcarpentry.github.io/shell-novice/)
+
+## Statistik
+
+- [StatQuest](https://www.youtube.com/c/joshstarmer/videos)
+
+## Bioinformatik
+
+- 
