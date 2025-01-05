@@ -26,7 +26,7 @@ Diesen Block kann man entweder vollständig an der LMU oder an der TUM ablegen. 
 > [!NOTE]
 > Man kann danach noch ohne weiteres wechseln, sofern man keine Prüfung an einer der beiden Universitäten im _Informatik/Mathematik/Statistik_-Block erfolgreich absolviert hat. Danach kann man unter Umständen auch noch wechseln, allerdings ist das dann mit etwas bürokratischem Aufwand verbunden. Die Fachschaft kann in diesem Fall weiterhelfen.
 
-Unabhängig davon, welche Universität man wählt, hat je ein Modul aus folgenden Bereichen:
+Unabhängig davon, welche Universität man wählt, hat man je ein Modul aus folgenden Bereichen:
 
 - Analysis
 - Lineare Algebra
