@@ -42,6 +42,10 @@ wiki:
   - title: "Für Studierende"
     url: /wiki/students/
     children:
+      - title: "Ersti-Onboarding"
+        url: /wiki/students/onboarding/
+      - title: "Linksammlung"
+        url: /wiki/students/link-collection/
       - title: "Prüfungsordnung"
         url: /wiki/students/examination-regulations/
       - title: "Abschlussarbeit"
