@@ -6,7 +6,8 @@ toc: true
 
 # Bachelor-Studiengang
 
-Wie in Universitäten üblich, kann man sich weitgehend selbst aussuchen, in welchem Semester man welches Modul belegen möchte. Es gibt allerdings einen [empohlenen Studienplan](https://www.bio.ifi.lmu.de/bim/studium/studium/plans/studienplane/), der die Planung des Studiums möglichst einfach machen soll. Die Semesterangaben in den folgenden Abschnitten stützen sich auf diesen Studienplan.
+> [!NOTE]
+> Wie in Universitäten üblich, kann man sich weitgehend selbst aussuchen, in welchem Semester man welches Modul belegen möchte. Es gibt allerdings einen [empohlenen Studienplan](https://www.bio.ifi.lmu.de/bim/studium/studium/plans/studienplane/), der die Planung des Studiums möglichst einfach machen soll. Die Semesterangaben in den folgenden Abschnitten stützen sich auf diesen Studienplan.
 
 Der Bachelor-Studiengang teilt seine Module in drei Blöcke ein:
 
@@ -56,6 +57,9 @@ Im dritten Semester findet das _Programmierpraktikum Bioinformatik_ statt. Diese
 Für das vierte und fünfte Semester sind die Module _Algorithmische Bioinformatik_ 1 und 2 vorgesehen. Hier werden konzepte aus der theoretischen Informatik auf biologische Probleme angewendet.
 
 Im fünften Semester kommt noch das _Praktikum Genomorientierte Bioinformatik_ hinzu. Für dieses Module gibt es, wie für das Modul _Problembasiertes Lernen_, mehrere Instanzen, sowie eine Informationsveranstaltung der Fachschaft.
+
+> [!WARNING]
+> Für das _Praktikum Genomorientierte Bioinformatik_ ist es Zulassungsvoraussetzung, dass man das _Programmierpraktikum Bioinformatik_ erfolgreich abgeschlossen hat.
 
 Das Modul _Praktische Arbeit_ ist als Vorbereitung auf die Abschlussarbeit gedacht, dauert zwei Monate und wird üblicherweise am selben Lehrstuhl wie die Abschlussarbeit absolviert. Die Abschlussarbeit selbst dauert vier Monate. Diese beiden Module sind für das sechste Semester vorgesehen.
 
