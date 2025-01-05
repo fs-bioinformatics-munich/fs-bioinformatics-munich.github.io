@@ -1,9 +1,12 @@
 ---
 permalink: /wiki/prospectives/what-is-bioinformatics/
 title: "Was ist Bioinformatik?"
+toc: true
 ---
 
 Wenn man als BioinformatikerIn mit fachfremden Personen spricht, sind die ersten Fragen üblicherweise "Was ist das?" und "Was mancht man da?". Im Folgenden finden Sie einen groben Überblick über das Fachgebiet und seine Relevanz.
+
+# Das Fachgebiet
 
 Betrachten wir zunächst die Definition aus [Wikipedia](https://de.wikipedia.org/wiki/Bioinformatik):
 > Die Bioinformatik (englisch bioinformatics) ist eine interdisziplinäre Wissenschaft, die Probleme aus den Lebenswissenschaften mit theoretischen computergestützten Methoden löst. Sie hat zu grundlegenden Erkenntnissen der modernen Biologie und Medizin beigetragen. Bekanntheit in den Medien erreichte die Bioinformatik in erster Linie 2001 mit ihrem wesentlichen Beitrag zur Sequenzierung des menschlichen Genoms.

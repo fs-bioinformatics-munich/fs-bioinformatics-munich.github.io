@@ -1,6 +1,7 @@
 ---
 permalink: /wiki/prospectives/program-contents/
 title: "Studieninhalte"
+toc: true
 ---
 
 # Bachelor-Studiengang
