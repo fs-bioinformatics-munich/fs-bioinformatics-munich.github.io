@@ -28,3 +28,8 @@ Viele Bioinfo-Studis drucken bei [printy](https://www.printy.de/en/). Dort ist u
 Weitere Druckereien, wo Studis gute Erfahrungen gemacht haben:
 
 - [Copy-Oase](https://www.copy-oase.com/Willkommen.html)
+    - Relativ günstig
+- [Fachschaft EI](https://www.fs.ei.tum.de/services/druckabs/)
+    - Sehr günstig
+    - Kennen die Anforderungen der Informatik-Fakultät
+    - Man muss nicht das Einsendeformular ausfüllen, man kann auch einfach so hingehen
