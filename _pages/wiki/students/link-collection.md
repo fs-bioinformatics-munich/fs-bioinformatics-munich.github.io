@@ -10,13 +10,16 @@ toc: true
 
 - [TUM-Online](https://campus.tum.de/tumonline)
 - [Moodle](https://www.moodle.tum.de/my/)
-- Raumfinder
+- [Raumfinder](https://nav.tum.de/en)
 
 ## LMU
 
-- Verteilerportal
-- Moodle
-- Qissos
+- [Benutzerkontenverwaltung](https://www.portal.uni-muenchen.de/benutzerkonto/#!/)
+- [Moodle](https://moodle.lmu.de/)
+- [Qissos](https://qissos.verwaltung.uni-muenchen.de)
+- [Webmail](https://mailbox.portal.uni-muenchen.de/)
+- [LSF](https://lsf.verwaltung.uni-muenchen.de)
+- [Raumfinder](https://www.lmu.de/raumfinder/#/)
 
 # Nützliche externe Resourcen
 
