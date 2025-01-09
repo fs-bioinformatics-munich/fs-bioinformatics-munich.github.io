@@ -1,2 +1,4 @@
 github.com/KKKZOZ/hugo-admonitions v0.4.5 h1:Z2feKyOirh5ra7Ut5hirV1Pnv8syizl0rf6FkjQKThE=
 github.com/KKKZOZ/hugo-admonitions v0.4.5/go.mod h1:4PsJAsqo3mS3VzAtDLa8k0ds+CJQUWZhAo9kLi1NRlM=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20250105143455-9f1f414be805 h1:gi6q4K4XngQJj1oCHJvIT9huDaW1PDcSvVR8/amBxLE=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20250105143455-9f1f414be805/go.mod h1:HCHxNMKYdGafUYjVV3ICiAqznZK2yH0iI53jqcDFDdQ=
