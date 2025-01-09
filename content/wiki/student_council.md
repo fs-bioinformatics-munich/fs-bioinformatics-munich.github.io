@@ -1,6 +1,6 @@
 ---
-permalink: /wiki/student_council/
 title: "Fachschaft"
+menu: 'wiki'
 ---
 
 Hier findest du eine allgemeine Übersicht über die Tätigkeiten und Aufgaben der Fachschaft Bioinformatik.

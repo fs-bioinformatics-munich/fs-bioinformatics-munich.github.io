@@ -1,5 +1,4 @@
 ---
-permalink: /about-us/
 title: "Über uns"
 ---
 

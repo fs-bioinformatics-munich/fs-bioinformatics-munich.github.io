@@ -24,7 +24,7 @@ enableEmoji = true
   [[menus.main]]
     name = 'Kontakt'
     pageRef = '/contact'
-    weight = 3
+    weight = 99
   [[menus.main]]
     name = 'Impressum'
     pageRef = '/impressum'

@@ -1,6 +1,6 @@
 ---
-permalink: /wiki/students/
 title: "Für Studierende"
+menu: 'wiki'
 ---
 
 Bioinformatics is great!

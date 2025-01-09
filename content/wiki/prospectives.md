@@ -1,6 +1,7 @@
 ---
 permalink: /wiki/prospectives/
 title: "Für Interessierte"
+menu: 'wiki'
 ---
 
 Egal ob interessierter Schüler, Studieninteressierter oder einfach nur neugierig: Hier findest du Informationen, die dir helfen, dich über Bioinformatik zu informieren und zu entscheiden, ob du dich für ein Studium in diesem Bereich interessierst.
