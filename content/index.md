@@ -6,4 +6,3 @@ Hallo und herzlich willkommen auf der Website der Fachschaft Bioinformatik!
 
 ## Was findest du hier?
 
-{% include feature_row %}
