@@ -1,5 +1,4 @@
 ---
-permalink: /wiki/
 title: "Wiki"
 ---
 

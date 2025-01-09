@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 Hallo und herzlich willkommen auf der Website der Fachschaft Bioinformatik!
 
 > [!WARNING]
