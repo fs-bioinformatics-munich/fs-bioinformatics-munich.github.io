@@ -30,6 +30,10 @@ Weitere Druckereien, wo Studis gute Erfahrungen gemacht haben:
 - [Copy-Oase](https://www.copy-oase.com/Willkommen.html)
     - Relativ günstig
 - [Fachschaft EI](https://www.fs.ei.tum.de/services/druckabs/)
+    - Standort: TUM Stammgelände, Nordcampus
     - Sehr günstig
     - Kennen die Anforderungen der Informatik-Fakultät
     - Man muss nicht das Einsendeformular ausfüllen, man kann auch einfach so hingehen
+- [Fachschaft MPIC](https://mpic.fs.tum.de/services/abschlussarbeiten/)
+    - Standort: TUM Campus Garching
+    - Ansonsten ähnlich wie Fachschaft EI
