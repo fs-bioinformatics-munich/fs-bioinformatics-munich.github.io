@@ -3,6 +3,6 @@ permalink: /wiki/prospectives/application-process/
 title: "Aufnahmeverfahren"
 ---
 
-# Hello
+# Hochschulstart
 
-world
+Die Bewerbungen werden über [Hochschulstart](https://www.hochschulstart.de/) abgewickelt.
