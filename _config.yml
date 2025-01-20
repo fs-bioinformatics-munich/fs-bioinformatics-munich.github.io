@@ -33,6 +33,7 @@ permalink: /:categories/:name/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+url: "https://bioinfo.fs.lmu.de/" 
 
 include:
   - _pages
