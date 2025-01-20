@@ -23,6 +23,9 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Kontaktieren"
 ---
+
+![Logo](/assets/images/LogoSmall.png)
+
 Hallo und herzlich willkommen auf der Website der Fachschaft Bioinformatik!
 
 > [!WARNING]
