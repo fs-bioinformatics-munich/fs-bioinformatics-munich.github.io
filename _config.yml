@@ -18,9 +18,10 @@ repository: fs-bioinformatics-munich/fs-bioinformatics-munich.github.io
 locale: de
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Die Fachschaft Bioinformatik München ist die offizielle Vertretung der
+  Studierenden des Studiengangs Bioinformatik an der LMU München und der TUM.
+  Wir setzen uns für die Interessen der Studierenden ein, organisieren
+  Veranstaltungen und stehen bei Fragen und Problemen zur Verfügung.
 github_username: fs-bioinformatics-munich
 minimal_mistakes_skin: dark
 search: true
@@ -33,7 +34,7 @@ permalink: /:categories/:name/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-url: "https://bioinfo.fs.lmu.de" 
+url: 'https://bioinfo.fs.lmu.de'
 
 include:
   - _pages
@@ -50,17 +51,17 @@ plugins:
 
 footer:
   links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bioinformatik_muenchen"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/fs-bioinformatics-munich"
+    - label: 'Instagram'
+      icon: 'fab fa-fw fa-instagram'
+      url: 'https://www.instagram.com/bioinformatik_muenchen'
+    - label: 'GitHub'
+      icon: 'fab fa-fw fa-github'
+      url: 'https://github.com/fs-bioinformatics-munich'
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       layout: single
@@ -70,19 +71,19 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: '_pages'
       type: pages
     values:
       layout: single
   # _wiki
   - scope:
-      path: "_pages/wiki"
+      path: '_pages/wiki'
     values:
       sidebar:
         nav: wiki # _data/navigation.yml
   # _members
   - scope:
-      path: "_members"
+      path: '_members'
       type: members
     values:
       layout: single
