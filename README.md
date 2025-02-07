@@ -41,7 +41,7 @@ You will notice a little table on the top of the preview. This is the "Frontmatt
 Now you can switch to the "Code" view of the file ([example](https://github.com/fs-bioinformatics-munich/fs-bioinformatics-munich.github.io/blob/master/_pages/impressum.md?plain=1)). Here you can find the plain markdown code, that is the base for the preview and the final website. The mentioned Frontmatter is located on the top of this page, delimited using `---`. 
 
 > [!WARNING]
-Please do not alter the Frontmatter, if you do not know what you are doing.
+> Please do not alter the Frontmatter, if you do not know what you are doing.
 
 If you want to perform changes, you can do so by clicking on the pencil icon in the top right corner of the document. During editing, you can always check the Preview to ensure the final result looks like you want it to. If you are happy with your changes, use the green "Commit changes" button in the top right corner. 
 
