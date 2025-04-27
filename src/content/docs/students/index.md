@@ -1,5 +1,0 @@
----
-title: "Für Studierende"
----
-
-Hello

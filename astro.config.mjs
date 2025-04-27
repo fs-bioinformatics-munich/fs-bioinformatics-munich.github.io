@@ -14,7 +14,7 @@ export default defineConfig({
 					dark: { flavor: "macchiato", accent: "sky" },
 					light: { flavor: "latte", accent: "sky" },
 				}),
-		],
+			],
 			title: 'Munich bioinformatics student council',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
@@ -27,6 +27,17 @@ export default defineConfig({
 					autogenerate: { directory: 'student-council' },
 				},
 			],
+			defaultLocale: 'en',
+			locales: {
+				en: {
+					label: 'English',
+					lang: 'en',
+				},
+				de: {
+					label: 'Deutsch',
+					lang: 'de',
+				},
+			},
 		}),
 	],
 });

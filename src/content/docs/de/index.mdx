@@ -1,0 +1,41 @@
+---
+title: Willkommen
+description: Erfahren Sie mehr über den Fachschaftsrat Bioinformatik München.
+template: splash
+hero:
+  tagline: auf der Website des Fachschaftsrats Bioinformatik München
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Durchsuchen Sie unsere Wissensdatenbank
+      link: /de/prospectives/welcome/
+      icon: right-arrow
+    - text: Besuchen Sie unseren Blog
+      link: /de/blog
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
+
+## Wie können wir Ihnen helfen?
+
+<CardGrid stagger>
+	<Card title="Was ist Bioinformatik?" icon="pencil">
+		Wir geben Ihnen einen Überblick darüber, was Bioinformatik ist und wofür sie gut ist.
+		<LinkCard title="Was ist Bioinformatik?" icon="pencil" href="/de/prospectives/what-is-bioinformatics" />
+	</Card>
+	<Card title="Soll ich Bioinformatik studieren?" icon="add-document">
+		Wir geben Ihnen einen Überblick darüber, was Sie erwartet und was Sie wissen sollten, bevor Sie beginnen.
+		<LinkCard title="Soll ich Bioinformatik studieren?" icon="pencil" />
+	</Card>
+	<Card title="Was macht der Fachschaftsrat?" icon="setting">
+		Wir stellen uns und unsere Aktivitäten hier vor.
+		<LinkCard title="Was macht der Fachschaftsrat?" icon="pencil" href="/de/student-council/about-us" />
+	</Card>
+	<Card title="Wie studiert man Bioinformatik in München" icon="open-book">
+		Wir haben viele Informationen über Best Practices für das Studium der Bioinformatik in München gesammelt.
+		<LinkCard title="Wie studiert man Bioinformatik in München" icon="pencil" href="/de/students" />
+	</Card>
+</CardGrid> 
