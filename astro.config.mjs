@@ -2,26 +2,29 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightBlog from 'starlight-blog'
-
+import catppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			plugins: [starlightBlog()],
-			title: 'My Docs',
+			plugins: [
+				starlightBlog(), 
+				catppuccin({
+					dark: { flavor: "macchiato", accent: "sky" },
+					light: { flavor: "latte", accent: "sky" },
+				}),
+		],
+			title: 'Munich bioinformatics student council',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Prospectives',
+					autogenerate: { directory: 'prospectives' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Student Council',
+					autogenerate: { directory: 'student-council' },
 				},
 			],
 		}),

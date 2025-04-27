@@ -1,36 +1,41 @@
 ---
-title: Welcome to Starlight
+title: Welcome
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: to the website of the Munich bioinformatics student council
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Browse our knowledge base
+      link: /prospectives/welcome/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Check out our blog
+      link: /blog
+      icon: right-arrow
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
 
-## Next steps
+## How can we help you?
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="What is bioinformatics?" icon="pencil">
+		We can give you an overview of what bioinformatics is and what it is good for.
+		<LinkCard title="What is bioinformatics?" icon="pencil" href="/prospectives/what-is-bioinformatics" />
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Should I study bioinformatics?" icon="add-document">
+		We can give you an overview of what expects you and what you should know before you start.
+		<LinkCard title="Should I study bioinformatics?" icon="pencil" />
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="What does the student council do?" icon="setting">
+		We introduce ourselves and our activities here.
+		<LinkCard title="What does the student council do?" icon="pencil" href="/student-council/about-us" />
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="How to study bioinformatics in Munich" icon="open-book">
+		We have collected a lot of information about best practices for studying bioinformatics in Munich.
+		<LinkCard title="How to study bioinformatics in Munich" icon="pencil" href="/students" />
 	</Card>
 </CardGrid>
