@@ -16,6 +16,9 @@ export default defineConfig({
 				}),
 			],
 			title: 'Munich bioinformatics student council',
+			components: {
+				Header: './src/components/starlight/Header.astro',
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{

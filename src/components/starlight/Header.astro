@@ -1,0 +1,103 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
+import Search from '@astrojs/starlight/components/Search.astro';
+import SocialIcons from '@astrojs/starlight/components/SocialIcons.astro';
+import ThemeSelect from '@astrojs/starlight/components/ThemeSelect.astro';
+import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
+
+// Get the current locale from the URL path
+const currentPath = Astro.url.pathname;
+const isGerman = currentPath.startsWith('/de/') || currentPath === '/de';
+const locale = isGerman ? 'de' : 'en';
+---
+
+<div class="header sl-flex">
+	<div class="sl-flex">
+		<SiteTitle {...Astro.props} />
+	</div>
+	<div class="sl-flex">
+		<Search {...Astro.props} />
+	</div>
+	<div class="sl-hidden md:sl-flex sl-items-center header-actions">
+		<nav class="impressum-nav">
+			<a href={`/${locale || 'en'}/impressum`} class="impressum-link sl-flex">
+				{locale === 'de' ? 'Impressum' : 'Legal'}
+			</a>
+		</nav>
+		<div class="social-icons-wrapper">
+			<SocialIcons {...Astro.props} />
+		</div>
+		<ThemeSelect {...Astro.props} />
+		<LanguageSelect {...Astro.props} />
+	</div>
+</div>
+
+<style>
+	.header {
+		gap: var(--sl-nav-gap);
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+
+	.header :global([data-search-modal-trigger]) {
+		min-width: 20rem;
+	}
+
+	.header-actions {
+		gap: 1rem;
+		align-items: center;
+	}
+
+	.header-actions > * {
+		display: flex;
+		align-items: center;
+		height: 2.25rem;
+	}
+
+	.impressum-nav {
+		display: flex;
+		align-items: center;
+		height: 2.25rem;
+	}
+
+	.social-icons-wrapper {
+		display: flex;
+		align-items: center;
+		height: 2.25rem;
+	}
+
+	.social-icons-wrapper :global(a) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 2.25rem;
+		width: 2.25rem;
+	}
+
+	.impressum-link {
+		color: var(--sl-color-gray-2);
+		text-decoration: none;
+		font-size: var(--sl-text-sm);
+		font-weight: 600;
+		padding: 0.5rem 0.75rem;
+		border-radius: 0.375rem;
+		transition: all 0.2s ease;
+		height: 2.25rem;
+		align-items: center;
+		white-space: nowrap;
+		box-sizing: border-box;
+	}
+
+	.impressum-link:hover {
+		color: var(--sl-color-white);
+		background-color: var(--sl-color-gray-6);
+	}
+
+	@media (max-width: 768px) {
+		.impressum-nav {
+			display: none;
+		}
+	}
+</style> 
