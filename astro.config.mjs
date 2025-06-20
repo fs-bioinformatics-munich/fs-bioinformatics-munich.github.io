@@ -20,15 +20,37 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Prospectives',
-					autogenerate: { directory: 'prospectives' },
+					items: [
+						{ label: 'Was ist Bioinformatik?', link: 'prospectives/what-is-bioinformatics' },
+						{ label: 'Studieninhalte', link: 'prospectives/program-contents' },
+						{ label: 'Schnuppermaterialien', link: 'prospectives/study-materials' },
+						{ label: 'Aufnahmeverfahren', link: 'prospectives/application-process' },
+						{ label: 'Berufsaussichten', link: 'prospectives/career-perspectives' },
+						{ label: 'Für Master-Interessierte', link: 'prospectives/master-students' },
+						{ label: 'München und andere Standorte', link: 'prospectives/munich_vs_other_locations' },
+					],
 				},
 				{
 					label: 'Student Council',
-					autogenerate: { directory: 'student-council' },
+					items: [
+						{ label: 'Über uns', link: 'student-council/about-us' },
+						{ label: 'Gremien', link: 'student-council/committees' },
+						{ label: 'Veranstaltungen', link: 'student-council/events' },
+						{ label: 'Mitmachen', link: 'student-council/join-us' },
+						{ label: 'Organisation', link: 'student-council/organization' },
+					],
 				},
 				{
 					label: 'Students',
-					autogenerate: { directory: 'students' },
+					items: [
+						{ label: 'Für Studierende', link: 'students/index' },
+						{ label: 'Übergang Bachelor-Master', link: 'students/bachelor-master-transition' },
+						{ label: 'Prüfungsordnung', link: 'students/examination-regulations' },
+						{ label: 'Linksammlung', link: 'students/link-collection' },
+						{ label: 'Ersti-Onboarding', link: 'students/onboarding' },
+						{ label: 'Auslandsaufenthalt', link: 'students/study-abroad' },
+						{ label: 'Abschlussarbeit', link: 'students/thesis' },
+					],
 				},
 			],
 			defaultLocale: 'en',
