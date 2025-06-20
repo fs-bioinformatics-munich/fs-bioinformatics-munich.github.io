@@ -22,7 +22,7 @@ export default defineConfig({
 				Header: './src/components/starlight/Header.astro',
 			},
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/fs-bioinformatics-munich' },
 				{ icon: 'rss', label: 'RSS Feed', href: '/en/blog/rss.xml' }
 			],
 			sidebar: [
