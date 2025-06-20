@@ -16,6 +16,7 @@ export default defineConfig({
 				}),
 			],
 			title: 'Munich bioinformatics student council',
+			favicon: '/favicon.png',
 			components: {
 				Header: './src/components/starlight/Header.astro',
 			},
