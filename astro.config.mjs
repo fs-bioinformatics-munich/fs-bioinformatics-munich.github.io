@@ -142,6 +142,13 @@ export default defineConfig({
 							},
 							link: 'students/living' 
 						},
+						{
+							label: 'Exam & Module Registration',
+							translations: {
+								de: 'Prüfungs- und Modulanmeldung',
+							},
+							link: 'students/exam-module-registration'
+						},
 						{ 
 							label: 'Bachelor-Master Transition',
 							translations: {
