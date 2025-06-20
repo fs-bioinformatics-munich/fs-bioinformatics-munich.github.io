@@ -22,20 +22,16 @@ Furthermore, you can of course also print a copy for yourself. This is up to eac
 
 ### Where Exactly is This Mailbox?
 
-![Far](/assets/images/abgabe-briefkasten/fern.jpg)
-![Medium](/assets/images/abgabe-briefkasten/mittel.jpg)
-![Close](/assets/images/abgabe-briefkasten/nah.jpg)
+![Far](/src/assets/abgabe-briefkasten/fern.jpg)
+![Medium](/src/assets/abgabe-briefkasten/mittel.jpg)
+![Close](/src/assets/abgabe-briefkasten/nah.jpg)
 
 # Best Practices
 
 ## Print Shops
 
-Many bioinformatics students print at [printy](https://www.printy.de/en/). Our exact print configuration is already known there.
+Other print shops where students have made good experiences:
 
-Other print shops where students have had good experiences:
-
-- [Copy-Oase](https://www.copy-oase.com/Willkommen.html)
-    - Relatively inexpensive
 - [Student Council EI](https://www.fs.ei.tum.de/services/druckabs/)
     - Location: TUM Main Campus, North Campus
     - Very inexpensive
@@ -43,4 +39,10 @@ Other print shops where students have had good experiences:
     - You don't have to fill out the submission form, you can just go there
 - [Student Council MPIC](https://mpic.fs.tum.de/services/abschlussarbeiten/)
     - Location: TUM Campus Garching
-    - Otherwise similar to Student Council EI 
+    - Otherwise similar to Student Council EI
+- [Printy](https://www.printy.de/en/)
+    - Location: Near TUM Main Campus
+    - More expensive than other options
+    - Bioinformatics print configuration is already known there
+- [Copy-Oase](https://www.copy-oase.com/Willkommen.html)
+    - Relatively inexpensive

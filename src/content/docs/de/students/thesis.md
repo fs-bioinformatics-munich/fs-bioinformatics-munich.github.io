@@ -22,20 +22,16 @@ Weiters kann man natürlich auch noch ein Exemplar für sich selbst drucken lass
 
 ### Wo genau ist dieser Briefkasten?
 
-![Fern](/assets/images/abgabe-briefkasten/fern.jpg)
-![Mittel](/assets/images/abgabe-briefkasten/mittel.jpg)
-![Nah](/assets/images/abgabe-briefkasten/nah.jpg)
+![Fern](/src/assets/abgabe-briefkasten/fern.jpg)
+![Mittel](/src/assets/abgabe-briefkasten/mittel.jpg)
+![Nah](/src/assets/abgabe-briefkasten/nah.jpg)
 
 # Best practices
 
 ## Druckereien
 
-Viele Bioinfo-Studis drucken bei [printy](https://www.printy.de/en/). Dort ist unsere genaue Druckkonfiguration schon bekannt.
+Andere Druckereien, bei denen Studierende gute Erfahrungen gemacht haben:
 
-Weitere Druckereien, wo Studis gute Erfahrungen gemacht haben:
-
-- [Copy-Oase](https://www.copy-oase.com/Willkommen.html)
-    - Relativ günstig
 - [Fachschaft EI](https://www.fs.ei.tum.de/services/druckabs/)
     - Standort: TUM Stammgelände, Nordcampus
     - Sehr günstig
@@ -44,3 +40,9 @@ Weitere Druckereien, wo Studis gute Erfahrungen gemacht haben:
 - [Fachschaft MPIC](https://mpic.fs.tum.de/services/abschlussarbeiten/)
     - Standort: TUM Campus Garching
     - Ansonsten ähnlich wie Fachschaft EI
+- [Printy](https://www.printy.de/en/)
+    - Standort: Nahe TUM Stammgelände
+    - Teurer als andere Optionen
+    - Die Bioinformatik-Druckkonfiguration ist dort bereits bekannt
+- [Copy-Oase](https://www.copy-oase.com/Willkommen.html)
+    - Relativ günstig
