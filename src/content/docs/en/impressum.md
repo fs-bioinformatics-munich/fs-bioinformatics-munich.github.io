@@ -1,8 +1,6 @@
 ---
-title: "Legal Notice"
+title: "Legal Notice (Impressum)"
 ---
-
-# Legal Notice (Impressum)
 
 Information according to § 5 Telemediengesetz and § 55 Rundfunkstaatsvertrag
 
