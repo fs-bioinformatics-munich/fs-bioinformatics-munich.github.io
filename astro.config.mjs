@@ -129,13 +129,6 @@ export default defineConfig({
 					},
 					items: [
 						{ 
-							label: 'For Students',
-							translations: {
-								de: 'Für Studierende',
-							},
-							link: 'students/index' 
-						},
-						{ 
 							label: 'Living',
 							translations: {
 								de: 'Wohnen',
