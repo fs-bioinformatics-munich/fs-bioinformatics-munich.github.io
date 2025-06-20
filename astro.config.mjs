@@ -21,7 +21,10 @@ export default defineConfig({
 			components: {
 				Header: './src/components/starlight/Header.astro',
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' },
+				{ icon: 'rss', label: 'RSS Feed', href: '/en/blog/rss.xml' }
+			],
 			sidebar: [
 				{
 					label: 'Prospectives',
