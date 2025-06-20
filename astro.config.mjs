@@ -135,6 +135,13 @@ export default defineConfig({
 							link: 'students/index' 
 						},
 						{ 
+							label: 'Living',
+							translations: {
+								de: 'Wohnen',
+							},
+							link: 'students/living' 
+						},
+						{ 
 							label: 'Bachelor-Master Transition',
 							translations: {
 								de: 'Übergang Bachelor-Master',
