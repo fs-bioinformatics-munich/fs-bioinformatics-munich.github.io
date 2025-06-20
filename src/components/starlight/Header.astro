@@ -20,8 +20,11 @@ const locale = isGerman ? 'de' : 'en';
 		<Search {...Astro.props} />
 	</div>
 	<div class="sl-hidden md:sl-flex sl-items-center header-actions">
-		<nav class="impressum-nav">
-			<a href={`/${locale || 'en'}/impressum`} class="impressum-link sl-flex">
+		<nav class="header-nav">
+			<a href={`/${locale}/blog`} class="header-link sl-flex">
+				{locale === 'de' ? 'Blog' : 'Blog'}
+			</a>
+			<a href={`/${locale}/impressum`} class="header-link sl-flex">
 				{locale === 'de' ? 'Impressum' : 'Legal'}
 			</a>
 		</nav>
@@ -56,10 +59,11 @@ const locale = isGerman ? 'de' : 'en';
 		height: 2.25rem;
 	}
 
-	.impressum-nav {
+	.header-nav {
 		display: flex;
 		align-items: center;
 		height: 2.25rem;
+		gap: 0.5rem;
 	}
 
 	.social-icons-wrapper {
@@ -76,7 +80,7 @@ const locale = isGerman ? 'de' : 'en';
 		width: 2.25rem;
 	}
 
-	.impressum-link {
+	.header-link {
 		color: var(--sl-color-gray-2);
 		text-decoration: none;
 		font-size: var(--sl-text-sm);
@@ -90,13 +94,13 @@ const locale = isGerman ? 'de' : 'en';
 		box-sizing: border-box;
 	}
 
-	.impressum-link:hover {
+	.header-link:hover {
 		color: var(--sl-color-white);
 		background-color: var(--sl-color-gray-6);
 	}
 
 	@media (max-width: 768px) {
-		.impressum-nav {
+		.header-nav {
 			display: none;
 		}
 	}
