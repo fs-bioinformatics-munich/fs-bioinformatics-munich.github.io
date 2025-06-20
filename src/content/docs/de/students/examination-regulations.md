@@ -21,4 +21,4 @@ Die vollständige, aktuelle Prüfungsordnung ist [hier](https://www.tum.de/filea
 
 ## ECTS-Hürden und Grundlagenprüfungen
 
-# Master 
+# Master

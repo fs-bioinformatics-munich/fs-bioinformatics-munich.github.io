@@ -26,6 +26,10 @@ export default defineConfig({
 					label: 'Student Council',
 					autogenerate: { directory: 'student-council' },
 				},
+				{
+					label: 'Students',
+					autogenerate: { directory: 'students' },
+				},
 			],
 			defaultLocale: 'en',
 			locales: {
