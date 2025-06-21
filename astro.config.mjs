@@ -16,7 +16,10 @@ export default defineConfig({
 					light: { flavor: "latte", accent: "sky" },
 				}),
 			],
-			title: 'Munich bioinformatics student council',
+			title: {
+				en: 'Munich bioinformatics student council',
+				de: 'Fachschaft Bioinformatik München',
+			},
 			favicon: '/favicon.png',
 			components: {
 				Header: './src/components/starlight/Header.astro',
