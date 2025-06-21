@@ -22,9 +22,9 @@ Weiters kann man natürlich auch noch ein Exemplar für sich selbst drucken lass
 
 ### Wo genau ist dieser Briefkasten?
 
-![Fern](/src/assets/abgabe-briefkasten/fern.jpg)
-![Mittel](/src/assets/abgabe-briefkasten/mittel.jpg)
-![Nah](/src/assets/abgabe-briefkasten/nah.jpg)
+![Fern](../../../../assets/abgabe-briefkasten/fern.jpg)
+![Mittel](../../../../assets/abgabe-briefkasten/mittel.jpg)
+![Nah](../../../../assets/abgabe-briefkasten/nah.jpg)
 
 # Best practices
 

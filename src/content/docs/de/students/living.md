@@ -18,12 +18,12 @@ Zudem hat Eure Wahl des Mathe/Info-Zweigs (also TUM/LMU-Zweige) im 1. Semester e
 
 Hier sind die vier Hauptstandorte:
 
-![Karte der Hauptstandorte für Bioinformatik in München](/src/assets/locations.png)
+![Karte der Hauptstandorte für Bioinformatik in München](../../../../assets/locations.png)
 
 
 Und hier sind die Öffis, welche direkt (oder fast direkt) an die Hauptstandorte angebunden sind:
 
-![Karte der Öffis, welche direkt an die Hauptstandorte angebunden sind](/src/assets/connections.png)
+![Karte der Öffis, welche direkt an die Hauptstandorte angebunden sind](../../../../assets/connections.png)
 
 Die folgenden Standorte sind unabhängig von der Wahl des Mathe/Info-Zweigs relevant:
 

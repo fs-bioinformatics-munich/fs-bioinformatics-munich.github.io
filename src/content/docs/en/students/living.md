@@ -18,12 +18,12 @@ Additionally, your choice of the Math/CS track (i.e., TUM/LMU tracks) in the 1st
 
 Here are the four main locations:
 
-![Map of the main locations for bioinformatics in Munich](/src/assets/locations.png)
+![Map of the main locations for bioinformatics in Munich](../../../../assets/locations.png)
 
 
 And here are the public transport options that are directly (or almost directly) connected to the main locations:
 
-![Map of public transport options directly connected to the main locations](/src/assets/connections.png)
+![Map of public transport options directly connected to the main locations](../../../../assets/connections.png)
 
 The following locations are relevant regardless of your choice of Math/CS track:
 

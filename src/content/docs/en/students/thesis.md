@@ -22,9 +22,9 @@ Furthermore, you can of course also print a copy for yourself. This is up to eac
 
 ### Where Exactly is This Mailbox?
 
-![Far](/src/assets/abgabe-briefkasten/fern.jpg)
-![Medium](/src/assets/abgabe-briefkasten/mittel.jpg)
-![Close](/src/assets/abgabe-briefkasten/nah.jpg)
+![Far](../../../../assets/abgabe-briefkasten/fern.jpg)
+![Medium](../../../../assets/abgabe-briefkasten/mittel.jpg)
+![Close](../../../../assets/abgabe-briefkasten/nah.jpg)
 
 # Best Practices
 
