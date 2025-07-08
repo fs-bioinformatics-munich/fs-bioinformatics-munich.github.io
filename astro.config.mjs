@@ -185,6 +185,13 @@ export default defineConfig({
 							link: 'students/study-abroad' 
 						},
 						{ 
+							label: 'Internships',
+							translations: {
+								de: 'Praktika',
+							},
+							link: 'students/internships' 
+						},
+						{ 
 							label: 'Thesis',
 							translations: {
 								de: 'Abschlussarbeit',
