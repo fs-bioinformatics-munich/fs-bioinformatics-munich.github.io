@@ -2,8 +2,6 @@
 title: "Organization"
 ---
 
-# Elections
-
-# Offices
-
-# Meetings 
+:::note
+This page is currently under construction. Please check back later.
+::: 

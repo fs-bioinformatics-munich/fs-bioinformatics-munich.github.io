@@ -2,4 +2,6 @@
 title: "Join Us"
 ---
 
-We welcome anyone who wants to help. 
+:::note
+This page is currently under construction. Please check back later.
+::: 

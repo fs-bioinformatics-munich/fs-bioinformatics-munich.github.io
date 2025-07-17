@@ -2,4 +2,6 @@
 title: "Career Perspectives"
 ---
 
-Bioinformatics is great! 
+:::note
+This page is currently under construction. Please check back later.
+::: 
