@@ -10,7 +10,16 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [
-				starlightBlog(), 
+				starlightBlog({
+					authors: {
+						'fs-team': {
+							name: 'FS Bioinformatics Team',
+							title: 'Munich Bioinformatics Student Council',
+							picture: '/favicon.png',
+							url: 'https://bioinfo.fs.lmu.de'
+						}
+					}
+				}), 
 				catppuccin({
 					dark: { flavor: "macchiato", accent: "sky" },
 					light: { flavor: "latte", accent: "sky" },
