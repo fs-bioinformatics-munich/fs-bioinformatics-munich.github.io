@@ -37,16 +37,24 @@ Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. 
 ### Wiki Pages
 - All wiki pages should be organized in `src/content/docs/`
 - **Both German and English versions** should be created for each page
-- German content goes in `src/content/docs/de/`
-- English content goes in `src/content/docs/en/`
+- **Use identical filenames** for corresponding pages in different languages (e.g., `welcome.md` in both `en/` and `de/`)
+- When creating a **new page**, make sure to add it to the sidebar in `astro.config.mjs`
 
 ### Images and Assets
 - Images should be organized in `src/assets/`
 - Images can be embedded in Markdown with relative links
 - Static assets (favicons, etc.) go in the `public/` directory
 
+### Blog Posts
+- Blog posts should be organized in `src/content/docs/[lang]/blog/`
+- **Both German and English versions** should be created for each blog post
+- **Use identical filenames** for corresponding posts in different languages (e.g., `welcome-post.md` in both `en/blog/` and `de/blog/`)
+- Each blog post requires frontmatter with: `title`, `date`, `excerpt`, `authors`, and `tags`
+- Authors must be configured in the `starlightBlog()` plugin configuration in `astro.config.mjs`
+
 ### Site Configuration
 - **Sidebar entries, menu entries, theme settings** are managed in `astro.config.mjs`
+- **Blog authors** are configured in the `starlightBlog()` plugin options in `astro.config.mjs`
 - Content structure and schema are defined in `src/content.config.ts`
 
 ## 🧞 Commands
