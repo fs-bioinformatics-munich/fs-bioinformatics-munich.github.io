@@ -1,17 +1,17 @@
-# Starlight Starter Kit: Basics
+# FS Website
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+This is the official website for the Fachschaft (student council) built with Astro and Starlight. The website provides information for current students and prospective students in both German and English.
 
-```
-npm create astro@latest -- --template starlight
-```
+## 🛠️ Technology Stack
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+- **Framework**: [Astro](https://docs.astro.build) with [Starlight theme](https://starlight.astro.build/)
+- **Blog**: [Starlight Blog plugin](https://starlight-blog-docs.vercel.app/getting-started/)
+- **Languages**: Supports both German and English content
+- **Deployment**: Automatically deployed from the main branch on GitHub
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📋 Prerequisites
+
+- Node.js and NPM (installation guide: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## 🚀 Project Structure
 
@@ -32,9 +32,22 @@ Inside of your Astro + Starlight project, you'll see the following folders and f
 
 Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 📝 Content Organization
 
-Static assets, like favicons, can be placed in the `public/` directory.
+### Wiki Pages
+- All wiki pages should be organized in `src/content/docs/`
+- **Both German and English versions** should be created for each page
+- German content goes in `src/content/docs/de/`
+- English content goes in `src/content/docs/en/`
+
+### Images and Assets
+- Images should be organized in `src/assets/`
+- Images can be embedded in Markdown with relative links
+- Static assets (favicons, etc.) go in the `public/` directory
+
+### Site Configuration
+- **Sidebar entries, menu entries, theme settings** are managed in `astro.config.mjs`
+- Content structure and schema are defined in `src/content.config.ts`
 
 ## 🧞 Commands
 
