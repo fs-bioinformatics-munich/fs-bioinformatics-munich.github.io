@@ -1,3 +1,4 @@
+HEY
 # Website for the Munich Bioinformatics Student Council
 
 This is the official website for the Munich Bioinformatics Student Council built with Astro and Starlight. The website provides information for current students and prospective students in both German and English.
