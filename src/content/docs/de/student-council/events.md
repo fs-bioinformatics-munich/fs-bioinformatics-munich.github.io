@@ -19,15 +19,6 @@ title: "Veranstaltungen"
 Willkommen zu unseren jährlichen **Ersti-Tagen**! 🎉  
 Vom 08.10-10.10 kannst du deine neuen Kommiliton:innen kennenlernen und bekommst außerdem noch viele Infos rund ums Studium.   
 
-Melde dich gerne hier an:
-
-<div style="margin: 1.5rem 0; border: 1px solid #ccc; border-radius: 12px; overflow: hidden;">
-  <iframe src="https://forms.gle/KrggtWCu6JXoksat5"
-          width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0">
-    Wird geladen…
-  </iframe>
-</div>
-
-Falls das Formular dir nicht richtig angezeigt wird, kannst du dich [hier](https://forms.gle/s6JDCCrTMv7MpzE18) direkt anmelden.
+Melde dich gerne [hier](https://forms.gle/s6JDCCrTMv7MpzE18) an.
 
 ## Professorenstammtisch
