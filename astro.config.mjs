@@ -87,11 +87,11 @@ export default defineConfig({
 							link: 'prospectives/master-students' 
 						},
 						{ 
-							label: 'Munich vs Other Locations',
+							label: 'Why Munich?',
 							translations: {
-								de: 'München und andere Standorte',
+								de: 'Warum München?',
 							},
-							link: 'prospectives/munich_vs_other_locations' 
+							link: 'prospectives/why-munich' 
 						},
 					],
 				},
