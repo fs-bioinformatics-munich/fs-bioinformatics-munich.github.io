@@ -20,7 +20,7 @@ title: "Why Munich?"
 ## Disadvantages
 
 - High rents and a challenging housing market
-- Longer commutes possible (courses are spread across multiple sites)
+- Longer commutes possible (courses are spread across multiple sites, see [Living](/en/students/living))
 
 
 # Other locations
