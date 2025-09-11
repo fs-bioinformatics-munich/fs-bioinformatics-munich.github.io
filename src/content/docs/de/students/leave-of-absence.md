@@ -1,5 +1,5 @@
 ---
-title: "Beurlaubung"
+title: "Urlaubssemester"
 ---
 
 Eine Beurlaubung setzt bestimmte Studienpflichten für ein Semester aus. Während eines Urlaubssemesters sind ECTS-Hürden faktisch eingefroren.
