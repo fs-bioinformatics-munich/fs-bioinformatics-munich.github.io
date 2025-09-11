@@ -23,7 +23,7 @@ Häufige Gründe (Beispiele):
 
 Antragsunterlagen (Beispiele):
 
-- Antragsformular: https://cms-cdn.lmu.de/media/lmu/downloads/studentenkanzlei/antrag_beurlaubung-mit-studiengangsangaben_zweisprachig.pdf
+- [Antragsformular](https://cms-cdn.lmu.de/media/lmu/downloads/studentenkanzlei/antrag_beurlaubung-mit-studiengangsangaben_zweisprachig.pdf)
 - Weitere Nachweise je nach Beurlaubungsgrund (siehe oben). Bitte die offizielle Seite für den aktuellen Stand prüfen.
 
 Kontakt / Einreichung (Studentenkanzlei):

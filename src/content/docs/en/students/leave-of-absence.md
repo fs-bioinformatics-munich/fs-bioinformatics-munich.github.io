@@ -23,7 +23,7 @@ Common reasons (examples):
 
 How to apply (documents):
 
-- Application form: https://cms-cdn.lmu.de/media/lmu/downloads/studentenkanzlei/antrag_beurlaubung-mit-studiengangsangaben_zweisprachig.pdf
+- [Application form](https://cms-cdn.lmu.de/media/lmu/downloads/studentenkanzlei/antrag_beurlaubung-mit-studiengangsangaben_zweisprachig.pdf)
 - Additional confirmations depend on the reason (see examples above). Always check the official page for the current list.
 
 Contact / submission address (Student Office):
