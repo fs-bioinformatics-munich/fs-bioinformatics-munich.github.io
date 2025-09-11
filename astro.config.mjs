@@ -202,6 +202,13 @@ export default defineConfig({
 							link: 'students/internships' 
 						},
 						{ 
+							label: 'Leave of Absence',
+							translations: {
+								de: 'Urlaubssemester',
+							},
+							link: 'students/leave-of-absence' 
+						},
+						{ 
 							label: 'Thesis',
 							translations: {
 								de: 'Abschlussarbeit',
