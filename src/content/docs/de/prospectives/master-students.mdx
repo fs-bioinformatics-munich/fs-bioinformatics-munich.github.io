@@ -15,12 +15,12 @@ Die Informationen auf dieser Website sind nicht offiziell und können veraltet s
 
 # Aufnahmegespräch
 
-Die Atmosphäre ist eher entspannt und nicht wie in einer klassischen Prüfung. Erwartet wird ein breites Vorwissen in Bioinformatik (Bio, Informatik, Mathe/Statistik); vorhandene Lücken werden gezielt nachgefragt. Auch wenn man sich nach dem Gespräch unsicher fühlt, ist eine Zusage durchaus möglich.
+Die Atmosphäre ist eher entspannt und nicht wie in einer klassischen Prüfung. Erwartet wird ein breites Vorwissen in Bioinformatik (Bio, Informatik, Mathe/Statistik); vorhandene Lücken werden gezielt nachgefragt. Auch wenn man sich nach dem Gespräch unsicher fühlt, ist eine Zusage durchaus möglich. Das Gespräch wird in der Regel von zwei Professorinnen/Professoren geführt und dauert etwa 30 Minuten.
 
 Stichpunkte zu typischen Inhalten:
 
-- Typische Einstiegsfragen: Motivation für den Master Bioinformatik;
-- Fachliche Fragen aus Informatik: z. B. eleganter Algorithmus erklären (Boyer-Moore), Laufzeiten vergleichen; Grundlagen der Komplexität; klassische Bioinformatik-Algorithmen (z. B. Alignment).
+- Typische Einstiegsfragen: Motivation für den Master Bioinformatik; Abgrenzung zu „KI“;
+- Fachliche Fragen aus Informatik: z. B. einen Algorithmus erklären, den man für elegant hält (z. B. Boyer-Moore), Laufzeiten vergleichen; Grundlagen der Komplexität; klassische Bioinformatik-Algorithmen (z. B. Alignment).
 - Fachliche Fragen aus Biologie/Anwendungsbezug: Themen aus Projekten, an denen Bewerber beteiligt waren; Umgang mit High‑Throughput‑Daten (z. B. RNA‑seq).
 - Mathematisch-statistische Kompetenzen: PCA erklären; grundlegende Statistik (z. B. Erwartungswert, Varianz); teils Optimierung.
 
