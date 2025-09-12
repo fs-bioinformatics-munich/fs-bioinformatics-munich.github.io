@@ -14,12 +14,12 @@ Information here is unofficial and may be outdated. Please check the latest deta
 
 # Admission interview
 
-The atmosphere is generally relaxed rather than like a formal exam. A broad background in bioinformatics (biology, computer science, mathematics/statistics) is expected; any gaps are probed specifically. Even if you feel unsure afterward, admission is still possible.
+The atmosphere is generally relaxed rather than like a formal exam. A broad background in bioinformatics (biology, computer science, mathematics/statistics) is expected; any gaps are probed specifically. Even if you feel unsure afterward, admission is still possible. The interview is typically conducted by two professors and lasts about 30 minutes.
 
 Typical topics:
 
 - Typical opening questions: motivation for the Bioinformatics Master; distinction from “AI”.
-- Computer science: explain an elegant algorithm (e.g., Boyer-Moore), compare runtimes; basics of complexity; classic bioinformatics algorithms (e.g., alignment).
+- Computer science: explain an algorithm you consider elegant (e.g., Boyer-Moore), compare runtimes; basics of complexity; classic bioinformatics algorithms (e.g., alignment).
 - Biology/application focus: topics from your own projects; handling high‑throughput data (e.g., RNA‑seq).
 - Math/statistics: explain PCA; basic statistics (e.g., expectation, variance); sometimes optimization.
 
