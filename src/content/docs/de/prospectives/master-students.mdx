@@ -6,7 +6,7 @@ München ist einer der wenigen Standorte, an denen es sowohl einen Bachelor- als
 
 Das unterscheidet uns von Standorten, an denen es nur einen Master gibt: Dort haben viele Studierende einen fachfremden Bachelor (z. B. Informatik, Statistik oder Biologie), und es gibt zu Beginn häufig eine Angleichungsphase, bevor die eigentlichen Masterinhalte starten.
 
-Entsprechend prüft das Eignungsverfahren, inwieweit dieses breite Vorwissen vorhanden ist. Bewerberinnen und Bewerber mit einem Bachelor in Bioinformatik an einer wissenschaftlichen Hochschule und einer Gesamtnote von 2,5 oder besser werden direkt zugelassen; alle anderen durchlaufen ein Aufnahmegespräch.
+Entsprechend prüft das Eignungsverfahren, inwieweit dieses breite Vorwissen vorhanden ist. Bewerberinnen und Bewerber mit einem Bachelor in Bioinformatik an einer wissenschaftlichen Hochschule und einer Gesamtnote von 2,5 oder besser (zur Umrechnung internationaler Noten siehe [Notenumrechnung nach der Bayerischen Formel](https://www.tum.de/studium/bewerbung/infoportal-bewerbung/bayerische-formel)) werden direkt zugelassen; alle anderen durchlaufen ein Aufnahmegespräch.
 
 ::::note
 Die Informationen auf dieser Website sind nicht offiziell und können veraltet sein. Bitte prüfen Sie die aktuellsten Angaben zum Eignungsverfahren für den Masterstudiengang Bioinformatik [hier](https://www.bio.ifi.lmu.de/studium/studiengaenge_bioinformatik/master/index.html).
