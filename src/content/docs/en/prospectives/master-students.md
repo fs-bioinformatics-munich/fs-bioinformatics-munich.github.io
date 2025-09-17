@@ -6,7 +6,7 @@ Munich is one of the few places that offers both a Bachelor’s and a Master’s
 
 This differs from places that only offer a Master’s program. There, many students come from other fields (e.g., Computer Science, Statistics, or Biology), and programs often start with a leveling phase before moving on to core Master’s content.
 
-Accordingly, the admission process evaluates how broadly prepared you are across bioinformatics. Applicants with a Bioinformatics Bachelor from a scientific university and an overall grade of 2.5 or better are admitted directly; all others complete an admission interview.
+Accordingly, the admission process evaluates how broadly prepared you are across bioinformatics. Applicants with a Bioinformatics Bachelor from a scientific university and an overall grade of 2.5 or better (see TUM’s [grade conversion using the Bavarian formula](https://www.tum.de/en/studies/application/application-info-portal/grade-conversion-formula-for-grades-earned-outside-germany) for international transcripts) are admitted directly; all others complete an admission interview.
 
 ::::note
 Information here is unofficial and may be outdated. Please check the latest details on the Master’s admission procedure [here](https://www.bio.ifi.lmu.de/studium/studiengaenge_bioinformatik/master/index.html).
