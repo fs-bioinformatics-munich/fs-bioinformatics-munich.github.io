@@ -20,5 +20,9 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# Nix stuff
 .direnv
 .devenv
+flake.lock
+flake.nix
+.envrc
