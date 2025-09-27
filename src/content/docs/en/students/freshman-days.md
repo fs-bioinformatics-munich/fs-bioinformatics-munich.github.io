@@ -1,5 +1,5 @@
 ---
-title: "Freshman Onboarding"
+title: "Freshman Days"
 ---
 
 Welcome to our yearly **Freshman-Days**! 🎉  
@@ -7,7 +7,7 @@ From October 8 to 10 you can get to know your new fellow students and also recei
 
 Please sign up [here](https://forms.gle/s6JDCCrTMv7MpzE18).
 
-You can find the programme for the freshman-days below:
+# Program
 
 | **Wednesday, 08.10.25<br>Garching<br>MI HS 2<br>Interims II HS 2** | **Thursday, 09.10.25<br>Innenstadt<br>B132 (Bachelor-Freshmen)<br>B045 (Master-Freshmen)** | **Friday, 10.10.25<br>Großhadern<br>Baeyer Hörsaal<br>Seminarraum C2.003** |
 |-----------|----------|--------|

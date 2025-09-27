@@ -145,6 +145,13 @@ export default defineConfig({
 					},
 					items: [
 						{ 
+							label: 'Freshman Days',
+							translations: {
+								de: 'Ersti-Tage',
+							},
+							link: 'students/freshman-days' 
+						},
+						{ 
 							label: 'Living',
 							translations: {
 								de: 'Wohnen',
@@ -178,13 +185,6 @@ export default defineConfig({
 								de: 'Linksammlung',
 							},
 							link: 'students/link-collection' 
-						},
-						{ 
-							label: 'First-Year Onboarding',
-							translations: {
-								de: 'Ersti-Onboarding',
-							},
-							link: 'students/onboarding' 
 						},
 						{ 
 							label: 'Study Abroad',

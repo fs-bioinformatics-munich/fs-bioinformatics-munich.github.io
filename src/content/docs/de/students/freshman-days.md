@@ -1,5 +1,5 @@
 ---
-title: "Ersti-Onboarding"
+title: "Ersti-Tage"
 ---
 
 Willkommen zu unseren jährlichen **Ersti-Tagen**! 🎉  
@@ -7,7 +7,7 @@ Vom 08.10-10.10 kannst du deine neuen Kommiliton:innen kennenlernen und bekommst
 
 Melde dich gerne [hier](https://forms.gle/s6JDCCrTMv7MpzE18) an.
 
-Den Ablaufsplan für Ersti-Tage findest du unten:
+# Programm
 
 | **Mittwoch, 08.10.25<br>Garching<br>MI HS 2<br>Interims II HS 2** | **Donnerstag, 09.10.25<br>Innenstadt<br>B132 (Bachelor-Erstis)<br>B045 (Master-Erstis)** | **Freitag, 10.10.25<br>Großhadern<br>Baeyer Hörsaal<br>Seminarraum C2.003** |
 |-----------|----------|--------|
