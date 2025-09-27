@@ -16,9 +16,8 @@ title: "Events"
 
 ## Freshman Days
 
-Welcome to our yearly **Freshman-Days**! 🎉  
-From 08. - 10. October you can get to know you fellow students and learn a lot about studying Bioinformatics.   
+The student council organizes Freshman Days every year, starting one week before the beginning of studies. This event provides incoming students with the perfect opportunity to get to know the study program and the city of Munich. It's also a great way to meet fellow students and make new friends.
 
-Please sign up [here](https://forms.gle/s6JDCCrTMv7MpzE18).
+[Here](/en/students/freshman-days) you can find more details about Freshman Days.
 
 ## Professor's Social 

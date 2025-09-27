@@ -16,9 +16,8 @@ title: "Veranstaltungen"
 
 ## Ersti-Tage
 
-Willkommen zu unseren jährlichen **Ersti-Tagen**! 🎉  
-Vom 08.10-10.10 kannst du deine neuen Kommiliton:innen kennenlernen und bekommst außerdem noch viele Infos rund ums Studium.   
+Die Fachschaft organisiert jedes Jahr eine Woche vor Studienbeginn die Ersti-Tage. Diese Veranstaltung bietet angehenden Studierenden die perfekte Gelegenheit, den Studiengang und die Stadt München kennenzulernen. Darüber hinaus ist es eine großartige Möglichkeit, Kommilitoninnen und Kommilitonen zu treffen und neue Freundschaften zu schließen.
 
-Melde dich gerne [hier](https://forms.gle/s6JDCCrTMv7MpzE18) an.
+[Hier](/de/students/freshman-days) findest du mehr Details zu den Ersti-Tagen.
 
 ## Professorenstammtisch
