@@ -11,12 +11,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://bioinfo.fs.lmu.de/en/" id="canonical">
+  <link rel="canonical" href="/en/" id="canonical">
   
   <!-- Language alternatives with hreflang tags -->
-  <link rel="alternate" href="https://bioinfo.fs.lmu.de/en/" hreflang="en" />
-  <link rel="alternate" href="https://bioinfo.fs.lmu.de/de/" hreflang="de" />
-  <link rel="alternate" href="https://bioinfo.fs.lmu.de/en/" hreflang="x-default" />
+  <link rel="alternate" href="/en/" hreflang="en" />
+  <link rel="alternate" href="/de/" hreflang="de" />
+  <link rel="alternate" href="/en/" hreflang="x-default" />
   
   <script is:inline>
     // Get browser language
@@ -25,7 +25,7 @@
     // Check if language starts with 'de'
     if (userLang.toLowerCase().startsWith("de")) {
       // Update canonical for German users
-      document.getElementById('canonical').href = "https://bioinfo.fs.lmu.de/de/";
+      document.getElementById('canonical').href = "/de/";
       // Redirect to German version
       window.location.replace('/de/');
     } else {
@@ -43,12 +43,12 @@
       "@context": "https://schema.org",
       "@type": "Website",
       "name": "Bioinformatics Student Council - LMU & TUM",
-      "url": "https://bioinfo.fs.lmu.de/",
+      "url": "/",
       "potentialAction": {
         "@type": "ViewAction",
         "target": [
-          {"@type": "EntryPoint", "urlTemplate": "https://bioinfo.fs.lmu.de/en/", "inLanguage": "en"},
-          {"@type": "EntryPoint", "urlTemplate": "https://bioinfo.fs.lmu.de/de/", "inLanguage": "de"}
+          {"@type": "EntryPoint", "urlTemplate": "/en/", "inLanguage": "en"},
+          {"@type": "EntryPoint", "urlTemplate": "/de/", "inLanguage": "de"}
         ]
       }
     }
