@@ -32,4 +32,5 @@ jobs:
           folder: ./dist
           branch: main
           clean-exclude: pr-preview
-          force: false 
+          force: false
+          token: ${{ secrets.GH_TOKEN }}
