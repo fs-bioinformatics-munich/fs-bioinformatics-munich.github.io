@@ -10,6 +10,11 @@ import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
 const currentPath = Astro.url.pathname;
 const isGerman = currentPath.startsWith('/de/') || currentPath === '/de';
 const locale = isGerman ? 'de' : 'en';
+
+// Base URL calculation
+const base = (import.meta.env.BASE_URL || '/').endsWith('/')
+  ? import.meta.env.BASE_URL
+  : import.meta.env.BASE_URL + '/';
 ---
 
 <div class="header sl-flex">
@@ -21,13 +26,13 @@ const locale = isGerman ? 'de' : 'en';
 	</div>
 	<div class="sl-hidden md:sl-flex sl-items-center header-actions">
 		<nav class="header-nav">
-			<a href={`/${locale}/welcome`} class="header-link sl-flex">
+			<a href={`${base}${locale}/welcome`} class="header-link sl-flex">
 				{locale === 'de' ? 'Wiki' : 'Wiki'}
 			</a>
-			<a href={`/${locale}/blog`} class="header-link sl-flex">
+			<a href={`${base}${locale}/blog`} class="header-link sl-flex">
 				{locale === 'de' ? 'Blog' : 'Blog'}
 			</a>
-			<a href={`/${locale}/impressum`} class="header-link sl-flex">
+			<a href={`${base}${locale}/impressum`} class="header-link sl-flex">
 				{locale === 'de' ? 'Impressum' : 'Legal'}
 			</a>
 		</nav>
