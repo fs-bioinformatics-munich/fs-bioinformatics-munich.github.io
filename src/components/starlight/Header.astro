@@ -8,7 +8,11 @@ import LanguageSelect from '@astrojs/starlight/components/LanguageSelect.astro';
 
 // Get the current locale from the URL path
 const currentPath = Astro.url.pathname;
-const isGerman = currentPath.startsWith('/de/') || currentPath === '/de';
+const baseUrl = import.meta.env.BASE_URL || '/';
+const pathWithoutBase = currentPath.startsWith(baseUrl) 
+  ? currentPath.slice(baseUrl.length) 
+  : currentPath;
+const isGerman = pathWithoutBase.startsWith('de/') || pathWithoutBase === 'de';
 const locale = isGerman ? 'de' : 'en';
 ---
 
