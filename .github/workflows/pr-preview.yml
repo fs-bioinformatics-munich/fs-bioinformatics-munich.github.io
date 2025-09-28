@@ -34,7 +34,7 @@ jobs:
         run: npm run build
         if: github.event.action != 'closed'
         env:
-          ASTRO_BASE: /pr-preview/pr-${{ github.event.number }}
+          ASTRO_BASE: /pr-preview/pr-${{ github.event.number }}/
 
       - name: Deploy PR preview
         uses: rossjrw/pr-preview-action@v1
