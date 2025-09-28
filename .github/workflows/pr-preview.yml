@@ -41,6 +41,6 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./dist
-          preview-branch: gh-pages
+          preview-branch: main
           umbrella-dir: pr-preview
           action: auto
