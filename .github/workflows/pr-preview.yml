@@ -38,7 +38,7 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./dist
-          preview-branch: main
+          preview-branch: gh-pages
           umbrella-dir: pr-preview
           action: auto
           token: ${{ secrets.GH_TOKEN }}
