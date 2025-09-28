@@ -11,6 +11,12 @@ on:
 # Set concurrency to prevent multiple previews from conflicting
 concurrency: preview-${{ github.ref }}
 
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
