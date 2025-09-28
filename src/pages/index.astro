@@ -1,8 +1,5 @@
 ---
 // Static index page with client-side language detection
-const base = (import.meta.env.BASE_URL || '/').endsWith('/')
-  ? import.meta.env.BASE_URL
-  : import.meta.env.BASE_URL + '/';
 ---
 
 <!DOCTYPE html>
@@ -12,15 +9,15 @@ const base = (import.meta.env.BASE_URL || '/').endsWith('/')
   <title>Bioinformatics Student Council - LMU & TUM</title>
   <meta name="description" content="Information portal for Bioinformatics students at LMU and TUM Munich">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href={base}>
+  <base href={import.meta.env.BASE_URL}>
   
   <!-- Canonical URL -->
-  <link rel="canonical" href={base + 'en/'} id="canonical">
+  <link rel="canonical" href={`${import.meta.env.BASE_URL}en/`} id="canonical">
   
   <!-- Language alternatives with hreflang tags -->
-  <link rel="alternate" href={base + 'en/'} hreflang="en" />
-  <link rel="alternate" href={base + 'de/'} hreflang="de" />
-  <link rel="alternate" href={base + 'en/'} hreflang="x-default" />
+  <link rel="alternate" href={`${import.meta.env.BASE_URL}en/`} hreflang="en" />
+  <link rel="alternate" href={`${import.meta.env.BASE_URL}de/`} hreflang="de" />
+  <link rel="alternate" href={`${import.meta.env.BASE_URL}en/`} hreflang="x-default" />
   
   <script is:inline>
     // Get browser language
@@ -41,7 +38,7 @@ const base = (import.meta.env.BASE_URL || '/').endsWith('/')
   </script>
   
   <!-- Fallback meta refresh (for browsers with JS disabled) -->
-  <meta http-equiv="refresh" content={`0; url=${base}en/`}>
+  <meta http-equiv="refresh" content={`0; url=${import.meta.env.BASE_URL}en/`}>
   
   <!-- Structured data for search engines -->
   <script type="application/ld+json">
