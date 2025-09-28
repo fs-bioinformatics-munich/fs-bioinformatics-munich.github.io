@@ -24,7 +24,7 @@ jobs:
         run: npm ci
       
       - name: Build site
-        run: npm run build && touch dist/.nojekyll
+        run: npm run build
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

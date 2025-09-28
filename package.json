@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && touch dist/.nojekyll",
     "preview": "astro preview",
     "astro": "astro"
   },
