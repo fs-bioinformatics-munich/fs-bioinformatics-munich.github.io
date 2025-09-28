@@ -9,10 +9,11 @@ Melde dich gerne [hier](https://forms.gle/s6JDCCrTMv7MpzE18) an.
 
 # Programm
 
-| **Mittwoch, 08.10.25<br>Garching<br>[MI HS 2](https://nav.tum.de/room/5604.EG.011)** | **Donnerstag, 09.10.25<br>Innenstadt<br>[B132](https://www.lmu.de/raumfinder/#/building/bw1003/map?room=100201032_) (Bachelor-Erstis)<br>[B045](https://www.lmu.de/raumfinder/#/building/bw1003/map?room=100200045_) (Master-Erstis)** | **Freitag, 10.10.25<br>Großhadern<br>Baeyer Hörsaal<br>Seminarraum C2.003** |
+| **Mittwoch, 08.10.25<br>Garching** | **Donnerstag, 09.10.25<br>Innenstadt** | **Freitag, 10.10.25<br>Großhadern** |
 |-----------|----------|--------|
+| **Treffpunkt:<br>MI HS 2 ([Roomfinder](https://nav.tum.de/room/5604.EG.011) \| [Maps](https://maps.app.goo.gl/DwTYe8FmDdVz3oC49))** | **Treffpunkt:<br>B132 ([Roomfinder](https://www.lmu.de/raumfinder/#/building/bw1003/map?room=100201032_) \| [Maps](https://maps.app.goo.gl/EQvzQHk7nJTKYijV8))** | **Treffpunkt:<br>Seminarraum C2.003 ([Maps](https://maps.app.goo.gl/n1mGcG8g57sK1UpS9))** |
 | **09:00-10:00**<br>Begrüßung durch die<br>Fachschaft / Mörderspiel,<br>Vorstellungsrunde Erstis | **09:30-10:00**<br>Vortrag Auslandssemester |  |
-| **10:00-10:45**<br>[Frau Van Gemert](https://www.cit.tum.de/en/cit/school/people/van-gemert-willemijn/) | **10:00-11:00**<br>Vortrag [Prof. Zimmer](https://www.bio.ifi.lmu.de/mitarbeiter/ralf-zimmer/)<br>Master Q&A | **10:30-12:00**<br>Gemeinsamer Brunch<br>Seminarraum C2.003<br>Siegerehrung |
+| **10:00-10:45**<br>[Frau Van Gemert](https://www.cit.tum.de/en/cit/school/people/van-gemert-willemijn/) | **10:00-11:00**<br>Vortrag [Prof. Zimmer](https://www.bio.ifi.lmu.de/mitarbeiter/ralf-zimmer/)<br>Master Q&A | **10:30-12:00**<br>Gemeinsamer Brunch<br>Siegerehrung |
 | **11:00-11:30**<br>Vortrag [Prof. List](https://www.professoren.tum.de/en/list-markus) | **11:00-12:00**<br>Vortrag [Prof. Heun](https://www.bio.ifi.lmu.de/mitarbeiter/volker-heun/): Master /<br>Mensa Bachelors | **12:00-12:45**<br>Alumni Talk [Ariane Boehm](https://www.linkedin.com/in/ariane-c-boehm) |
 | **11:30-13:00**<br>Mensa Garching | **12:00-13:00**<br>Vortrag [Prof. Heun](https://www.bio.ifi.lmu.de/mitarbeiter/volker-heun/): Bachelor / Mensa Masters | **13:00-13:30**<br>Vortrag [Sonja Grath](https://www.lsm.bio.lmu.de/faculty/current-members/grath/index.html) |
 | **13:00-15:00**<br>LMU vs. TUM | **13:15-13:45**<br>Vortrag [Prof. Friedel](https://www.bio.ifi.lmu.de/mitarbeiter/caroline-friedel/) | **13:45-14:00**<br>Fragestunde Fachschaft |

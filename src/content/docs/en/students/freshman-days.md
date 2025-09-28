@@ -9,8 +9,9 @@ Please sign up [here](https://forms.gle/s6JDCCrTMv7MpzE18).
 
 # Program
 
-| **Wednesday, 08.10.25<br>Garching<br>[MI HS 2](https://nav.tum.de/room/5604.EG.011)** | **Thursday, 09.10.25<br>Innenstadt<br>[B132](https://www.lmu.de/raumfinder/#/building/bw1003/map?room=100201032_) (Bachelor-Freshmen)<br>[B045](https://www.lmu.de/raumfinder/#/building/bw1003/map?room=100200045_) (Master-Freshmen)** | **Friday, 10.10.25<br>Großhadern<br>Baeyer Hörsaal<br>Seminarraum C2.003** |
+| **Wednesday, 08.10.25<br>Garching** | **Thursday, 09.10.25<br>Innenstadt** | **Friday, 10.10.25<br>Großhadern** |
 |-----------|----------|--------|
+| **Meeting Point:<br>MI HS 2 ([Roomfinder](https://nav.tum.de/room/5604.EG.011) \| [Maps](https://maps.app.goo.gl/DwTYe8FmDdVz3oC49))** | **Meeting Point:<br>B132 ([Roomfinder](https://www.lmu.de/raumfinder/#/building/bw1003/map?room=100201032_) \| [Maps](https://maps.app.goo.gl/EQvzQHk7nJTKYijV8))** | **Meeting Point:<br>Seminarraum C2.003 ([Maps](https://maps.app.goo.gl/n1mGcG8g57sK1UpS9))** |
 | **09:00-10:00**<br>Greeting of<br>the student council / Mörderspiel,<br>Meet and greet of freshmen | **09:30-10:00**<br>Presentation on Semester Abroad |  |
 | **10:00-10:45**<br>[Frau Van Gemert](https://www.cit.tum.de/en/cit/school/people/van-gemert-willemijn/) | **10:00-11:00**<br>Presentation [Prof. Zimmer](https://www.bio.ifi.lmu.de/mitarbeiter/ralf-zimmer/)<br>Master Q&A | **10:30-12:00**<br>Brunch Together<br>Seminarraum C2.003<br>Award ceremony |
 | **11:00-11:30**<br>Presentation [Prof. List](https://www.professoren.tum.de/en/list-markus) | **11:00-12:00**<br>Presentation [Prof. Heun](https://www.bio.ifi.lmu.de/mitarbeiter/volker-heun/): Master /<br>Mensa Bachelors | **12:00-12:45**<br>Alumni-Talk [Ariane Boehm](https://www.linkedin.com/in/ariane-c-boehm) |
