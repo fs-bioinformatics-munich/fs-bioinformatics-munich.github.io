@@ -1,0 +1,42 @@
+---
+title: Welcome
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: to the website of the Munich bioinformatics student council
+  image:
+    file: ../../../assets/LogoSmall.png
+  actions:
+    - text: Browse our knowledge base
+      link: /en/welcome/
+      icon: right-arrow
+    - text: Check out our blog
+      link: /en/blog
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+
+<Aside type="tip" title="Are you a first-semester student?">
+	We recommend attending the <a href="/en/students/freshman-days">freshman days</a> to get to know fellow students and learn more about studying bioinformatics in Munich.
+</Aside>
+
+## How can we help you?
+
+<CardGrid stagger>
+	<Card title="What is bioinformatics?" icon="pencil">
+		We can give you an overview of what bioinformatics is and what it is good for.
+		<LinkCard title="What is bioinformatics?" icon="pencil" href="/en/prospectives/what-is-bioinformatics" />
+	</Card>
+	<Card title="What does the student council do?" icon="setting">
+		We introduce ourselves and our activities here.
+		<LinkCard title="What does the student council do?" icon="pencil" href="/en/student-council/about-us" />
+	</Card>
+	<Card title="How to study bioinformatics in Munich" icon="open-book">
+		We have collected a lot of information about best practices for studying bioinformatics in Munich.
+		<LinkCard title="How to study bioinformatics in Munich" icon="pencil" href="/en/students" />
+	</Card>
+</CardGrid> 

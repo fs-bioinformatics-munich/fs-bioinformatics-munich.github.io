@@ -1,0 +1,42 @@
+---
+title: Willkommen
+description: Erfahren Sie mehr über die Fachschaft Bioinformatik München.
+template: splash
+hero:
+  tagline: auf der Website der Fachschaft Bioinformatik München
+  image:
+    file: ../../../assets/LogoSmall.png
+  actions:
+    - text: Durchsuchen Sie unser Wiki
+      link: /de/welcome/
+      icon: right-arrow
+    - text: Besuchen Sie unseren Blog
+      link: /de/blog
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+
+<Aside type="tip" title="Bist du ein Erstsemesterstudent?">
+	Besuche die <a href="/de/students/freshman-days">Ersti-Tage</a>, um Kommiliton:innen kennenzulernen und mehr über das Studium Bioinformatik in München zu erfahren.
+</Aside>
+
+## Wie können wir Ihnen helfen?
+
+<CardGrid stagger>
+	<Card title="Was ist Bioinformatik?" icon="pencil">
+		Wir geben Ihnen einen Überblick darüber, was Bioinformatik ist und wofür sie gut ist.
+		<LinkCard title="Was ist Bioinformatik?" icon="pencil" href="/de/prospectives/what-is-bioinformatics" />
+	</Card>
+	<Card title="Was macht die Fachschaft?" icon="setting">
+		Wir stellen uns und unsere Aktivitäten hier vor.
+		<LinkCard title="Was macht die Fachschaft?" icon="pencil" href="/de/student-council/about-us" />
+	</Card>
+	<Card title="Wie studiert man Bioinformatik in München" icon="open-book">
+		Wir haben viele Informationen über Best Practices für das Studium der Bioinformatik in München gesammelt.
+		<LinkCard title="Wie studiert man Bioinformatik in München" icon="pencil" href="/de/students" />
+	</Card>
+</CardGrid> 
