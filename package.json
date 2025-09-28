@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && touch dist/.nojekyll",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:paths": "./scripts/check-absolute-paths.sh",
+    "test:build": "npm run build && ASTRO_BASE=/pr-preview/pr-123/ npm run build"
   },
   "dependencies": {
     "@astrojs/node": "^9.2.2",

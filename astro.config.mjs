@@ -7,6 +7,7 @@ import catppuccin from "@catppuccin/starlight";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://bioinfo.fs.lmu.de',
+	base: process.env.ASTRO_BASE || '/',
 	integrations: [
 		starlight({
 			plugins: [
