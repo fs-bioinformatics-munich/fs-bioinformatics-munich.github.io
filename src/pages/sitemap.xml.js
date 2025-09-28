@@ -1,6 +1,7 @@
 export async function GET({ site }) {
-  // Base URL from your Astro config
-  const baseUrl = 'https://bioinfo.fs.lmu.de';
+  // Use the site URL from Astro config or fallback to BASE_URL
+  const baseUrl = site || import.meta.env.BASE_URL;
+  const basePath = import.meta.env.BASE_URL || '/';
 
   // Get all pages (you may need to adjust this based on your actual content)
   // This is a simplified example
@@ -21,13 +22,13 @@ export async function GET({ site }) {
       `<xhtml:link 
          rel="alternate" 
          hreflang="${lang}" 
-         href="${baseUrl}/${lang}${page.path === '/' ? '' : page.path}" 
+         href="${baseUrl}${basePath}${lang}${page.path === '/' ? '' : page.path}" 
        />`
     ).join('\n    ')}
     <xhtml:link 
       rel="alternate" 
       hreflang="x-default" 
-      href="${baseUrl}/en${page.path === '/' ? '' : page.path}" 
+      href="${baseUrl}${basePath}en${page.path === '/' ? '' : page.path}" 
     />
     <changefreq>weekly</changefreq>
     <priority>${page.path === '/' ? '1.0' : '0.8'}</priority>

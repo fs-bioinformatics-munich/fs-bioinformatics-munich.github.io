@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-absolute-paths
+        name: Check for hardcoded absolute paths
+        entry: ./scripts/check-absolute-paths.sh
+        language: script
+        files: \.(astro|mdx|ts|js|mjs)$
+        pass_filenames: false
+        always_run: true
