@@ -21,13 +21,13 @@ const locale = isGerman ? 'de' : 'en';
 	</div>
 	<div class="sl-hidden md:sl-flex sl-items-center header-actions">
 		<nav class="header-nav">
-			<a href={`${import.meta.env.BASE_URL}${locale}/welcome`} class="header-link sl-flex">
+			<a href={`${import.meta.env.BASE_URL}/${locale}/welcome`} class="header-link sl-flex">
 				{locale === 'de' ? 'Wiki' : 'Wiki'}
 			</a>
-			<a href={`${import.meta.env.BASE_URL}${locale}/blog`} class="header-link sl-flex">
+			<a href={`${import.meta.env.BASE_URL}/${locale}/blog`} class="header-link sl-flex">
 				{locale === 'de' ? 'Blog' : 'Blog'}
 			</a>
-			<a href={`${import.meta.env.BASE_URL}${locale}/impressum`} class="header-link sl-flex">
+			<a href={`${import.meta.env.BASE_URL}/${locale}/impressum`} class="header-link sl-flex">
 				{locale === 'de' ? 'Impressum' : 'Legal'}
 			</a>
 		</nav>
