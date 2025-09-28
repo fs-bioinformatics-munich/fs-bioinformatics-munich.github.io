@@ -19,12 +19,12 @@
       "@context": "https://schema.org",
       "@type": "Website",
       "name": "Bioinformatics Student Council - LMU & TUM",
-      "url": "/",
+      "url": `${import.meta.env.BASE_URL}`,
       "potentialAction": {
         "@type": "ViewAction",
         "target": [
-          {"@type": "EntryPoint", "urlTemplate": "/en/", "inLanguage": "en"},
-          {"@type": "EntryPoint", "urlTemplate": "/de/", "inLanguage": "de"}
+          {"@type": "EntryPoint", "urlTemplate": `${import.meta.env.BASE_URL}en/`, "inLanguage": "en"},
+          {"@type": "EntryPoint", "urlTemplate": `${import.meta.env.BASE_URL}de/`, "inLanguage": "de"}
         ]
       }
     }
