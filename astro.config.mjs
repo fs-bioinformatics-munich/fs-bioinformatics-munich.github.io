@@ -152,6 +152,13 @@ export default defineConfig({
 							},
 							link: 'students/freshman-days' 
 						},
+						{
+							label: 'Ersti-Reader',
+							translations: {
+								de: 'Ersti-Reader',
+							},
+							link: 'students/ersti-reader'
+						},
 						{ 
 							label: 'Living',
 							translations: {
