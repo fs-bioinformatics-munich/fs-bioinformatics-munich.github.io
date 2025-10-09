@@ -1,0 +1,1004 @@
+<!DOCTYPE html><html lang="de" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-bguv2lll"> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Erstsemester - Reader | Fachschaft Bioinformatik München</title><link rel="canonical" href="https://bioinfo.fs.lmu.de/de/students/ersti-reader/"/><link rel="alternate" hreflang="en" href="https://bioinfo.fs.lmu.de/en/students/ersti-reader/"/><link rel="alternate" hreflang="de" href="https://bioinfo.fs.lmu.de/de/students/ersti-reader/"/><link rel="sitemap" href="/sitemap-index.xml"/><link href="https://bioinfo.fs.lmu.de/blog/rss.xml" rel="alternate" title="Blog" type="application/rss+xml"/><link rel="shortcut icon" href="/favicon.png" type="image/png"/><meta name="generator" content="Astro v5.13.7"/><meta name="generator" content="Starlight v0.34.4"/><meta property="og:title" content="Erstsemester - Reader"/><meta property="og:type" content="article"/><meta property="og:url" content="https://bioinfo.fs.lmu.de/de/students/ersti-reader/"/><meta property="og:locale" content="de"/><meta property="og:description"/><meta property="og:site_name" content="Fachschaft Bioinformatik München"/><meta name="twitter:card" content="summary_large_image"/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/_astro/print.DNXP8c50.css" media="print"><link rel="stylesheet" href="/_astro/Authors.DjGNmOjT.css">
+<style>@layer starlight.components{:root{--sl-badge-default-border: var(--sl-color-accent);--sl-badge-default-bg: var(--sl-color-accent-low);--sl-badge-default-text: #fff;--sl-badge-note-border: var(--sl-color-blue);--sl-badge-note-bg: var(--sl-color-blue-low);--sl-badge-note-text: #fff;--sl-badge-danger-border: var(--sl-color-red);--sl-badge-danger-bg: var(--sl-color-red-low);--sl-badge-danger-text: #fff;--sl-badge-success-border: var(--sl-color-green);--sl-badge-success-bg: var(--sl-color-green-low);--sl-badge-success-text: #fff;--sl-badge-caution-border: var(--sl-color-orange);--sl-badge-caution-bg: var(--sl-color-orange-low);--sl-badge-caution-text: #fff;--sl-badge-tip-border: var(--sl-color-purple);--sl-badge-tip-bg: var(--sl-color-purple-low);--sl-badge-tip-text: #fff}[data-theme=light]:root{--sl-badge-default-bg: var(--sl-color-accent-high);--sl-badge-note-bg: var(--sl-color-blue-high);--sl-badge-danger-bg: var(--sl-color-red-high);--sl-badge-success-bg: var(--sl-color-green-high);--sl-badge-caution-bg: var(--sl-color-orange-high);--sl-badge-tip-bg: var(--sl-color-purple-high)}.sl-badge:where(.astro-avdet4wd){display:inline-block;border:1px solid var(--sl-color-border-badge);border-radius:.25rem;font-family:var(--sl-font-system-mono);line-height:normal;color:var(--sl-color-text-badge);background-color:var(--sl-color-bg-badge);overflow-wrap:anywhere}.sidebar-content .sl-badge:where(.astro-avdet4wd){line-height:1;font-size:var(--sl-text-xs);padding:.125rem .375rem}.sidebar-content a[aria-current=page]>.sl-badge:where(.astro-avdet4wd){--sl-color-bg-badge: transparent;--sl-color-border-badge: currentColor;color:inherit}.default:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-default-bg);--sl-color-border-badge: var(--sl-badge-default-border);--sl-color-text-badge: var(--sl-badge-default-text)}.note:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-note-bg);--sl-color-border-badge: var(--sl-badge-note-border);--sl-color-text-badge: var(--sl-badge-note-text)}.danger:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-danger-bg);--sl-color-border-badge: var(--sl-badge-danger-border);--sl-color-text-badge: var(--sl-badge-danger-text)}.success:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-success-bg);--sl-color-border-badge: var(--sl-badge-success-border);--sl-color-text-badge: var(--sl-badge-success-text)}.tip:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-tip-bg);--sl-color-border-badge: var(--sl-badge-tip-border);--sl-color-text-badge: var(--sl-badge-tip-text)}.caution:where(.astro-avdet4wd){--sl-color-bg-badge: var(--sl-badge-caution-bg);--sl-color-border-badge: var(--sl-badge-caution-border);--sl-color-text-badge: var(--sl-badge-caution-text)}.small:where(.astro-avdet4wd){font-size:var(--sl-text-xs);padding:.125rem .25rem}.medium:where(.astro-avdet4wd){font-size:var(--sl-text-sm);padding:.175rem .35rem}.large:where(.astro-avdet4wd){font-size:var(--sl-text-base);padding:.225rem .45rem}.sl-markdown-content :is(h1,h2,h3,h4,h5,h6) .sl-badge:where(.astro-avdet4wd){vertical-align:middle}}
+@layer starlight.components{.card-grid:where(.astro-zntqmydn){display:grid;grid-template-columns:100%;gap:1rem}.card-grid:where(.astro-zntqmydn)>*{margin-top:0!important}@media (min-width: 50rem){.card-grid:where(.astro-zntqmydn){grid-template-columns:1fr 1fr;gap:1.5rem}.stagger:where(.astro-zntqmydn){--stagger-height: 5rem;padding-bottom:var(--stagger-height)}.stagger:where(.astro-zntqmydn)>*:nth-child(2n){transform:translateY(var(--stagger-height))}}}
+@layer starlight.components{.card:where(.astro-v5tidmuc){--sl-card-border: var(--sl-color-purple);--sl-card-bg: var(--sl-color-purple-low);border:1px solid var(--sl-color-gray-5);background-color:var(--sl-color-black);padding:clamp(1rem,calc(.125rem + 3vw),2.5rem);flex-direction:column;gap:clamp(.5rem,calc(.125rem + 1vw),1rem)}.card:where(.astro-v5tidmuc):nth-child(4n+1){--sl-card-border: var(--sl-color-orange);--sl-card-bg: var(--sl-color-orange-low)}.card:where(.astro-v5tidmuc):nth-child(4n+3){--sl-card-border: var(--sl-color-green);--sl-card-bg: var(--sl-color-green-low)}.card:where(.astro-v5tidmuc):nth-child(4n+4){--sl-card-border: var(--sl-color-red);--sl-card-bg: var(--sl-color-red-low)}.card:where(.astro-v5tidmuc):nth-child(4n+5){--sl-card-border: var(--sl-color-blue);--sl-card-bg: var(--sl-color-blue-low)}.title:where(.astro-v5tidmuc){font-weight:600;font-size:var(--sl-text-h4);color:var(--sl-color-white);line-height:var(--sl-line-height-headings);gap:1rem;align-items:center}.card:where(.astro-v5tidmuc) .icon:where(.astro-v5tidmuc){border:1px solid var(--sl-card-border);background-color:var(--sl-card-bg);padding:.2em;border-radius:.25rem;flex-shrink:0}.card:where(.astro-v5tidmuc) .body:where(.astro-v5tidmuc){margin:0;font-size:clamp(var(--sl-text-sm),calc(.5rem + 1vw),var(--sl-text-body))}}
+@layer starlight.components{svg:where(.astro-c6vsoqas){color:var(--sl-icon-color);font-size:var(--sl-icon-size, 1em);width:1em;height:1em}}
+@layer starlight.components{.sl-link-card:where(.astro-mf7fz2mj){display:grid;grid-template-columns:1fr auto;gap:.5rem;border:1px solid var(--sl-color-gray-5);border-radius:.5rem;padding:1rem;box-shadow:var(--sl-shadow-sm);position:relative}a:where(.astro-mf7fz2mj){text-decoration:none;line-height:var(--sl-line-height-headings)}a:where(.astro-mf7fz2mj):before{content:"";position:absolute;inset:0}.stack:where(.astro-mf7fz2mj){flex-direction:column;gap:.5rem}.title:where(.astro-mf7fz2mj){color:var(--sl-color-white);font-weight:600;font-size:var(--sl-text-lg)}.description:where(.astro-mf7fz2mj){color:var(--sl-color-gray-3);line-height:1.5}.icon:where(.astro-mf7fz2mj){color:var(--sl-color-gray-3)}.sl-link-card:where(.astro-mf7fz2mj):hover{background:var(--sl-color-gray-7, var(--sl-color-gray-6));border-color:var(--sl-color-gray-2)}.sl-link-card:where(.astro-mf7fz2mj):hover .icon:where(.astro-mf7fz2mj){color:var(--sl-color-white)}}
+@layer starlight.components{.sl-steps{--bullet-size: calc(var(--sl-line-height) * 1rem);--bullet-margin: .375rem;list-style:none;counter-reset:steps-counter var(--sl-steps-start, 0);padding-inline-start:0}.sl-steps>li{counter-increment:steps-counter;position:relative;padding-inline-start:calc(var(--bullet-size) + 1rem);padding-bottom:1px;min-height:calc(var(--bullet-size) + var(--bullet-margin))}.sl-steps>li+li{margin-top:0}.sl-steps>li:before{content:counter(steps-counter);position:absolute;top:0;inset-inline-start:0;width:var(--bullet-size);height:var(--bullet-size);line-height:var(--bullet-size);font-size:var(--sl-text-xs);font-weight:600;text-align:center;color:var(--sl-color-white);background-color:var(--sl-color-gray-6);border-radius:99rem;box-shadow:inset 0 0 0 1px var(--sl-color-gray-5)}.sl-steps>li:after{--guide-width: 1px;content:"";position:absolute;top:calc(var(--bullet-size) + var(--bullet-margin));bottom:var(--bullet-margin);inset-inline-start:calc((var(--bullet-size) - var(--guide-width)) / 2);width:var(--guide-width);background-color:var(--sl-color-hairline-light)}}@layer starlight.content{.sl-steps>li>:first-child{--lh: calc(1em * var(--sl-line-height));--shift-y: calc(.5 * (var(--bullet-size) - var(--lh)));transform:translateY(var(--shift-y));margin-bottom:var(--shift-y)}.sl-steps>li>:first-child:where(h1,h2,h3,h4,h5,h6){--lh: calc(1em * var(--sl-line-height-headings))}@supports (--prop: 1lh){.sl-steps>li>:first-child{--lh: 1lh}}}
+@layer starlight.components{.sl-link-button:where(.astro-xwgiixxa){align-items:center;border:1px solid transparent;border-radius:999rem;display:inline-flex;font-size:var(--sl-text-sm);gap:.5em;line-height:1.1875;outline-offset:.25rem;padding:.4375rem 1.125rem;text-decoration:none}.sl-link-button:where(.astro-xwgiixxa).primary{background:var(--sl-color-text-accent);border-color:var(--sl-color-text-accent);color:var(--sl-color-black)}.sl-link-button:where(.astro-xwgiixxa).primary:hover{color:var(--sl-color-black)}.sl-link-button:where(.astro-xwgiixxa).secondary{border-color:inherit;color:var(--sl-color-white)}.sl-link-button:where(.astro-xwgiixxa).minimal{color:var(--sl-color-white);padding-inline:0}.sl-link-button:where(.astro-xwgiixxa) svg{flex-shrink:0}@media (min-width: 50rem){.sl-link-button:where(.astro-xwgiixxa){font-size:var(--sl-text-base);padding:.9375rem 1.25rem}}.sl-markdown-content .sl-link-button:where(.astro-xwgiixxa){margin-inline-end:1rem}.sl-markdown-content .sl-link-button:where(.astro-xwgiixxa):not(:where(p *)){margin-block:1rem}}
+</style><script type="module" src="/_astro/page.7qqag-5g.js"></script></head> <body class="astro-bguv2lll"> <a href="#_top" class="astro-7q3lir66">Zum Inhalt springen</a>  <div class="page sl-flex astro-vrdttmbt"> <header class="header astro-vrdttmbt"><div class="header sl-flex astro-zixgsetp"> <div class="sl-flex astro-zixgsetp"> <a href="/de" class="site-title sl-flex astro-m46x6ez3">  <span class="astro-m46x6ez3" translate="no"> Fachschaft Bioinformatik München </span> </a>  </div> <div class="sl-flex astro-zixgsetp"> <site-search class="astro-zixgsetp astro-v37mnknz" data-translations="{&#34;placeholder&#34;:&#34;Suchen&#34;}"> <button data-open-modal disabled aria-label="Suchen" aria-keyshortcuts="Control+K" class="astro-v37mnknz"> <svg aria-hidden="true" class="astro-v37mnknz astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg> <span class="sl-hidden md:sl-block astro-v37mnknz" aria-hidden="true">Suchen</span> <kbd class="sl-hidden md:sl-flex astro-v37mnknz" style="display: none;"> <kbd class="astro-v37mnknz">Strg</kbd><kbd class="astro-v37mnknz">K</kbd> </kbd> </button> <dialog style="padding:0" aria-label="Suchen" class="astro-v37mnknz"> <div class="dialog-frame sl-flex astro-v37mnknz">  <button data-close-modal class="sl-flex md:sl-hidden astro-v37mnknz"> Abbrechen </button> <div class="search-container astro-v37mnknz"> <div id="starlight__search" class="astro-v37mnknz"></div> </div> </div> </dialog> </site-search>  <script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script> <script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.DMZ5WJ-J.js"></script>   </div> <div class="sl-hidden md:sl-flex sl-items-center header-actions astro-zixgsetp"> <nav class="header-nav astro-zixgsetp"> <a href="/de/welcome" class="header-link sl-flex astro-zixgsetp"> Wiki </a> <a href="/de/blog" class="header-link sl-flex astro-zixgsetp"> Blog </a> <a href="/de/impressum" class="header-link sl-flex astro-zixgsetp"> Impressum </a> </nav> <div class="social-icons-wrapper astro-zixgsetp"> <a href="https://github.com/fs-bioinformatics-munich" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">GitHub</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a><a href="/en/blog/rss.xml" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">RSS Feed</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M2.88 16.88a3 3 0 0 0 0 4.24 3 3 0 0 0 4.24 0 3 3 0 0 0-4.24-4.24Zm2.83 2.83a1 1 0 0 1-1.42-1.42 1 1 0 0 1 1.42 0 1 1 0 0 1 0 1.42ZM5 12a1 1 0 0 0 0 2 5 5 0 0 1 5 5 1 1 0 0 0 2 0 7 7 0 0 0-7-7Zm0-4a1 1 0 0 0 0 2 9 9 0 0 1 9 9 1 1 0 0 0 2 0 11.08 11.08 0 0 0-3.22-7.78A11.08 11.08 0 0 0 5 8Zm10.61.39A15.11 15.11 0 0 0 5 4a1 1 0 0 0 0 2 13 13 0 0 1 13 13 1 1 0 0 0 2 0 15.11 15.11 0 0 0-4.39-10.61Z"/></svg></a> </div> <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Farbschema wählen</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select value="auto" autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">Dunkel</option><option value="light" class="astro-4yphtoen">Hell</option><option value="auto" selected class="astro-4yphtoen">System</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script> <script type="module">const r="starlight-theme",o=e=>e==="auto"||e==="dark"||e==="light"?e:"auto",c=()=>o(typeof localStorage<"u"&&localStorage.getItem(r));function n(e){typeof localStorage<"u"&&localStorage.setItem(r,e==="light"||e==="dark"?e:"")}const l=()=>matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";function t(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e==="auto"?l():e,n(e)}matchMedia("(prefers-color-scheme: light)").addEventListener("change",()=>{c()==="auto"&&t("auto")});class s extends HTMLElement{constructor(){super(),t(c()),this.querySelector("select")?.addEventListener("change",a=>{a.currentTarget instanceof HTMLSelectElement&&t(o(a.currentTarget.value))})}}customElements.define("starlight-theme-select",s);</script> <starlight-lang-select><label style="--sl-select-width: 7em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Sprache wählen</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg> <select value="/de/students/ersti-reader/" autocomplete="off" class="astro-4yphtoen"> <option value="/en/students/ersti-reader/" class="astro-4yphtoen">English</option><option value="/de/students/ersti-reader/" selected class="astro-4yphtoen">Deutsch</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label> </starlight-lang-select><script type="module">class s extends HTMLElement{constructor(){super();const e=this.querySelector("select");e&&(e.addEventListener("change",t=>{t.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=t.currentTarget.value)}),window.addEventListener("pageshow",t=>{if(!t.persisted)return;const n=e.querySelector("option[selected]")?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}}customElements.define("starlight-lang-select",s);</script> </div> </div> </header> <nav class="sidebar print:hidden astro-vrdttmbt" aria-label="Hauptnavigation"> <starlight-menu-button class="print:hidden astro-jif73yzw"> <button aria-expanded="false" aria-label="Menü" aria-controls="starlight__sidebar" class="sl-flex md:sl-hidden astro-jif73yzw"> <svg aria-hidden="true" class="open-menu astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg> <svg aria-hidden="true" class="close-menu astro-jif73yzw astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg> </button> </starlight-menu-button> <script type="module">class s extends HTMLElement{constructor(){super(),this.btn=this.querySelector("button"),this.btn.addEventListener("click",()=>this.toggleExpanded());const t=this.closest("nav");t&&t.addEventListener("keyup",e=>this.closeOnEscape(e))}setExpanded(t){this.setAttribute("aria-expanded",String(t)),document.body.toggleAttribute("data-mobile-menu-expanded",t)}toggleExpanded(){this.setExpanded(this.getAttribute("aria-expanded")!=="true")}closeOnEscape(t){t.code==="Escape"&&(this.setExpanded(!1),this.btn.focus())}}customElements.define("starlight-menu-button",s);</script>   <div id="starlight__sidebar" class="sidebar-pane astro-vrdttmbt"> <div class="sidebar-content sl-flex astro-vrdttmbt"> <sl-sidebar-state-persist data-hash="1y5v4a5" class="astro-kku4brbg"> <script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script>  <ul class="top-level astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/de/blog/" aria-current="false" class="large sl-blog-mobile-link astro-3ii7xxms" class="sl-blog-mobile-link"> <span class="astro-3ii7xxms">Blog</span>  </a> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="0"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Studieninteressierte</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/de/prospectives/what-is-bioinformatics" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Was ist Bioinformatik?</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/prospectives/program-contents" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Studieninhalte</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/prospectives/study-materials" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Schnuppermaterialien</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/prospectives/application-process" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Aufnahmeverfahren</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/prospectives/career-perspectives" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Berufsaussichten</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/prospectives/master-students" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Für Master-Interessierte</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/prospectives/why-munich" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Warum München?</span>  </a> </li> </ul>  </details> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="1"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Fachschaft</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/de/student-council/about-us" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Über uns</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/student-council/committees" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Gremien</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/student-council/events" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Veranstaltungen</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/student-council/join-us" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Mitmachen</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/student-council/organization" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Organisation</span>  </a> </li> </ul>  </details> </li><li class="astro-3ii7xxms"> <details open class="astro-3ii7xxms"> <sl-sidebar-restore data-index="2"></sl-sidebar-restore> <summary class="astro-3ii7xxms"> <div class="group-label astro-3ii7xxms"> <span class="large astro-3ii7xxms">Studierende</span>  </div> <svg aria-hidden="true" class="caret astro-3ii7xxms astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg> </summary> <ul class="astro-3ii7xxms"> <li class="astro-3ii7xxms"> <a href="/de/students/freshman-days" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Ersti-Tage</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/ersti-reader" aria-current="page" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Ersti-Reader</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/living" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Wohnen</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/exam-module-registration" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Prüfungs- und Modulanmeldung</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/bachelor-master-transition" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Übergang Bachelor-Master</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/examination-regulations" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Prüfungsordnung</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/link-collection" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Linksammlung</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/study-abroad" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Auslandsaufenthalt</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/internships" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Praktika</span>  </a> </li><li class="astro-3ii7xxms"> <a href="/de/students/thesis" aria-current="false" class="astro-3ii7xxms"> <span class="astro-3ii7xxms">Abschlussarbeit</span>  </a> </li> </ul>  </details> </li> </ul>   <script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script> </sl-sidebar-state-persist>  <div class="md:sl-hidden"> <div class="mobile-preferences sl-flex astro-wu23bvmt"> <div class="social-icons astro-wu23bvmt"> <a href="https://github.com/fs-bioinformatics-munich" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">GitHub</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a><a href="/en/blog/rss.xml" rel="me" class="sl-flex astro-wy4te6ga"><span class="sr-only astro-wy4te6ga">RSS Feed</span><svg aria-hidden="true" class="astro-wy4te6ga astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M2.88 16.88a3 3 0 0 0 0 4.24 3 3 0 0 0 4.24 0 3 3 0 0 0-4.24-4.24Zm2.83 2.83a1 1 0 0 1-1.42-1.42 1 1 0 0 1 1.42 0 1 1 0 0 1 0 1.42ZM5 12a1 1 0 0 0 0 2 5 5 0 0 1 5 5 1 1 0 0 0 2 0 7 7 0 0 0-7-7Zm0-4a1 1 0 0 0 0 2 9 9 0 0 1 9 9 1 1 0 0 0 2 0 11.08 11.08 0 0 0-3.22-7.78A11.08 11.08 0 0 0 5 8Zm10.61.39A15.11 15.11 0 0 0 5 4a1 1 0 0 0 0 2 13 13 0 0 1 13 13 1 1 0 0 0 2 0 15.11 15.11 0 0 0-4.39-10.61Z"/></svg></a> </div> <div class="astro-eboeziq4"> <a href="/de/blog/" class="astro-eboeziq4">Blog</a> </div>  <starlight-theme-select>  <label style="--sl-select-width: 6.25em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Farbschema wählen</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg> <select value="auto" autocomplete="off" class="astro-4yphtoen"> <option value="dark" class="astro-4yphtoen">Dunkel</option><option value="light" class="astro-4yphtoen">Hell</option><option value="auto" selected class="astro-4yphtoen">System</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label>  </starlight-theme-select>  <script>
+	StarlightThemeProvider.updatePickers();
+</script>  <starlight-lang-select><label style="--sl-select-width: 7em" class="astro-4yphtoen"> <span class="sr-only astro-4yphtoen">Sprache wählen</span> <svg aria-hidden="true" class="icon label-icon astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path fill-rule="evenodd" d="M8.516 3a.94.94 0 0 0-.941.94v1.15H2.94a.94.94 0 1 0 0 1.882h7.362a7.422 7.422 0 0 1-1.787 3.958 7.42 7.42 0 0 1-1.422-2.425.94.94 0 1 0-1.774.627 9.303 9.303 0 0 0 1.785 3.043 7.422 7.422 0 0 1-4.164 1.278.94.94 0 1 0 0 1.881 9.303 9.303 0 0 0 5.575-1.855 9.303 9.303 0 0 0 4.11 1.74l-.763 1.525a.968.968 0 0 0-.016.034l-1.385 2.77a.94.94 0 1 0 1.683.841l1.133-2.267h5.806l1.134 2.267a.94.94 0 0 0 1.683-.841l-1.385-2.769a.95.95 0 0 0-.018-.036l-3.476-6.951a.94.94 0 0 0-1.682 0l-1.82 3.639a7.423 7.423 0 0 1-3.593-1.256 9.303 9.303 0 0 0 2.27-5.203h1.894a.94.94 0 0 0 0-1.881H9.456V3.94A.94.94 0 0 0 8.516 3Zm6.426 11.794a1.068 1.068 0 0 1-.02.039l-.703 1.407h3.924l-1.962-3.924-1.24 2.478Z" clip-rule="evenodd"/></svg> <select value="/de/students/ersti-reader/" autocomplete="off" class="astro-4yphtoen"> <option value="/en/students/ersti-reader/" class="astro-4yphtoen">English</option><option value="/de/students/ersti-reader/" selected class="astro-4yphtoen">Deutsch</option> </select> <svg aria-hidden="true" class="icon caret astro-4yphtoen astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg> </label> </starlight-lang-select> </div>  </div> </div> </div> </nav> <div class="main-frame astro-vrdttmbt">  <script type="module">const a=document.getElementById("starlight__sidebar"),n=a?.querySelector("sl-sidebar-state-persist"),o="sl-sidebar-state",i=()=>{let t=[];const e=n?.dataset.hash||"";try{const s=sessionStorage.getItem(o),r=JSON.parse(s||"{}");Array.isArray(r.open)&&r.hash===e&&(t=r.open)}catch{}return{hash:e,open:t,scroll:a?.scrollTop||0}},c=t=>{try{sessionStorage.setItem(o,JSON.stringify(t))}catch{}},d=()=>c(i()),l=(t,e)=>{const s=i();s.open[e]=t,c(s)};n?.addEventListener("click",t=>{if(!(t.target instanceof Element))return;const e=t.target.closest("summary")?.closest("details");if(!e)return;const s=e.querySelector("sl-sidebar-restore"),r=parseInt(s?.dataset.index||"");isNaN(r)||l(!e.open,r)});addEventListener("visibilitychange",()=>{document.visibilityState==="hidden"&&d()});addEventListener("pageHide",d);</script> <div class="lg:sl-flex astro-67yu43on"> <aside class="right-sidebar-container print:hidden astro-67yu43on"> <div class="right-sidebar astro-67yu43on"> <div class="lg:sl-hidden astro-pb3aqygn"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-doynk5tl"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-doynk5tl"><details id="starlight__mobile-toc" class="astro-doynk5tl"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-doynk5tl"><div class="toggle sl-flex astro-doynk5tl">Auf dieser Seite<svg aria-hidden="true" class="caret astro-doynk5tl astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></div><span class="display-current astro-doynk5tl"></span></summary><div class="dropdown astro-doynk5tl"><ul class="isMobile astro-g2bywc46" style="--depth: 0;"> <li class="astro-g2bywc46" style="--depth: 0;"> <a href="#_top" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Überblick</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#fachschaft-bioinformatik" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Fachschaft Bioinformatik</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#gaf" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">GAF</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#fachschaft-mpic" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Fachschaft MPIC</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#stuve-lmu" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">StuVe LMU</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#lmucard" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">LMUCard</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#tumcard" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">TUMCard</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#sexualisierte-gewalt" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">sexualisierte Gewalt</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#diskriminierung" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Diskriminierung</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#zentraler-hochschulsport-zhs" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Zentraler Hochschulsport (ZHS)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#kino" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Kino</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#studentenpartys" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Studentenpartys</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#drucken" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Drucken</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#software" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Software</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#hardware" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Hardware</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#innenstadt" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Innenstadt</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#theresienstraße-lmu" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Theresienstraße (LMU)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#großhadern" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Großhadern</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#garching" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Garching</span> </a>  </li> </ul> </div></details></nav></mobile-starlight-toc><script type="module" src="/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C181hMzK.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-pb3aqygn"><div class="sl-container astro-pb3aqygn"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">Auf dieser Seite</h2><ul class="astro-g2bywc46" style="--depth: 0;"> <li class="astro-g2bywc46" style="--depth: 0;"> <a href="#_top" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Überblick</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#fachschaft-bioinformatik" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Fachschaft Bioinformatik</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#gaf" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">GAF</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#fachschaft-mpic" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Fachschaft MPIC</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#stuve-lmu" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">StuVe LMU</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#lmucard" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">LMUCard</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#tumcard" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">TUMCard</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#sexualisierte-gewalt" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">sexualisierte Gewalt</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#diskriminierung" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Diskriminierung</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#zentraler-hochschulsport-zhs" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Zentraler Hochschulsport (ZHS)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#kino" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Kino</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#studentenpartys" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Studentenpartys</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#drucken" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Drucken</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#software" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Software</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#hardware" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Hardware</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#innenstadt" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Innenstadt</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#theresienstraße-lmu" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Theresienstraße (LMU)</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#großhadern" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Großhadern</span> </a>  </li><li class="astro-g2bywc46" style="--depth: 0;"> <a href="#garching" class="astro-g2bywc46" style="--depth: 0;"> <span class="astro-g2bywc46" style="--depth: 0;">Garching</span> </a>  </li> </ul> </nav></starlight-toc><script type="module" src="/_astro/TableOfContents.astro_astro_type_script_index_0_lang.CKWWgpjV.js"></script></div></div> </div> </aside> <div class="main-pane astro-67yu43on">  <main data-pagefind-body class="astro-bguv2lll" lang="de" dir="ltr">    <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <h1 id="_top" class="astro-j6tvhyss">Erstsemester - Reader</h1>  </div> </div>  <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <div class="sl-markdown-content"> <p>Unten ist die vereinfachte Webversion
+<a href="/src/assets/erstireader.pdf" target="_blank" rel="noopener noreferrer">dieses ErstiReaders in PDF Form</a>, was als ein Guide zum ersten Semester von Bachelor Bioinformatik
+dienen dürfte.</p>
+<p>Fachschaft Bioinformatik <br>
+<a href="http://www.bioinfo.fs.lmu.de">www.bioinfo.fs.lmu.de</a> <br>
+<a href="mailto:offizielle@bioinformatik-muenchen.com">offizielle@bioinformatik-muenchen.com</a> <br>
+instagram.com/bioinformatik_muenchen</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="dont-panic">Don’t Panic</h1><a class="sl-anchor-link" href="#dont-panic"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Don’t Panic“</span></a></div>
+<p>So, nun ist es also soweit… der erste Tag an der Uni… hoppla, wo
+muss ich denn eigentlich hin? Wie, „Einführungsveranstaltung”? Wo ist
+denn „Hörsaal 3”? Hm… da drüben stehen auch so ein paar vereinzelte
+Leute rum, ob die wohl auch heute mit dem Studium anfangen? Oh, da ist
+der Raum, und ich denke, dass ich da hin muss… Puh! Geschafft,
+endlich am Ziel, aber irgendwie… ist schon komisch hier…<br/>
+Kennst du dieses Gefühl? Ist es dir heute auch so ergangen? Macht
+nichts! Da bist du nicht der Einzige, der das durchmacht… dieses
+Gefühl hatte jeder am Anfang, aber das vergeht schneller als du denkst.
+Einfach mal tief durchatmen, und dann wird dir die Informationsfülle,
+die in den ersten Tagen über dich hereinbricht, auch gar nicht mehr so
+endlos vorkommen.<br/>
+Doch ein paar Informationen sind, gerade jetzt am Anfang deines
+Studiums, doch recht nützlich. Und dazu haben wir, die Bioinformatik
+Fachschaft, diesen Erstsemester-Reader für dich zusammengestellt. Wenn
+du darüber hinaus noch Fragen hast, dann schreib einfach eine E-mail an
+<a href="mailto:offizielle@bioinformatik-muenchen.com" class="underline"><a href="mailto:offizielle@bioinformatik-muenchen.com">offizielle@bioinformatik-muenchen.com</a></a>, schau auf unserem
+Instagram-Account vorbei oder frag einen von deinen Mentoren.<br>
+Was wird dich nun also erwarten? Nun, zunächst mal musst du dich in
+deinem Studium selbst organisieren. Niemand wird dich zu irgendetwas
+zwingen, das musst du selber machen :-)<br>
+Doch nicht nur die Organisation ist neu, auch die Umgebung ist alles
+andere als vertraut. Aber es wird sicher nicht lange dauern, bis du dich
+hier ganz daheim fühlst und du dir nicht mehr vorstellen kannst, dass du
+es hier mal so richtig fremd gefunden hast.<br>
+Mach dir auch keine Gedanken, wenn du mal in deinen Vorlesungen sitzt
+und absolut gar nichts mehr verstehst. Auch das ist normal und passiert
+jedem Studierenden (gelegentlich), auch in höheren Semestern. Einfach
+nicht abschrecken lassen und ruhig mal deinen Übungsbetreuer und/oder
+Professor fragen. Die freuen sich, wenn du in ihrer Sprechstunde
+vorbeischaust. Und sag dir immer: es gibt keine blöden Fragen, nur ab
+und an blöde Antworten!!! Lass dich auch nicht von schwierigen
+Übungsblättern entmutigen, auch das ist bei unserem Studiengang normal.
+Hier hilft am besten: Zusammenarbeiten! Auch wenn du mal durch die ein
+oder andere Prüfung fällst, ist das nicht schlimm, dann probierst du es
+einfach noch einmal.<br>
+Du hast dich für ein schönes, aber auch anstrengendes Studium
+entschieden, das sich nicht zwischen zwei Partys erledigen lässt,
+sondern das dich oftmals an den eigenen Schreibtisch bindet und das
+seine Zeit braucht.<br>
+Aber es ist nicht alles so grau, wie es auf den ersten Blick ausschaut.
+Das Studentenleben hat unheimlich viele Vorteile, die du auch nutzen
+solltest. Schließlich kann man nicht die ganze Zeit durchlernen, sondern
+braucht auch hin und wieder Zeit, um sich zu regenerieren. Und für diese
+Zeit bietet das Student/in-Sein einfach schöne Alternativen… Also,
+keine Panik! Beiß einfach am Anfang die Zähne zusammen!\</p>
+<p style="font-size: 1.5rem;">Viel Spaß und Erfolg im Studium!</p>
+<p><img src="/src/assets/ersti-reader/Witz.png" alt="image"></p>
+<div class="sl-heading-wrapper level-h1"><h1 id="fachschaft-und-studierendenvertretung">Fachschaft und Studierendenvertretung</h1><a class="sl-anchor-link" href="#fachschaft-und-studierendenvertretung"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Fachschaft und Studierendenvertretung“</span></a></div>
+<p>Allgemein besteht die Fachschaft aus allen, die eine bestimmte
+Fachrichtung studieren, also in unserem Fall Bioinformatik. Allerdings
+wollen sich einige Leute mehr engagieren und stellen somit die aktive
+Fachschaft.</p>
+<p>Aber was genau macht denn jetzt so eine Fachschaft?<br>
+Einerseits ist die Fachschaft die Vertretung der Studierenden gegenüber
+der Universität. Deshalb gibt es auch jedes Jahr Fachschaftswahlen, bei
+denen die Studierendenvertreter für ein Jahr gewählt werden.<br>
+Solltest du also Probleme oder Kritik haben, so erzähl sie der
+Fachschaft, denn wir können nur dann etwas gegen „Missstände” tun, wenn
+wir davon wissen!</p>
+<p>Andererseits tut die Fachschaft auch viele Dinge, um Studierenden das
+Leben schöner und leichter zu machen, z.B. Partys organisieren oder
+Altklausuren sammeln. Dies alles wird ehrenamtlich gemacht, also sei
+nett zu Fachschaftlern ;-))</p>
+<p>Generell gilt, dass an studentischem Leben nur soviel passiert, wie es
+jemanden gibt, der sich drum kümmert. Wenn du also gerne möchtest, dass
+es viele Feste, Hilfsangebote und ähnliches mehr gibt, dann überleg dir,
+wie du selbst dazu beitragen kannst. Eine gute Anlaufstelle, wenn du
+eine Idee hast und Hilfe bei der Umsetzung brauchst, ist dann natürlich
+die Fachschaft. Du gestaltest die Atmosphäre in der Uni mit und die ist
+umso besser je mehr sich engagieren!</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="fachschaft-bioinformatik">Fachschaft Bioinformatik</h2><a class="sl-anchor-link" href="#fachschaft-bioinformatik"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Fachschaft Bioinformatik“</span></a></div>
+<p><img src="/src/assets/ersti-reader/2fs_logo_fin_schwarz.png" alt="image"></p>
+<p>Die Fachschaft Bioinformatik ist eine relativ neue Fachschaft, die sich
+erst 2008 gegründet hat, da wir festgestellt haben, dass wir durch die
+Tatsache, dass wir ein gemeinsamer Studiengang sind, weder bei der GAF
+(Fachschaft der LMU) noch bei der Fachschaft MPIC (Fachschaft der TUM)
+wirklich reinpassen. Also, wenn du Anregungen, Probleme oder Kritik hast
+oder einfach nur ein Skript zu einer Vorlesung brauchst, dann bist du
+bei der Bioinformatik-Fachschaft richtig. Wenn du neue Kontakte knüpfen
+möchtest oder Hilfe im Studium benötigst, wende dich an uns!</p>
+<p>Und damit du gleich weißt, mit wem du es zu tun hast, hier die fünf
+gewählten FachschaftsvertreterInnen, die unsere Interessen an der LMU
+vertreten:</p>
+<figure><img src="/src/assets/ersti-reader/P_FS25_26.jpeg" alt="Fachschaft-Foto" width="550"/><figcaption>Eure Fachschaft. v.l.n.r.: Johannes, Emma, Yahav, Pia,
+Tolga</figcaption></figure>
+<p>Komm einfach zu unserem nächsten Fachschaftstreffen vorbei, wenn du
+nicht alleine ins Studium starten möchtest. Den genauen Termin geben wir
+an den Einführungstagen und in der WhatsApp-Gruppe “‘Aktive
+Fachschaft”’ bekannt.</p>
+<p>Es gibt an der TUM als auch an der LMU die oben erwähnten Fachschaften,
+die unter anderem die Informatik-Studierende vertreten. Im Folgenden
+seien diese kurz vorgestellt:</p>
+<ul>
+<li>
+<p>LMU: GAF (Gruppe aktiver Fachschaftika)</p>
+</li>
+<li>
+<p>TUM: Fachschaft MPIC (Fachschaft
+Mathematik/Physik/Informatik/Chemie)</p>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="gaf">GAF</h2><a class="sl-anchor-link" href="#gaf"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „GAF“</span></a></div>
+<p>Zur GAF gehören Studierende der Studiengänge, die offiziell den
+(LMU)-Fakultäten 16 (Mathematik, Informatik) und 17 (Physik) zugerechnet
+werden. Die GAF hat eine große Sammlung an Altklausuren und Skripten für
+die Vorlesungen an der LMU. Solltest du also spezielle Fragen zu
+LMU-Mathe/Info-Vorlesungen haben, so kann es sich auch lohnen bei der
+GAF nachzufragen.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="fachschaft-mpic">Fachschaft MPIC</h2><a class="sl-anchor-link" href="#fachschaft-mpic"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Fachschaft MPIC“</span></a></div>
+<p>Das sind zunächst mal alle, die an der TUM Mathematik, Physik,
+Informatik oder Chemie studieren, zusammengeschlossen in einer großen
+Fachschaft. Sie besteht aus allen aktiven Studierenden der School of
+Natural Sciences (NAT) und School of Computation, Information and
+Technology (CIT). Die MPIC bietet mehrere Dienste an wie bspw. den
+Skriptenverkauf, den 3D-Druck, den Verleih von Sportausrüstung, als auch
+die Studienberatung in allen Lebenslagen.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="stuve-lmu">StuVe LMU</h2><a class="sl-anchor-link" href="#stuve-lmu"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „StuVe LMU“</span></a></div>
+<p>Die StuVe ist die zentrale Studierendenvertretung der LMU und setzt sich
+u.a. aus sogenannten Referaten und Arbeitskreisen zusammen, in denen man
+sich mit anderen Studierenden vernetzen kann.<br>
+Die Referate sind Anlaufstellen, bei denen du dich für höchstpersönliche
+Anliegen oder auch für die Verbesserung des Studiums einsetzen kannst.
+Bspw. beim Queer Referat oder Referat für Studium kann man
+Gleichgesinnte finden. Frag einfach mal bei uns nach, was es alles gibt.
+Durch die StuVe sind wir auch offiziell an der LMU vertreten, indem die
+gewählte Fachschaft jedes Jahr in den Konvent der Fachschaften ihre
+Vertretungen entsendet, die im Sinne des gesamten Studienganges
+Hochschulangelegenheiten abstimmen und sich für dich einsetzen.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="studientipps">Studientipps</h1><a class="sl-anchor-link" href="#studientipps"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Studientipps“</span></a></div>
+<p>Hier haben wir für dich ein buntes Sammelsurium an Tipps zum Studium
+zusammengestellt. Sicherlich passt nicht jeder Tipp für jeden, dem einen
+wird manches völlig selbstverständlich erscheinen, dem anderen total
+unsinnig. Aber diese Tipps sind aus Erfahrungen und Fehlern entstanden
+und können sicher Einigen weiterhelfen, auch wenn natürlich letztlich
+jeder seine eigenen Erfahrungen machen muss.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="vor--und-nacharbeiten">Vor- und Nacharbeiten</h4><a class="sl-anchor-link" href="#vor--und-nacharbeiten"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Vor- und Nacharbeiten“</span></a></div>
+<p>Ständiges Vor- und Nacharbeiten jeder einzelnen Vorlesung ist der
+Schlüssel zum Erfolg. Es erfordert aber wirklich die Konsequenz jeden
+Tag etwas zu machen. Der Gedanke, etwas auf das Wochenende verschieben
+zu wollen führt in der Regel dazu, dass man es doch vielleicht weniger
+genau macht, oder dass es zur Anhäufung nicht oder nur teilweise
+bewältigten Stoffes führt. Diese Lücken lassen sich nur mit einem
+überdurchschnittlich hohen Arbeitsaufwand wieder schließen.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="repetition">Repetition</h4><a class="sl-anchor-link" href="#repetition"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Repetition“</span></a></div>
+<p>Im Verlauf des Studiums muss man sich einen großen Wissensschatz so
+aneignen, dass er abrufbereit ist. Einmaliges Verstehen reicht dazu
+leider nicht aus. Plane deshalb möglichst von vornherein Wiederholungen
+ein. Die erste Wiederholung sollte dabei noch am selben Tag stattfinden,
+wenn du den Stoff nacharbeitest, eine zweite nach ca. einer Woche. Es
+schadet auch nicht, Zusammenfassungen zu jedem Teilgebiet eines
+Semesters zu verfassen und diese immer mal wieder anzuschauen.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="arbeitsgruppen">Arbeitsgruppen</h4><a class="sl-anchor-link" href="#arbeitsgruppen"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Arbeitsgruppen“</span></a></div>
+<p>Alleine ist noch niemand sonderlich erfolgreich durchs Studium gekommen.
+Deswegen gilt: Lerne Leute kennen, bilde Arbeitsgruppen!! Dabei solltest
+du darauf achten, dass ihr in eurer Art zu lernen zueinander passt. Wie
+gut eine Lerngruppe funktioniert hängt vom Klima ab, also auch von dir.
+Die „richtige” Arbeitsgruppe findet niemand, sie entsteht erst durch das
+gemeinsame, engagierte Arbeiten. Zeige also bei der Bildung von Gruppen
+Initiative und tausche dich mit vielen Anderen aus.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="nachklausuren">Nachklausuren</h4><a class="sl-anchor-link" href="#nachklausuren"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Nachklausuren“</span></a></div>
+<p>Es mag sehr verlockend sein, teilweise Klausuren auszulassen und einfach
+die Nachklausur zu schreiben, was man sich dann mit dem Gedanken „dann
+hab ich ja mehr Zeit zum lernen” schön redet. Dies klappt aber meistens
+nur bedingt gut, da man 1) dann lieber die Semesterferien genießt und 2)
+die Profs gerne mal die Nachklausur etwas schwerer gestalten /
+Grenzfälle des Stoffes abfragen. Dies ist natürlich keine Regel, jedoch
+haben wir diese Erfahrung über die Jahre gemacht.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="fragen">Fragen</h4><a class="sl-anchor-link" href="#fragen"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Fragen“</span></a></div>
+<p>Fragen werden während deines Studiums in Massen auf dich zu kommen.
+Stell sie! Nutze das Angebot in den Tutorien und Übungen Fragen stellen
+zu können, wenn etwas noch nicht klar ist. Auch in der Vorlesung kann
+man durchaus mal eine Zwischenfrage stellen, wenn es zu abgehoben wird.
+Stell dabei unbedingt auch Fragen, die dir blöd vorkommen. Meist gibt es
+noch eine ganze Reihe anderer, die sich auch genau das oder doch etwas
+ähnliches in dem Moment gefragt haben. Außerdem gibt es auch noch die
+Sprechstunden der Professoren und Assistenten, die sicher nicht dazu da
+sind, dass diese allein in ihren Zimmern sitzen.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="bioinformatik">Bioinformatik</h1><a class="sl-anchor-link" href="#bioinformatik"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Bioinformatik“</span></a></div>
+<p>So, jetzt genug mit den Fachschaften und hin zu dem Thema, wegen dem wir
+alle hier sind: Bioinformatik! Wahrscheinlich hast du dich vor dem
+Studium schon informiert, was Bioinformatik sein soll und bist aus den
+Beschreibungen nicht wirklich schlau geworden. Wenn doch: Glückwunsch,
+ruf an und sag uns, was Bioinformatik ist, denn wir wissen’s nicht. Wenn
+nein: Glückwunsch, es geht dir so wie allen anderen und das ist nicht
+weiter schlimm… Irgendwann wird das von selber klar :-)<br>
+Erst mal die harten Fakten zum Studium:</p>
+<p>Alle Informationen unter Vorbehalt. Im Zweifelsfall gilt die offizielle
+Studien- bzw. Prüfungsordnung.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="allgemeiner-ablauf-des-studiums">Allgemeiner Ablauf des Studiums</h4><a class="sl-anchor-link" href="#allgemeiner-ablauf-des-studiums"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Allgemeiner Ablauf des Studiums“</span></a></div>
+<p>Im Laufe eures Bachelorstudiums musst du 180 ECTS-Punkte (auch Credit
+Points, CP) sammeln. Jeder Veranstaltung im Studium wurde eine bestimmte
+Anzahl von Credit Points zugewiesen. Wenn du zu einer Veranstaltung die
+zugehörige Prüfung bestanden hast, dann wird die volle Anzahl an Credit
+Points deinem persönlichen Punktekonto im Prüfungsamt hinzugefügt. Die
+Prüfungen sind meistens Klausuren, können aber auch mündliche Prüfungen
+oder Vorträge sein.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="notenvergabe">Notenvergabe</h4><a class="sl-anchor-link" href="#notenvergabe"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Notenvergabe“</span></a></div>
+<p>Um das Studium erfolgreich abzuschließen, musst du jede Prüfung
+bestehen, da du nur dann die Credit Points gutgeschrieben bekommst.
+Insgesamt brauchst du 180 davon. Alle Prüfungen gehen mit den ECTS
+Punkten gewichtet in die Endnote ein.<br>
+Beispielrechnung: Du hast eine 4.0 mit der Gewichtung 3, eine 1.0 mit
+der Gewichtung 6 und eine 2.0 mit der Gewichtung 9.</p>
+<p>Die Note ist dann: <pre>(4.0 * 3 + 1.0 * 6 + 2.0 * 9) / 18 = 2.0</pre></p>
+<div class="sl-heading-wrapper level-h4"><h4 id="lmu--tum">LMU &#x26; TUM</h4><a class="sl-anchor-link" href="#lmu--tum"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „LMU &#x26; TUM“</span></a></div>
+<p><em>Soll ich Mathe und Info an der TUM oder an der LMU hören?</em> Das ist
+Geschmackssache. Befrag am besten höhersemestrige Bioinformatiker. Die
+Studienordnung erlaubt nun auch den Mathe-Info-Block gemischt an beiden
+Universitäten zu hören. Dabei müsst ihr aber beachten, dass sich dies
+eigentlich nur bei den Fächern ‘Datenbanken (TU)’ und ‘Datenbanksystemen
+(LMU)’ sowie ‘Algorithmen und Datenstrukturen (TU/LMU)’ anbietet. Nur
+diese Paarungen geben euch die gleiche Anzahl an ECTS und finden in
+denselben Semestern statt.</p>
+<p><img src="/src/assets/ersti-reader/board_loop.png" alt="image"></p>
+<div class="sl-heading-wrapper level-h1"><h1 id="die-professorinnen">Die Professor*innen</h1><a class="sl-anchor-link" href="#die-professorinnen"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Die Professor*innen“</span></a></div>
+<p>Damit du jenseits der Fakten auch mal die Menschen siehst, die hinter
+dem Bioinformatik-Studiengang stecken, hier zumindest die
+Professor*innen, bei denen du in den nächsten Jahren immer wieder
+Bioinformatik-Vorlesungen hören wirst.</p>
+<figure id="fig2e"><figure id="fig2a"><img src="/src/assets/ersti-reader/P_Zimmer.jpg" style="width:1.7cm;height:2.1cm"/><figcaption>Ralf Zimmer, (Fakultät für Informatik, LMU)</figcaption></figure><figure id="fig2b"><img src="/src/assets/ersti-reader/P_Rost.jpg" style="width:1.7cm;height:2.1cm"/><figcaption>Burkhard Rost, (School of CIT, TUM)</figcaption></figure><figure id="fig2c"><img src="/src/assets/ersti-reader/P_Heun.jpg" style="width:1.7cm;height:2.1cm"/><figcaption>Volker Heun, (Fakultät für Informatik, LMU)</figcaption></figure><figure id="fig2e"><img src="/src/assets/ersti-reader/P_Friedel.jpg" style="width:1.7cm;height:2.1cm"/><figcaption>Caroline Friedel, (Frauenbeauftragte, Fakultät für
+Informatik, LMU)</figcaption></figure><figure id="fig2e"><img src="/src/assets/ersti-reader/P_List.jpg" style="width:2cm;height:2.1cm"/><figcaption>Markus List, (School of Life Sciences, TUM)</figcaption></figure><figure id="fig2f"><img src="/src/assets/ersti-reader/P_Gagneur.jpg" style="width:1.7cm;height:2.1cm"/><figcaption>Julien Gagneur, (School of CIT, TUM)</figcaption></figure><figure id="fig2d"><img src="/src/assets/ersti-reader/P_Frischman.jpg" style="width:1.7cm;height:2.1cm"/><figcaption>Dimitrij Frishman, (School of Life Sciences,
+TUM)</figcaption></figure><figure id="fig2e"><img src="/src/assets/ersti-reader/MW_1.JPG" style="width:1.7cm;height:2.3cm"/><figcaption>Mathias Wilhelm, (School of Life Sciences, TUM)</figcaption></figure></figure>
+<div class="sl-heading-wrapper level-h1"><h1 id="kennungen-an-der-lmu--tum-für-bioinformatiker">Kennungen an der LMU &#x26; TUM für Bioinformatiker</h1><a class="sl-anchor-link" href="#kennungen-an-der-lmu--tum-für-bioinformatiker"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Kennungen an der LMU &#x26; TUM für Bioinformatiker“</span></a></div>
+<p>Ein Studium an den beiden Münchner Unis hat viele Vorteile, aber leider
+auch ein paar Nachteile. Einer davon ist, dass jede Uni ihre eigenen
+Onlineportale hat und man zu jedem natürlich auch einen eigenen
+Benutzernamen mit Passwort hat. Um den Überblick dabei nicht zu
+verlieren, werden hier die wichtigsten drei Portale vorgestellt.
+Außerdem gibt es Informationen, wie man die Kennung beantragt,
+konfiguriert und wozu sie eigentlich da ist. Da jede Kennung
+gleichzeitig auch eine E-Mail-Adresse ist, an die wichtige Mails
+geschickt werden, sollte man sich am besten überall Weiterleitungen an
+eine zentrale Adresse einrichten.</p>
+<p>Die LMU wie die TUM haben ein uni-weites Onlineportal: „Campus LMU” und
+„TUM Online”. Außerdem hat jede der beiden Informatikfakultäten ihre
+eigenen Computerräume und damit auch Kennungen.</p>
+<p><strong>Campus LMU</strong><br>
+Beantragung: Bekommt man direkt bei der Immatrikulation.<br>
+Konfiguration: <a href="https://www.portal.uni-muenchen.de/start/index.html">https://www.portal.uni-muenchen.de/start/index.html</a> <br>
+Email: [login]@campus.lmu.de <br>
+Funktionen: Emailweiterleitung, Studienstatus, Terminkalender, …</p>
+<p>Und unter <a href="http://qissos.verwaltung.uni-muenchen.de">http://qissos.verwaltung.uni-muenchen.de</a>:
+Studienbescheinigungen, Beitragskonto einsehen, Adressänderungen</p>
+<p><strong>TUM Online</strong><br>
+Beantragung: Bekommt man automatisch an die LMU Campus-Mail zugeschickt.
+Kann aber nach Immatrikulation etwas dauern.<br>
+Konfiguration: <a href="https://campus.tum.de/tumonline/">https://campus.tum.de/tumonline/</a>
+Email: [login]@tum.de <br>
+Funktionen: Emailweiterleitung, Studienstatus, Studienbescheinigungen,
+Prüfungs An-/Abmeldung, Prüfungsergebnisse einsehen (auch von LMU
+Prüfungen bei uns!), Adressänderungen</p>
+<p><strong>CIP-Kennung</strong><br>
+Beantragung: online auf <a href="https://conf.cip.ifi.lmu.de">https://conf.cip.ifi.lmu.de</a> <br>
+Konfiguration: <a href="https://conf.cip.ifi.lmu.de">https://conf.cip.ifi.lmu.de</a> <br>
+Informationen: <a href="https://www.rz.ifi.lmu.de/infos/cipconf_de.de">https://www.rz.ifi.lmu.de/infos/cipconf_de.de</a> <br>
+Email: [login]@cip.ifi.lmu.de <br>
+Funktionen: Benutzung der CIP-Pools LMU weit, Remote SSH-Zugriff
+(remote.cip.ifi.lmu.de), eigene Webseite, Datenbanken, GIT &#x26; SVN Server,
+Zugriff auf MSDNAA (Microsoft Produkte kostenlos), 500 sw-Seiten pro
+Semester kostenlos Drucken</p>
+<p>Diese drei Kennungen werden die ersten sein, mit denen man als
+Studienanfänger in München zu tun bekommt. Daneben gibt es natürlich
+noch andere Kennungen z.B. für Bibliotheken und Lehrstuhl-Computerräume.
+Daneben gibt noch andere Kennungen, welche ihr auf euren
+Studierendenausweis (LMUCard und TUMCard) finden könnt:</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="lmucard">LMUCard</h2><a class="sl-anchor-link" href="#lmucard"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „LMUCard“</span></a></div>
+<p>Beantragung: Persönliche Immatrikulation<br>
+Infos: <a href="https://www.it-servicedesk.uni-muenchen.de/lmucard/index.de">https://www.it-servicedesk.uni-muenchen.de/lmucard/index.de</a> <br>
+Wichtig: Einmal vor Beginn jedes Semesters validieren!<br>
+Funktionen: Studierendenausweis, Mensa-Karte, Bibliotheksausweis (alle
+LMU Bibliotheken und Fachbibliotheken sowie für die Bayrische
+Staatsbibliothek)</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="tumcard">TUMCard</h2><a class="sl-anchor-link" href="#tumcard"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „TUMCard“</span></a></div>
+<p>Beantragung: Foto hochladen und Mail an die Studieninformation
+(<a href="mailto:studium@tum.de">studium@tum.de</a>) schicken.<br>
+Weil wir ein Kooperationsstudiengang sind, wird die TUMCard uns nicht
+zuverlässig automatisch ausgestellt. Ihr braucht sie aber unbedingt, um
+euch für TUM-Prüfungen ausweisen zu können!<br>
+Informationen: <a href="https://www.tum.de/studium/bewerbung/student-card/">https://www.tum.de/studium/bewerbung/student-card/</a>
+Funktionen: Exakt gleich zur LMUCard nur für die TUM, aber
+Bibliotheksausweis nur gültig für die TUM Bibliotheken und StudiTUM.\</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="die-lmu">Die LMU</h1><a class="sl-anchor-link" href="#die-lmu"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Die LMU“</span></a></div>
+<p><img src="/src/assets/ersti-reader/LMU_logo.png" alt="image"></p>
+<p>Die LMU (Ludwig-Maximilians-Universität) wurde 1472 in Ingolstadt mit
+päpstlicher Genehmigung von Herzog Ludwig dem Reichen von
+Bayern-Landshut als erste bayerische Universität mit dem Namen
+Universität Ingolstadt gegründet. (Würzburg, wo schon von 1402 bis 1412
+eine Universität bestanden hatte, gehörte damals nicht zu Bayern.)
+Erster Rektor der Universität war Dr. Christoph Mendel von Steinfels
+(später Bischof des Bistums Chiemsee).<br>
+In den ersten Jahrhunderten wurde die Universität Ingolstadt vom
+Jesuitenorden geprägt und war eines der Zentren der Gegenreformation.
+Unter anderem lehrten Johannes Eck, der heilige Petrus Canisius als
+Rektor sowie Conrad Celtis und Johannes Reuchlin Mitte des 16.
+Jahrhunderts an der Universität.<br>
+Kurfürst Max IV. Joseph (der spätere König Maximilian I.) von Bayern
+verlegte 1800 die Universität nach Landshut. 26 Jahre später, 1826,
+holte König Ludwig I. die Universität, an der damals unter anderem
+Friedrich von Schelling und Joseph Görres lehrten, in die Hauptstadt
+München. Die Universität war zunächst im heutigen Landesamt für
+Statistik untergebracht, bevor 1840 das von Friedrich von Gärtner
+geplante und immer noch als solches genutzte Hauptgebäude fertiggestellt
+wurde.\</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="hauptgebäude">Hauptgebäude</h4><a class="sl-anchor-link" href="#hauptgebäude"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Hauptgebäude“</span></a></div>
+<p>Vermutlich hast du das Hauptgebäude der LMU schon gefunden, aber wenn
+nicht, dann steigst du in die U3 oder U6 und fährst bis zur Haltestelle
+Universität. Wenn du jetzt nach oben gehst (egal auf welcher Seite),
+dann bist du schon fast da. Direkt am Geschwister-Scholl-Platz liegt das
+Hauptgebäude. In der direkten Umgebung findest du auch die
+Universitätsbibliothek der LMU und die bayerische Staatsbibliothek
+(StaBi).</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="amalienstraße-17">Amalienstraße 17</h4><a class="sl-anchor-link" href="#amalienstraße-17"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Amalienstraße 17“</span></a></div>
+<p>In der Amalienstraße liegt das Bioinformatik-Gebäude der LMU. Am besten
+erreichst du das Gebäude wenn du mit der U3 oder der U6 entweder zur
+Haltestelle Odeonsplatz oder zur Haltestelle Universität fährst.<br>
+Hier findest du die Professor*innen Ralf Zimmer, Volker Heun und
+Caroline Friedel. Außerdem gibt es einen Computerraum mit
+Bioinformatik-Labor und mehrere Seminarräume.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="theresienstraße-37---41">Theresienstraße 37 - 41</h4><a class="sl-anchor-link" href="#theresienstraße-37---41"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Theresienstraße 37 - 41“</span></a></div>
+<p>In der Theresienstraße liegt das Mathematik-Gebäude der LMU. Erreichen
+kannst du das Gebäude entweder von denselben Haltestellen aus wie die
+Amalienstraße oder von der Haltestelle Theresienstraße (U2) aus. Da das
+Gebäude recht groß und unübersichtlich ist, findest du am Ende dieses
+Readers u.a. den Gebäudeplan. Im Gebäude befindet sich auch das Café
+Gumbel.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="für-zwischendurch-und-hinterher-das-café-gumbel">Für Zwischendurch und Hinterher: das Café Gumbel</h4><a class="sl-anchor-link" href="#für-zwischendurch-und-hinterher-das-café-gumbel"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Für Zwischendurch und Hinterher: das Café Gumbel“</span></a></div>
+<p>Zwischen und nach den Vorlesungen kannst du dir die Zeit im Café Gumbel
+vertreiben (Theresienstraße, Raum B 030). Das Gumbel wurde den
+Studierenden vor Jahren als Erholungsraum überlassen. Benannt wurde es
+nach einem Professor, der Widerstand gegen das NS-Regime leistete. Du
+hast im Café Gumbel die Möglichkeit, es dir bei einer Tasse Kaffee auf
+einer der zahlreichen Sitzgelegenheiten gemütlich zu machen, mit
+Freunden zu plaudern, etwas zu lesen, zu spielen, Brotzeit zu machen und
+— falls du noch nicht genug davon hast — zu lernen.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="richard-wagner-straße-10">Richard-Wagner-Straße 10</h4><a class="sl-anchor-link" href="#richard-wagner-straße-10"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Richard-Wagner-Straße 10“</span></a></div>
+<p>Am besten fährst du mit der U2 zum Königsplatz und gehst dort in
+Richtung Brienner Straße nach oben. Direkt auf der gegenüberliegenden
+Straßenseite zweigt die Richard-Wagner-Straße ab.<br>
+Hier ist auch das Paläontologische Institut, das heißt, wenn du
+plötzlich Auge in Auge mit einem Mammutskelett stehst, dann bist du
+richtig ;-)).</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="high-tech-campus-großhadern">High-Tech-Campus Großhadern</h4><a class="sl-anchor-link" href="#high-tech-campus-großhadern"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „High-Tech-Campus Großhadern“</span></a></div>
+<p>Der High-Tech-Campus der Pharmazeuten und Chemiker ist ganz einfach zu
+erreichen: Mit der U6 Richtung Klinikum Großhadern fahren und in
+Großhadern aussteigen. Hinten (!) hochgehen und dort entweder einfach
+die Würmtalstraße runterlaufen oder in die Busse 268 oder 266 einsteigen
+und an der Haltestelle Waldhüterstraße (das sind nur zwei Stationen)
+wieder aussteigen. Voilà, die großen weißen Gebäude sind das Ziel! Auch
+hierfür findest du am Ende des Readers einen Plan.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="biozentrum-martinsried">Biozentrum Martinsried</h4><a class="sl-anchor-link" href="#biozentrum-martinsried"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Biozentrum Martinsried“</span></a></div>
+<p>Das neue Biozentrum in Martinsried liegt gleich um die Ecke des
+High-Tech-Campus. Ab der Haltestelle Großhadern kannst du den Bus 266
+(und nur den!) nehmen und an der Haltestelle „Großhaderner Straße”
+aussteigen (das sind drei Stationen).</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="schweinchenbau">Schweinchenbau</h4><a class="sl-anchor-link" href="#schweinchenbau"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Schweinchenbau“</span></a></div>
+<p>Hinter diesem betörend schönen Namen verbirgt sich ein
+(schweinchenrosanes) Gebäude an der Haltestelle Giselastraße (U3 oder
+U6), in dem die Studentenwerksbibliothek untergebracht ist. Außerdem
+versteckt sich dahinter eine der Mensen.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="die-tum">Die TUM</h1><a class="sl-anchor-link" href="#die-tum"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Die TUM“</span></a></div>
+<img src="/src/assets/ersti-reader/tum_logo.png" alt="Example image" width="300" style="float: left; margin: 1.5em 1em 1em 0 ; width: 200px;"/>
+<p>Die TUM (Technische Universität München) wurde 1868 durch König Ludwig
+II. von Bayern als Polytechnische Schule gegründet und ab 1877 offiziell
+als Königlich Bayerische Technische Hochschule München bezeichnet. Die
+Umbenennung von TH in TU erfolgte 1970.<br>
+1901 wurde der Hochschule das Promotionsrecht verliehen. Die Hochschule
+für Landwirtschaft und Brauerei Weihenstephan wurde 1930 integriert.
+1937 wurde unter Max Schmitt die Planung für einen Universitätsneubau in
+Nymphenburg fortgesetzt, sie wurde nie umgesetzt.<br>
+Während des zweiten Weltkriegs wurden die Einrichtungen auf dem
+Stammgelände zu 80 % zerstört, der Universitätsbetrieb wurde 1946 wieder
+aufgenommen. Der Standort Garching wurde 1957 durch die Inbetriebnahme
+des Forschungsreaktors München (FRM) begründet. 1967 wurde am Klinikum
+rechts der Isar die medizinische Fakultät eröffnet. Die
+Forschungs-Neutronenquelle Heinz Maier-Leibnitz (FRM II) wurde 2004 als
+Nachfolger des FRM in Garching in Betrieb genommen.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="stammgelände-innenstadt">Stammgelände Innenstadt</h4><a class="sl-anchor-link" href="#stammgelände-innenstadt"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Stammgelände Innenstadt“</span></a></div>
+<p>Das Stammgelände der TUM liegt in der Innenstadt zwischen den
+U-Bahn-Haltestellen Theresienstraße und Königsplatz, die beide von der
+Linie U2 angefahren werden.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="campus-garching">Campus Garching</h4><a class="sl-anchor-link" href="#campus-garching"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Campus Garching“</span></a></div>
+<p>Hier wirst du (zumindest am Anfang) nur Vorlesungen haben, wenn du Mathe
+und Info an der TUM wählst. Unsere Schriftführerin sitzt ebenfalls
+hier.<br>
+Die Anfahrt ist grandios einfach aber auch weit: Einfach mit der U6
+Richtung Garching Forschungszentrum bis zur Endstation fahren und schon
+bist du da! Die beiden wichtigsten Gebäude im ersten Semester sind das
+MI (Mathematik und Informatik-Gebäude) und das MW. Wie du dort
+hinkommst, ist schon unten in der Haltestelle ausgeschildert.<br>
+Damit du dich in Garching zurechtfindest, gibt es am Ende des Readers
+auch hiervon einen Übersichtsplan.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="c2---die-campus-cneipe">C2 - Die Campus Cneipe</h4><a class="sl-anchor-link" href="#c2---die-campus-cneipe"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „C2 - Die Campus Cneipe“</span></a></div>
+<p>Wenn wir schon in Garching sind, darf auch die Campus-Cneipe nicht
+fehlen. Hier ist der ideale Platz, um nach oder vor einer Vorlesung
+einen Kaffee oder ein Radler zu geniessen oder die Vorlesung vor- oder
+nachzubereiten. Im Sommer lädt draußen der Biergarten zum Sonnenbaden
+ein und im Winter ist es drinnen absolut gemütlich. Die Musik ist gut,
+die Preise moderat und die Bedienungen bestens gelaunt. Und als
+besonderes Schmankerl ist das Uni-WLAN auch in der Campus-Cneipe
+verfügbar.<br>
+Das C2 wurde 2006 aus einer studentischen Initiative heraus gegründet
+und wird durch einen Verein getragen, dessen Ziel es ist, den Campus
+Garching attraktiver und „wohnlicher” zu gestalten. Der Gewinn der hier
+gemacht wird, kommt also direkt wieder den Studenten zugute.<br>
+Das C2 ist außerdem ein super Ort für die ein oder andere
+Fachschaftsparty :)</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="galileo-tum">Galileo TUM</h4><a class="sl-anchor-link" href="#galileo-tum"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Galileo TUM“</span></a></div>
+<p>Vor Kurzem erst fertiggestellt, steht in Garching außerdem der
+GALILEO-Komplex. Neben einer neuen Mensa, zahlreichen Hörsälen, dem
+Audimax und weiteren uni-relevanten Räumen befinden sich in dem Gebäude
+Geschäfte, Restaurants, ein Fitnessstudio und ein Kino.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="bibliotheken">Bibliotheken</h1><a class="sl-anchor-link" href="#bibliotheken"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Bibliotheken“</span></a></div>
+<p>Als Student an zwei Universitäten steht dir eine große Fülle an
+Bibliotheken zur Verfügung, die du nutzen kannst und auch solltest.
+Findet sich ein gesuchtes Buch in der einen Bibliothek nicht, dann guck
+mal in einer der Anderen. Einige der Bibliotheken haben außerdem einen
+großen online-Katalog an Papers und wissenschaftlichen Büchern, die du
+bequem von zuhause aus herunterladen kannst.</p>
+<p><strong>Studentenwerksbibliothek</strong> <br>
+Leopoldstr. 13 (Haus 1) <br>
+80802 München<br>
+Telefon: +49 89 38196-237 <br>
+<a href="http://www.studierendenwerk-muenchen-oberbayern.de/bibliothek">www.studierendenwerk-muenchen-oberbayern.de/bibliothek</a> <br>
+Anfahrt: U3/U6 bis Haltestelle Giselastraße</p>
+<p><strong>Bayerische Staatsbibliothek</strong>  <br>
+Ludwigstr. 16 <br>
+80539 München <br>
+Telefon: +49 89 28638-0 <br>
+<a href="http://www.bsb-muenchen.de">www.bsb-muenchen.de</a> <br>
+Anfahrt: U3/U6 bis Haltestelle Universität oder Odeonsplatz</p>
+<p><strong>Universitätsbibliothek der LMU</strong> <br>
+Geschwister-Scholl-Platz 1<br>
+80539 München<br>
+Telefon: +49 89 2180-2429<br>
+<a href="http://www.ub.uni-muenchen.de">www.ub.uni-muenchen.de</a> <br>
+Anfahrt: U3/U6 bis Haltestelle Universität\</p>
+<p><strong>Universitätsbibliothek der TUM</strong> <br>
+<a href="http://www.ub.tum.de">www.ub.tum.de</a> <br>
+Teilbibliothek Mathematik/Informatik im MI in Garching</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="studierendenwerk">Studierendenwerk</h1><a class="sl-anchor-link" href="#studierendenwerk"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Studierendenwerk“</span></a></div>
+<p>Das Studierendenwerk bietet ein sehr breites und qualifiziertes
+Beratungsangebot für Studenten an. Wann immer es Probleme oder Fragen
+gibt kann man sich kostenlos an die folgenden Adressen
+(<strong>Helene-Mayer-Ring 9, U3 Olympiazentrum</strong>) wenden oder unter<br>
+<a href="https://www.studierendenwerk-muenchen-oberbayern.de/beratungsnetzwerk/">https://www.studierendenwerk-muenchen-oberbayern.de/beratungsnetzwerk/</a>
+weitere Anlaufstellen mit aktuellen Informationen finden:</p>
+<p><strong>BAFöG-Beratung</strong> <br>
+Leopoldstraße 15<br>
+Renate Spranger<br>
+Di-Mi 08:30 - 12:00 Uhr und 13:00 - 15:30, Do-Fr 09:00 - 13:00<br>
+<a href="mailto:beratung-m@bafoeg-bayern.de">beratung-m@bafoeg-bayern.de</a> <br>
++49 89 38196-1219</p>
+<p><strong>Allgemeine Beratung</strong> <br>
+HMR 9, Büro h1<br>
+Dipl.-Soz. Päd. Michael Bayer<br>
+Dipl.-Soz. Päd. Sibylle Hammer-Huba<br>
+Mo 13:00 - 14:00, Di 14:00 - 15:00, Mi 11:00-12:00 Uhr, Fr 10:00 - 11:00
+Uhr<br>
+<a href="mailto:asberatung-muenchen@stwm.de">asberatung-muenchen@stwm.de</a> <br>
+<a href="mailto:michael.bayer@stwm.de">michael.bayer@stwm.de</a> <br>
+<a href="mailto:sibylle.hammerhuba@stwm.de">sibylle.hammerhuba@stwm.de</a></p>
+<p><strong>Studienkreditberatung</strong>  <br>
+HMR 9<br>
+Frau Fuchssteiner und Frau Besada<br>
+Di-Fr 9.00-13.00 Uhr<br>
+<a href="mailto:studienkreditberatung@stwm.de">studienkreditberatung@stwm.de</a> <br>
++49 89 38196-1220</p>
+<p><strong>Psychosoziale und Psychotherapeutische Beratung</strong> <br>
+HMR 9, Raum h6<br>
+Mo-Fr 9.00-12.00 Uhr<br>
++49 89 38196-1202</p>
+<p><strong>Studieren mit Kind</strong> <br>
+HMR 9, Raum 108/109<br>
+Dipl.-Soz.päd. Christine Mock oder Dipl.-Soz.päd. Ana-Maria Golestani<br>
+Do 14.00-17.00 Uhr bzw. Fr 10.00-13.00 Uhr<br>
+<a href="mailto:sonja.simnacher@stwm.de">sonja.simnacher@stwm.de</a></p>
+<p><strong>Rechtsberatung</strong> <br>
+HMR 9, Raum H3<br>
+Herr Gerald Lauber<br>
+Di 10.00-13.00 Uhr, Mi-Do 15.00-18.00 Uhr<br>
+Ausschließlich telefonisch erreichbar: +49 151 25734975\</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="wohnsituation">Wohnsituation</h1><a class="sl-anchor-link" href="#wohnsituation"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Wohnsituation“</span></a></div>
+<p>Studium in München kann erstens wegen der Wohnungssituation besonders
+schwer sein. Dabei wollen wir euch aber ein paar lebenswichtige Tipps
+geben und ein paar Anlaufstellen benennen. Falls ihr noch in der Suche
+nach einem Platz, Zimmer oder WG seid, bitte berücksichtigt die
+folgenden Punkte:\</p>
+<ol>
+<li>
+<p>Studierendenwerk hat zwei Arten von Angeboten: Wenn du in ein
+Wohnheim willst, solltest du dich auf jeden Fall früh bewerben. Die
+Wohnheime von StuWerk sind jedoch vorrangig für Studierende gedacht,
+die nicht aus XX kommen. Die Plätze sind sehr begehrt, und es kann
+2—5 Semester dauern, bis man einen bekommt. Kurzfristige Angebote
+durch frühere Auszüge sind möglich. Also, schau regelmäßig in deine
+E-Mails und lade jedes Semester deine Immatrikulation hoch. Die
+Privatzimmervermittlung funktioniert wie ein Pinboard, wo private
+Personen durch StuWerk ihre Zimmerangebote veröffentlichen. Man muss
+sich da aktiv machen, Angebote verfolgen und am besten direkt
+telefonisch in Kontakt treten.</p>
+</li>
+<li>
+<p>Private Wohnheime und Gemeinden: In München gibt es vielfältige
+private (Studierenden-)Wohnheime. Dabei muss man die jeweiligen
+Voraussetzungen und Befristungen beachten. Außerdem bieten andere
+soziale Wohnheime günstige Zimmer an, in denen jedoch Engagement in
+bestimmten Bereichen und für die Gemeinde erwartet wird.</p>
+</li>
+<li>
+<p>WG-Gesucht, Facebook-Gruppen und ähnliche soziale Medien oder
+Plattformen helfen dir dabei, einen Platz zu finden. Da muss man
+aber auf Scams achten. Es gibt zwei wichtige Regeln, die du auf
+jeden Fall beachten solltest. Ohne Mietvertragsabschluss gibt’s kein
+Geld oder Kaution und ohne Besichtigung keinen Vertrag (ist aber
+optional und trotzdem wichtig). Ihr werdet oft Geschichten hören, in
+denen der/die Vermieter*in nicht in der Stadt oder sogar im Ausland
+ist, von euch Geld verlangt und den Schlüssel per Post schickt - und
+viele Variationen davon… Das sind totale Red Flags!</p>
+</li>
+</ol>
+<div class="sl-heading-wrapper level-h1"><h1 id="öffentliche-verkehrsmittel">öffentliche Verkehrsmittel</h1><a class="sl-anchor-link" href="#öffentliche-verkehrsmittel"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „öffentliche Verkehrsmittel“</span></a></div>
+<p>Da wir Bioinformatiker zu ziemlich vielen und vor allem weit
+außeinanderliegenden Standorten müssen, wirst du um die öffentlichen
+Verkehrsmittel (MVV bzw. MVG) nicht drumrum kommen.</p>
+<p>Vielleicht hast du schonmal vom Semesterticket gehört. Das wurde aber
+mit der Einführung des Deutschlandtickets abgeschafft.</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="deutschlandticket">Deutschlandticket</h4><a class="sl-anchor-link" href="#deutschlandticket"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Deutschlandticket“</span></a></div>
+<p>Das Deutschlandticket wurde im Mai 2023 eingeführt und gilt
+deutschlandweit im Nah- und Regionalverkehr. Heißt: du musst nur ein
+einziges Ticket kaufen und kannst damit alle öffentlichen Verkehrsmittel
+nutzen. Das Deutschlandticket ist auch monatlich kündbar
+(Kündigungsfrist: der 10. des Vormonats).</p>
+<div class="sl-heading-wrapper level-h4"><h4 id="ermäßigung-für-studierende">Ermäßigung für Studierende</h4><a class="sl-anchor-link" href="#ermäßigung-für-studierende"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Ermäßigung für Studierende“</span></a></div>
+<p>In Bayern wird das Ticket für Studierende um 20 Euro ermäßigt. Studenten
+zahlen hier 38 Euro pro Monat. Aktuell wird dieses ermäßigte
+Deutschlandticket nur durch die MVG vertrieben. Erstens authentifiziert
+man sich über M-Login durch Shibboleth-Daten der Universität. Dann kann
+man das Ticket über MVG mit M-Login bestellen. Es kann häufig zu
+Problemen mit der Bestellung über die Webseite kommen. Da das folgende
+probieren: Browser-Cache löschen, sich über M-Login anmelden und
+Shibboleth-Daten wieder authentifizieren lassen (besonders wichtig mit
+Semesterübergängen, ggf. auch mit verschiedenen Uni-Kennungen
+probieren), nochmal versuchen Ticket zu bestellen. Das Ticket kann man
+als HandyTicket oder als Chipkarte erwerben.</p>
+<p>Mehr Informationen über das ermäßigte Deutschland-Ticket oder wie du es
+erhältst findest du unter
+<a href="https://www.mvg.de/abos-tickets/abos/ermaessigungsticket.html">MVG Ermäßigungsticket</a> oder
+frag einfach deine Fachschaft.<br>
+Ab Januar 2026 wird jedoch das Ticket teurer: 63 Euro. Das heißt 43 Euro
+für Studierende!</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="awareness-und-hilfe">Awareness und Hilfe</h1><a class="sl-anchor-link" href="#awareness-und-hilfe"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Awareness und Hilfe“</span></a></div>
+<div class="sl-heading-wrapper level-h2"><h2 id="sexualisierte-gewalt">sexualisierte Gewalt</h2><a class="sl-anchor-link" href="#sexualisierte-gewalt"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „sexualisierte Gewalt“</span></a></div>
+<p>Leider kommt es auch im Studium zu sexualisierter Gewalt. Falls ein/e
+Kommiliton*in dich während bspw. Fachschaftspartys oder auch
+Vorlesungen und Übungen in irgendeiner Weise unwohl fühlen lässt oder
+ein Prof sich unangemessen in der Vorlesung verhält, hast du mehrere
+Personen an die du dich wenden kannst.</p>
+<ul>
+<li>
+<p><strong>die Fachschaft</strong><br>
+Wir kennen alle Optionen, wie man mit der Situation umgehen kann und
+handeln dementsprechend auch sofort.</p>
+</li>
+<li>
+<p><strong>das Gleichstellungsreferat</strong><br>
+Dieses Referat setzt sich hauptsächlich mit der Gleichstellung aller
+Geschlechter auseinander, aber kennt die Wege und Mittel in der Uni
+vor Allem bei Vorfällen mit Professor*innen zu helfen.</p>
+</li>
+<li>
+<p><strong>die Frauenbeauftragte</strong><br>
+Die Frauenbeauftragte unserer Fakultät ist Frau Prof. Friedel. Sie
+ist extrem engagiert, wenn es zu sexualisierter Gewalt kommt und tut
+alles in ihrer Macht um die Probleme zu lösen. An die
+Frauenbeauftragte kann man sich immer bei sowas wenden, auch, wenn
+es ein großer Schritt für viele ist.</p>
+</li>
+<li>
+<p><strong>die Vertrauenspersonen</strong><br>
+In unserer Fachschaft haben wir seit 2022 die Vertrauenspersonen auf
+Partys. Diese Vertrauenspersonen sind darauf vorbereitet solche
+Situationen zu händeln und ggf. zu deeskalieren. Du erkennst sie an
+ihrem Regenbogenbutton, den wir hier nochmal zeigen:\</p>
+</li>
+</ul>
+<img src="/src/assets/ersti-reader/queer.jpg" alt="Example image" style="display: block; margin: 0 auto; width: 200px;"/>
+<div class="sl-heading-wrapper level-h2"><h2 id="diskriminierung">Diskriminierung</h2><a class="sl-anchor-link" href="#diskriminierung"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Diskriminierung“</span></a></div>
+<p>Falls du jemals Opfer von Rassismus, Homophobie, Transphobie,
+Behindertenfeindlichkeit oder Diskriminierung jeglicher Art im
+Hochschulkontext wirst, kannst du dich an diese Stellen wenden:</p>
+<ul>
+<li>
+<p><strong>Fachschaft</strong><br>
+auch hier sind wir für euch Ansprechpartner.</p>
+</li>
+<li>
+<p><strong>StuVe LMU</strong><br>
+Die StuVe hat mehrere Referate, die für spezifische Bereiche
+zuständig sind. Das Gleichstellungsreferat als auch das Queer
+Referat können euch helfen.</p>
+</li>
+<li>
+<p><strong>Konfliktberatung LMU</strong><br>
+Die Konfliktbeauftragten der Uni sind spezialisiert auf alle
+möglichen Diskriminierungsarten im Hochschulkontext und haben immer
+ein offenes Ohr. Mehr Infos bei
+<a href="https://www.lmu.de/de/die-lmu/arbeiten-an-der-lmu/zusaetzliche-angebote/diversity/antidiskriminierung/umgang-mit-konflikten.html">Umgang mit Konflikten</a></p>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h1"><h1 id="studium-und-so">Studium und so</h1><a class="sl-anchor-link" href="#studium-und-so"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Studium und so“</span></a></div>
+<p>Natürlich besteht ein Studium nicht nur aus Vorlesungen und Lernen. Die
+Uni bietet auch viele Freizeitangebote und andere Möglichkeiten an,
+deine Studiumszeit zu gestalten. Auch in München selbst gibt es
+unendlich viel zu erleben und die Berge sind ja auch gleich um die Ecke
+;)</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="zentraler-hochschulsport-zhs">Zentraler Hochschulsport (ZHS)</h2><a class="sl-anchor-link" href="#zentraler-hochschulsport-zhs"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Zentraler Hochschulsport (ZHS)“</span></a></div>
+<p>Immer eine gute Abwechslung zwischen dem lernen ist Sport. In München
+leider nicht immer ein recht billiger Spaß. Dafür gibt es für uns
+Studenten den Zentralen Hochschulsport (ZHS). Dort gibt es von Aerobic
+bis Wasserball ziemlich viele Sportarten zur Auswahl. Die Sportanlagen
+befinden sich im TUM Campus im Olympiapark (U3 Olympiapark). Wie das
+geht mit dem Anmelden und den Entgeltmarken kannst du hier erfahren:
+<a href="http://www.zhs-muenchen.de/">http://www.zhs-muenchen.de/</a></p>
+<div class="sl-heading-wrapper level-h2"><h2 id="kino">Kino</h2><a class="sl-anchor-link" href="#kino"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Kino“</span></a></div>
+<p>In München gibt es von Altstadtkinos bis Openair-Kinos so ziemlich alles
+was das Kino-Herz begehrt. Auch die O-Ton Liebhaber kommen in München
+nicht zu kurz. Besonders kultig für Studenten sind das TU-Kino (Hörsaal
+1200, TUM Stammgelände) und das U-Kino (Hörsaal B201, LMU Hauptgebäude).
+Neben den erfolgreichen Filmen der letzten paar Jahre, werden auch alte
+Klassiker und Kultfilme gezeigt. Die Programme für das kommende Semester
+findest du hier (<a href="http://www.tu-film.de">www.tu-film.de</a>, <a href="http://www.u-kino.de">www.u-kino.de</a>).</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="studentenpartys">Studentenpartys</h2><a class="sl-anchor-link" href="#studentenpartys"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Studentenpartys“</span></a></div>
+<p>Was wäre ein Studium ohne Studentenpartys? Klar, es gibt in München
+genügend Clubs, um am Wochenende und auch unter der Woche zu feiern.
+Aber Studentenpartys gehören doch irgendwie dazu ;). Diese kleinen
+Partys werden meistens von der Fachschaft eines Studiengangs
+organisiert. Die für dich wichtigsten Partys sind natürlich unsere
+eigenen, da darfst du auf keinen Fall fehlen. Sie sind auch die ideale
+Gelegenheit auch mal die ‘Älteren’ aus den höheren Semestern
+kennenzulernen.</p>
+<ul>
+<li>
+<p><strong>Bioinformatik Halloweenparty</strong>: Ein schaurig-schönes Fest an einem
+der Tage um Halloween, um den Start ins Wintersemester gebührend zu
+feiern.</p>
+</li>
+<li>
+<p><strong>Bioinformatik Weihnachtsfeier</strong>: Ein gemütliches Zusammensitzen im
+Gumbel oder im C2 bei Plätzchen und Glühwein, das in den zwei Wochen
+vor Weihnachten stattfindet.</p>
+</li>
+<li>
+<p><strong>Bioinformatik Sommerfest</strong>: Im Sommer wird vor dem Gumbel auf der
+Wiese neben der Pinakothek der Moderne gefeiert.</p>
+</li>
+</ul>
+<p>Damit du sie nicht aus versehen vergisst, bekommst du die genauen
+Termine rechtzeitig per WhatsApp. Wenn du nicht nur mitfeiern möchtest,
+freuen wir uns auch über Hilfe bei der Organisation, wende dich dann
+einfach an die Fachschaft.</p>
+<p>Dann gibt es natürlich auch noch die großen Studentenpartys:</p>
+<ul>
+<li>
+<p><strong>UniKult</strong>: UniKult ist eine Initiative der StuVe LMU und macht
+mehrfach im Jahr riesige Partys im Hauptgebäude der LMU. “‘Unser
+erstes Mal”’ und das Sommerfest sind besonders beliebt, also kauft
+möglichst früh Tickets!</p>
+</li>
+<li>
+<p><strong>Unity</strong>: diese Party ist im Sommersemester im MI Gebäude in
+Garching</p>
+</li>
+<li>
+<p><strong>ESP</strong> (Erstsemesterparty): Bei dieser Studentenparty handelt es
+sich um die größte Studentenparty Süddeutschlands. Sie findet immer
+im Wintersemester in Garching im Bau für Maschinenwesen statt</p>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h1"><h1 id="auslandssemester">Auslandssemester</h1><a class="sl-anchor-link" href="#auslandssemester"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Auslandssemester“</span></a></div>
+<p>Viele Studenten möchten während ihres Studiums auch ein Semester im
+Ausland verbringen. Da du sowohl an der LMU als auch an der TUM
+immatrikuliert bist, kannst du dir aussuchen bei welcher Uni du im
+Austauschprogramm mitmachen möchtest. Wenn du dein Semester in Europa
+verbringen möchtest, wende dich an ERASMUS (gibts an beiden Unis). Zieht
+es dich weiter weg, dann bist du bei LMUexchange oder TUMexchange
+richtig. Du kannst an jede beliebige Universität im Ausland gehen, die
+eine Partneruniversität der LMU oder TUM ist. Allerdings gibt es, im
+Bezug auf die Partneruniversitäten, Unterschiede zwischen den Instituten
+deiner eigenen Universitäten. Während deines Auslandsaufenthalts kannst
+du weiter deine ECTS erwerben. Das gilt jedoch nicht für alle Fächer.
+Kläre das am besten mit unserem Schriftführer.</p>
+<p>Du kannst ab dem 3. Semester jederzeit ins Ausland. Die meisten
+Bioinformatiker entscheiden sich für einen Auslandsaufenthalt während
+ihres Masters, wo sie zeitlich nicht so sehr gebunden sind wie im
+Bachelor. Die vielen zweiteiligen Vorlesungen im Bachelor und die
+Praktika in den vorlesungsfreien Zeiten erschweren es einen geeigneten
+Zeitpunkt für ein Auslandssemester zu finden. Informiere dich
+rechtzeitig (mind. 1 Jahr vorher!!) über Anmeldekriterien für deinen
+Auslandsaufenthalt. Vorallem bei den Abgabefristen für die Bewerbung,
+ist Vorsicht geboten, denn diese sind teilweise mindestens ein Jahr vor
+deinem gewünschten Auslandstermin.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="wlan--internet">WLAN / Internet</h1><a class="sl-anchor-link" href="#wlan--internet"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „WLAN / Internet“</span></a></div>
+<p>Die Uni bietet an allen Standorte kostenloses WLAN an. Wenn du also
+mitten in der Stadt auf einmal WLAN haben solltest, bist du vermutich
+mit dem Uni-WLAN (eduroam) verbunden. Einmal eingerichtet kannst du dich
+in alle eduroam Netwerke weltweit anmelden. Einfach das Netzwerk eduroam
+auswählen und als Kennung entweder die LMU-Portal oder TUM-online
+Kennung verwenden. Mehr Infos und eine Anleitung Konfiguration findest
+du hier:<br>
+<a href="http://www.lrz.de/services/netz/">http://www.lrz.de/services/netz/</a>.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="geld-sparen">Geld sparen</h1><a class="sl-anchor-link" href="#geld-sparen"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Geld sparen“</span></a></div>
+<p>Als Student ist man bekanntlich immer knapp bei Kasse. Glücklicherweise
+bietet die Uni einige Services und viele Unternehmen ihre Produkte
+vergünstigt oder sogar kostenlos für Studierende an. Meistens reicht die
+Uni-Email bei der Registrierung als Nachweis, dass du studierst. Ein
+paar Ideen bei Sparen haben wir für dich aufgelistet</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="drucken">Drucken</h2><a class="sl-anchor-link" href="#drucken"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Drucken“</span></a></div>
+<p>Manche bevorzugen es ihre Folien / Skripte und übungsblätter
+auszudrucken, aber haben keinen Drucker Zuhause.</p>
+<ul>
+<li>
+<p><strong>LMU CIP-Pools</strong>: Mit der CIP-Kennung kannst du jedes Semester bis
+zu 500 Seiten (SW) kostenlos drucken. Nicht aufgebrauchte Seiten
+werden auf das Kontingent des nächsten Semsters angerechnet.
+Doppelseitige- und Farbdrucke sind auch möglich, jedoch kostet eine
+Farbseite 3 SW Seiten. Dein restliches Druckkontingent kannst du mit
+dem Befehl ‘lprquota’ (ohne die Anführungsstriche) in einer
+Kommandozeile auf einem CIP-Rechner überprüfen und ggf. bei der RBG
+Seiten nachkaufen.</p>
+</li>
+<li>
+<p><strong>LMU Bibliotheken (und manche der TU)</strong>: In nahezu allen
+Bibliotheken der LMU kannst du mit deiner Mensa Karte (und damit
+TUMCard oder LMUCard) Dokumente drucken und kopieren. Bezahlt wird
+hierbei mit dem Guthaben auf deiner Karte. Diese Drucker unterstüzen
+auch DIN A3 Seiten falls es mal größer sein muss. Manchmal kann es
+jedoch günstiger sein in einem Copyshop in Uni-nähe zu drucken,
+einfach kurz davor die Preise vergleichen.</p>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="software">Software</h2><a class="sl-anchor-link" href="#software"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Software“</span></a></div>
+<p>Nahezu jede Software, die ihr während des Studiums braucht oder brauchen
+könntet, gibt es kostenlos (Software Unternehmen sind Studierenden
+gegenüber besonders großzügig). Kommerzielle Nutzung ist fast immer
+ausgeschlossen. Hier mal ein paar Beispiele:</p>
+<ul>
+<li>
+<p><strong>IDE</strong>: Alle Produkte von JetBrains sind nach einer Registrierung
+kostenlos verfügbar (Java - Intellij, Python - Pycharm)</p>
+</li>
+<li>
+<p><strong>Github</strong>: Als Student bekommt ihr bei Github einen Premium Account
+mit mehr Features</p>
+</li>
+<li>
+<p><strong>Microsoft Office 365</strong>: Bei der LMU und TUM bekommt ihr Microsoft
+Office 365 kostenlos</p>
+</li>
+<li>
+<p><strong>Sonstige Microsoft Produkte</strong>: Theoretisch per MSDNAA / Dream
+Spark / Azure, momentan ist der Nachfolger noch nicht verfügbar. Ihr
+hättet zugriff auf Microsoft Windows, Windows Server, Datenbanken,
+uvm.</p>
+</li>
+<li>
+<p><strong>Für mehr ins <a href="https://wiki.tum.de/display/software/Zentrale+Software-Angebote+der+TUM">TUM-Wiki</a> schauen</strong></p>
+</li>
+</ul>
+<div class="sl-heading-wrapper level-h2"><h2 id="hardware">Hardware</h2><a class="sl-anchor-link" href="#hardware"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Hardware“</span></a></div>
+<p>Auch bei Hardware wie z.B. Computer oder Kleidung bekommt ihr
+Studentenrabatte. Besonders bei Laptops macht sich der Studentenrabatt
+schnell bemerkbar. Einfach euer Produkt + Studentenrabatt googlen und
+ihr werdet fündig.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="wie-bastelt-man-einen-stundenplan">Wie bastelt man einen Stundenplan?</h1><a class="sl-anchor-link" href="#wie-bastelt-man-einen-stundenplan"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Wie bastelt man einen Stundenplan?“</span></a></div>
+<p>In den ersten Semestern deines Bachelor Studiums sind dir deine
+Vorlesungen schon vorgegeben. Die Vorlesungen sind bereits so gelegt,
+dass es zu keinen Überschneidungen kommt. Zusätzlich zu deinen
+Vorlesungen kommen noch Übungen und Tutorien. Für diese gibt es jeweils
+mehrere, sodass du dir selbst aussuchen kannst, zu welcher Zeit du die
+Übung besuchen möchtest. Die Anmeldungen zu den Vorlesungen und Übungen
+werden ab der ersten Woche freigegeben. Das Wann, Wo und Wie wird dir
+jeweils in der ersten Vorlesung mitgeteilt.</p>
+<p><strong>Folgendes Wissen wirst du erst ab dem 5. Semester wirklich brauchen,
+aber frühe Vorbereitung schadet nie!</strong></p>
+<ul>
+<li>
+<p>Sortiere nach verbindlichen und empfohlenen Veranstaltungen.</p>
+</li>
+<li>
+<p>Plane erst obligatorische Veranstaltungen.</p>
+</li>
+<li>
+<p>Beachte Lehrveranstaltungszyklen (Was baut aufeinander auf?).</p>
+</li>
+<li>
+<p>Beachte, ob eine Lehrveranstaltung nicht in jedem Semester angeboten
+wird und ob Vorlesungen und Seminare oder Übungen im Zusammenhang
+stehen.</p>
+</li>
+<li>
+<p>Plane Lehrveranstaltungen in einem Umfang von etwa 20
+Semesterwochenstunden, denn Selbststudienzeiten sowie Vor- und
+Nachbereitungen sind in jedem Fall notwendig.</p>
+</li>
+<li>
+<p>Berücksichtige auch zusätzliche Veranstaltungen wie beispielsweise
+Sprachenlernen, Computerkurse, Sport oder Ähnliches.</p>
+</li>
+<li>
+<p>Beachte Wege und Fahrzeiten. Eventuell musst du von Garching nach
+Großhadern fahren und dafür beträgt allein schon die
+U-Bahn-Fahrtzeit 42 Minuten.</p>
+</li>
+<li>
+<p>Überprüfe den Stundenplan nach der ersten Lehrveranstaltungswoche in
+Bezug auf Mach- und Brauchbarkeit hinsichtlich des individuellen
+langfristigen Studienplanes.</p>
+</li>
+<li>
+<p>Erstelle darüber hinaus einen Semesterplan, in dem alle Termine,
+Fristen, Aktivitäten vermerkt sind, wie Rückmeldefristen, Klausuren,
+Referate oder Vorbereitungszeiten für Prüfungen.</p>
+</li>
+<li>
+<p>Schaue über den Tellerrand hinaus. Die LMU und die TUM bieten eine
+Vielzahl von Studiengängen an. Suche dir ruhig auch einmal etwas
+heraus, was dich nur interessiert, du aber nicht in dein Studium
+einbringen kannst. Den eigenen Horizont zu erweitern schadet nie.</p>
+</li>
+</ul>
+<p>Unsere Tipps sind sicherlich nicht allgemein gültig. Jeder macht eigene
+Erfahrungen, also Fehler. Vielleicht können dich unsere Ratschläge dazu
+anregen, deine ebenfalls aufzuschreiben und weiterzugeben. Die
+Fachschaft steht dir offen.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="wichtige-abkürzungen">Wichtige Abkürzungen</h1><a class="sl-anchor-link" href="#wichtige-abkürzungen"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Wichtige Abkürzungen“</span></a></div>
+<p>Wahrscheinlich sind dir schon ein paar Abkürzungen, die im Uni-Alltag
+gebräuchlich sind, untergekommen: BAföG kennt man und auch LMU und TUM
+sollten dich nicht mehr schrecken… Aber es gibt noch eine ganze Menge
+mehr. Und damit du nicht gleich am Anfang komplett verwirrt
+zurückbleibst, hier eine kleine Auswahl an häufig genutzten
+Abkürzungen:</p>
+<table><tr><th>Abk.</th><th>heißt…</th></tr><tr><td>BAföG</td><td>Bundesausbildungsförderungsgesetz</td></tr><tr><td>BayHschG</td><td>Bayerisches Hochschulgesetz</td></tr><tr><td>c.t.</td><td>Lat.: cum tempore (15 Min später als angegeben)</td></tr><tr><td>EWO</td><td>Erstsemesterwochenende</td></tr><tr><td>FPO</td><td>Fachprüfungsordnung</td></tr><tr><td>FR</td><td>Fakultätsrat</td></tr><tr><td>FS MPIC</td><td>Fachschaft Mathe/Physik/Informatik/Chemie (TUM)</td></tr><tr><td>FVV</td><td>Fachschaftsvollversammlung</td></tr><tr><td>GAF</td><td>Gruppe aktiver Fachschaftika (LMU)</td></tr><tr><td>IASTE</td><td>The International Association for the Exchange of ”Students for Technical Experience“</td></tr><tr><td>LMU</td><td>Ludwig-Maximilians-Universität</td></tr><tr><td>LRZ</td><td>Leibniz-Rechenzentrum</td></tr><tr><td>N.N.</td><td>Lat.: Nomen nominandus (noch zu nennen)</td></tr><tr><td>o.B.d.A.</td><td>ohne Beschränkung der Allgemeinheit</td></tr><tr><td>RBG</td><td>Rechnerbetriebsgruppe (LMU)</td></tr><tr><td>s.t.</td><td>Lat.: sine tempore (pünktlicher Beginn)</td></tr><tr><td>TUM</td><td>Technische Universität München</td></tr><tr><td>ZHS</td><td>Zentrale Hochschulsportanlage</td></tr></table>
+<div class="sl-heading-wrapper level-h1"><h1 id="die-lagepläne">Die Lagepläne</h1><a class="sl-anchor-link" href="#die-lagepläne"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Die Lagepläne“</span></a></div>
+<p>Dann war’s das auch schon fast. Als (Über-)Lebenshilfe kommen jetzt noch
+einige Lage- und Gebäudepläne der für dich wichtigsten Standorte.
+Solltest du einmal verzweifelt einen Raum suchen, so kannst du auch
+<a href="http://www.bioinformatik-muenchen.de/bioinformatics/campus">hier</a>
+gucken, da sind die Roomfinder beider Unis aufgelistet.</p>
+<div class="sl-heading-wrapper level-h2"><h2 id="innenstadt">Innenstadt</h2><a class="sl-anchor-link" href="#innenstadt"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Innenstadt“</span></a></div>
+<p><img src="/src/assets/ersti-reader/innenstadt.jpeg" alt="image"></p>
+<div class="sl-heading-wrapper level-h2"><h2 id="theresienstraße-lmu">Theresienstraße (LMU)</h2><a class="sl-anchor-link" href="#theresienstraße-lmu"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Theresienstraße (LMU)“</span></a></div>
+<p><img src="/src/assets/ersti-reader/Th_EG.png" alt="image"></p>
+<div class="sl-heading-wrapper level-h2"><h2 id="großhadern">Großhadern</h2><a class="sl-anchor-link" href="#großhadern"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Großhadern“</span></a></div>
+<p><img src="/src/assets/ersti-reader/GH.png" alt="image"></p>
+<p><img src="/src/assets/ersti-reader/GH_hausF.png" alt="image"></p>
+<div class="sl-heading-wrapper level-h2"><h2 id="garching">Garching</h2><a class="sl-anchor-link" href="#garching"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Garching“</span></a></div>
+<p><img src="/src/assets/ersti-reader/garching.png" alt="image"></p>
+<p><img src="/src/assets/ersti-reader/GR_MI.png" alt="image"></p>
+<div class="sl-heading-wrapper level-h1"><h1 id="to-do-liste">To-Do-Liste</h1><a class="sl-anchor-link" href="#to-do-liste"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „To-Do-Liste“</span></a></div>
+<p>Hier haben wir für euch ein paar Dinge zusammengestellt, die am Anfang
+des Semesters zu erledigen sind.</p>
+<ol>
+<li>
+<p>Stundenplan runterladen und ausdrucken:<br>
+<a href="http://www.bioinformatik-muenchen.de/studium/students/plans">www.bioinformatik-muenchen.de/studium/students/plans</a></p>
+</li>
+<li>
+<p>Studentenausweis der TU beantragen:<br>
+Hierfür musst du dich auf TUMonline mit deiner TUM-Kennung einloggen
+und ein Foto hochladen und eine E-Mail an die Studieninformation
+(<a href="mailto:studium@tum.de">studium@tum.de</a>) schicken, in der du schreibst, dass du einen
+Kooperationsstudiengang studierst und gerne einen
+TUM-Studentenausweis hättest. Der Ausweis müsste dir dann validiert
+zugeschickt werden. Deine Studentenausweise sind nur gültig, wenn
+sie validiert worden sind! Dazu musst du BEIDE Studentenausweise ab
+dem 2. Semester zu Beginn jedes Semesters an den entsprechenden
+Automaten validieren. Diese Automaten stehen auch im Stammgelände
+der TUM in der Nähe des Infopoints und im MI in Garching direkt
+gegenüber des Haupteingangs. Die Validierungsautomaten der LMU
+findet ihr u.A. im Mathebau und im Hauptgebäude. Du kannst deine
+Studentenausweise validieren, sobald der Semesterbeitrag für die
+Rückmeldung bei der LMU eingegangen ist.<br>
+Überprüfe am besten so früh wie möglich, ob du beide
+Studentenausweise erhalten hast!  </p>
+</li>
+<li>
+<p>Beantrage deine CIP-Kennung auf <a href="https://conf.cip.ifi.lmu.de.%5C">https://conf.cip.ifi.lmu.de.\</a>
+Melde dich dafür dort mit deiner LMU-Kennung an. WICHTIG: Merk dir
+das Passwort, das du für deine CIP-Kennung vergibst! Spätestens im
+Programmierpraktikum wirst du es brauchen!</p>
+</li>
+<li>
+<p>Studentenliste mit Mail, Handy und ggf. Skypeliste erstellen. Diese
+Listen helfen euch untereinander zu kommunizieren. Es lohnt sich
+auch, der Ersti-WhatsApp-Gruppe beizutreten!</p>
+</li>
+<li>
+<p>Deutschlandticket organisieren. (s. Punkt über MVV)</p>
+</li>
+</ol>
+<p>Generell: wenn du etwas an der Uni abholen oder beantragen willst: bring
+deinen Studentenausweis und Perso mit.</p>
+<div class="sl-heading-wrapper level-h1"><h1 id="impressum">Impressum</h1><a class="sl-anchor-link" href="#impressum"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only">Abschnitt betitelt „Impressum“</span></a></div>
+<p>Dann bleibt uns nur noch, dir einen guten und erfolgreichen Studienstart
+zu wünschen und wir hoffen, dich mal kennenzulernen!<br>
+Die nächste Gelegenheit wird wohl die Halloweenparty der Bioinformatiker
+sein, zu der wir dich schonmal herzlich einladen!<br>
+Und ansonsten:</p>
+<p>Impressum:</p>
+<p>Redaktion &#x26; Layout: Julia Gerke, Rebecca Kaßner</p>
+<p>Überarbeitung WS 19: Christian Hoffmann, Kevin Yuan<br>
+Überarbeitung WS 23: Sonja Matuska, Selin Türkoğlu<br>
+Überarbeitung WS 25: Tolga Tabanlı<br>
+Fachschaft Bioinformatik München<br>
+<a href="http://www.bioinfo.fs.lmu.de">www.bioinfo.fs.lmu.de</a></p> </div> <footer class="sl-flex astro-3yyafb3n"> <div class="meta sl-flex astro-3yyafb3n">   </div> <div class="pagination-links print:hidden astro-u2l5gyhi" dir="ltr"> <a href="/de/students/freshman-days" rel="prev" class="astro-u2l5gyhi"> <svg aria-hidden="true" class="astro-u2l5gyhi astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg> <span class="astro-u2l5gyhi"> Vorherige Seite <br class="astro-u2l5gyhi"> <span class="link-title astro-u2l5gyhi">Ersti-Tage</span> </span> </a> <a href="/de/students/living" rel="next" class="astro-u2l5gyhi"> <svg aria-hidden="true" class="astro-u2l5gyhi astro-c6vsoqas" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg> <span class="astro-u2l5gyhi"> Nächste Seite <br class="astro-u2l5gyhi"> <span class="link-title astro-u2l5gyhi">Wohnen</span> </span> </a> </div>   </footer>  </div> </div>   </main> </div> </div>  </div> </div>  </body></html>
