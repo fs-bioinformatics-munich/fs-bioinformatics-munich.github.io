@@ -15,6 +15,7 @@ jobs:
   deploy-preview:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       issues: write
       pull-requests: write
     steps:
@@ -37,10 +38,11 @@ jobs:
           ASTRO_BASE: /pr-preview/pr-${{ github.event.number }}/
 
       - name: Deploy PR preview
+        if: github.event.action != 'closed' && github.event.pull_request.head.repo.full_name == github.repository
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./dist
           preview-branch: gh-pages
           umbrella-dir: pr-preview
           action: auto
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
