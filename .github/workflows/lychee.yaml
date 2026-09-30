@@ -35,15 +35,18 @@ jobs:
           number=""
           if [ -f issue-number ]; then
             candidate=$(cat issue-number)
+            cat issue-number
             state=$(gh issue view "$candidate" --json state --jq .state 2>/dev/null || true)
+            echo $state
             if [ "$state" = "OPEN" ]; then
               number="$candidate"
             fi
           fi
-          echo "issue-number=$number" >> "$GITHUB_OUTPUT"      
+          echo "issue-number=$number" >> "$GITHUB_OUTPUT"
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v6
+        id: issue
         with:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
