@@ -48,9 +48,9 @@ jobs:
         uses: peter-evans/create-issue-from-file@v6
         id: issue
         with:
-          title: Link Checker Report
+          title: Unresolved links
           content-filepath: ./lychee/out.md
-          labels: lychee, automated
+          labels: link-checking, automated-issue
           issue-number: ${{ steps.previous.outputs.issue-number }}
       - name: Save issue number
         if: steps.issue.outputs.issue-number != ''
