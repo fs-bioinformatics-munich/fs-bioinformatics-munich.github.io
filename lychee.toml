@@ -1,0 +1,14 @@
+root_dir = "src/content/docs"
+# host_stats = true
+scheme = ["https", "http"]
+cache = true
+max_cache_age = "2d"
+cache_exclude_status = "500.."
+timeout = 10
+# skip_missing = true
+max_concurrency = 42
+
+# include_mail = true
+# include_wikilinks = true
+
+suggest = true
