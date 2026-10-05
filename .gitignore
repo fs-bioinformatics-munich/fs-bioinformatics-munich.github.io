@@ -26,3 +26,5 @@ pnpm-debug.log*
 flake.lock
 flake.nix
 .envrc
+
+.lycheecache
