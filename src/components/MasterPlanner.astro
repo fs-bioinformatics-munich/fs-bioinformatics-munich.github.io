@@ -1,0 +1,641 @@
+---
+import catalog from '../assets/master-modules.json';
+
+interface Props {
+	lang: 'en' | 'de';
+}
+
+const { lang } = Astro.props;
+
+const strings = {
+	en: {
+		semesters: 'Semesters',
+		semester: 'Semester',
+		download: 'Download',
+		import: 'Import',
+		reset: 'Reset',
+		resetConfirm: 'Discard the current plan and start over?',
+		importError: 'This file is not a valid plan.',
+		search: 'Search modules…',
+		dropHere: 'Drop modules here',
+		remove: 'Remove',
+		details: 'Module description',
+		required: 'Required',
+		total: 'Total',
+		unknown: 'Unknown module',
+		customTitle: 'Add a module that is not listed',
+		customHint: 'For example a module that the examination board recognized individually.',
+		name: 'Name',
+		category: 'Category',
+		add: 'Add',
+	},
+	de: {
+		semesters: 'Semester',
+		semester: 'Semester',
+		download: 'Herunterladen',
+		import: 'Importieren',
+		reset: 'Zurücksetzen',
+		resetConfirm: 'Aktuellen Plan verwerfen und neu beginnen?',
+		importError: 'Diese Datei ist kein gültiger Plan.',
+		search: 'Module suchen…',
+		dropHere: 'Module hierher ziehen',
+		remove: 'Entfernen',
+		details: 'Modulbeschreibung',
+		required: 'Pflicht',
+		total: 'Gesamt',
+		unknown: 'Unbekanntes Modul',
+		customTitle: 'Nicht aufgeführtes Modul hinzufügen',
+		customHint: 'Zum Beispiel ein Modul, das vom Prüfungsausschuss individuell anerkannt wurde.',
+		name: 'Name',
+		category: 'Bereich',
+		add: 'Hinzufügen',
+	},
+};
+const t = strings[lang];
+const counts = Array.from(
+	{ length: catalog.maxSemesters - catalog.minSemesters + 1 },
+	(_, i) => catalog.minSemesters + i
+);
+---
+
+<div class="master-planner not-content" data-lang={lang} data-strings={JSON.stringify(t)}>
+	<div class="mp-toolbar">
+		<label>
+			{t.semesters}{' '}
+			<select class="mp-count">{counts.map((n) => <option value={n}>{n}</option>)}</select>
+		</label>
+		<button type="button" class="mp-download">{t.download}</button>
+		<button type="button" class="mp-import">{t.import}</button>
+		<input type="file" class="mp-file" accept=".json,application/json" hidden />
+		<button type="button" class="mp-reset">{t.reset}</button>
+	</div>
+	<ul class="mp-status"></ul>
+	<div class="mp-board">
+		<aside class="mp-pool" data-zone="pool">
+			<input type="search" class="mp-search" placeholder={t.search} aria-label={t.search} />
+			<div class="mp-pool-list"></div>
+			<details class="mp-custom">
+				<summary>{t.customTitle}</summary>
+				<p>{t.customHint}</p>
+				<form>
+					<input name="name" required placeholder={t.name} aria-label={t.name} />
+					<input name="ects" type="number" min="1" max="30" required placeholder="ECTS" aria-label="ECTS" />
+					<select name="category" aria-label={t.category}>
+						{catalog.categories.map((c) => <option value={c.id}>{c.name[lang]}</option>)}
+					</select>
+					<select name="semester" aria-label={t.semester}></select>
+					<button>{t.add}</button>
+				</form>
+			</details>
+		</aside>
+		<div class="mp-semesters"></div>
+	</div>
+</div>
+
+<script>
+	import catalog from '../assets/master-modules.json';
+
+	// Stored in localStorage and used as the download/import format.
+	// Catalog modules are referenced by code, required modules by id.
+	type Plan = {
+		version: 1;
+		semesters: string[][];
+		custom: Record<string, { name: string; ects: number; category: string }>;
+	};
+	type Module = { id: string; code?: string; name: string; ects: number; category?: string; note?: string; url?: string };
+
+	const STORAGE_KEY = 'master-planner';
+
+	const root = document.querySelector<HTMLElement>('.master-planner')!;
+	const lang = root.dataset.lang as 'en' | 'de';
+	const t = JSON.parse(root.dataset.strings!);
+	const countSelect = root.querySelector<HTMLSelectElement>('.mp-count')!;
+	const fileInput = root.querySelector<HTMLInputElement>('.mp-file')!;
+	const statusList = root.querySelector<HTMLElement>('.mp-status')!;
+	const search = root.querySelector<HTMLInputElement>('.mp-search')!;
+	const poolList = root.querySelector<HTMLElement>('.mp-pool-list')!;
+	const semestersEl = root.querySelector<HTMLElement>('.mp-semesters')!;
+	const customForm = root.querySelector<HTMLFormElement>('.mp-custom form')!;
+	const customSemester = customForm.querySelector<HTMLSelectElement>('[name=semester]')!;
+
+	const modules = new Map<string, Module>();
+	for (const m of catalog.required) {
+		modules.set(m.id, { id: m.id, code: m.code, name: m.name[lang], ects: m.ects, category: 'required', url: m.url });
+	}
+	for (const c of catalog.categories) {
+		for (const m of c.modules) {
+			modules.set(m.code, {
+				id: m.code,
+				code: m.code,
+				name: m.name[lang],
+				ects: m.ects,
+				category: c.id,
+				note: m.note,
+				url: m.url,
+			});
+		}
+	}
+	// Also the order of the groups in the module list
+	const categoryName = new Map<string, string>([
+		['required', t.required],
+		...catalog.categories.map((c): [string, string] => [c.id, c.name[lang]]),
+	]);
+
+	function defaultPlan(): Plan {
+		return { version: 1, semesters: Array.from({ length: catalog.minSemesters }, () => []), custom: {} };
+	}
+
+	function isPlan(p: any): p is Plan {
+		return (
+			p?.version === 1 &&
+			Array.isArray(p.semesters) &&
+			p.semesters.length >= catalog.minSemesters &&
+			p.semesters.length <= catalog.maxSemesters &&
+			p.semesters.every((s: unknown) => Array.isArray(s) && s.every((id) => typeof id === 'string')) &&
+			typeof p.custom === 'object' &&
+			p.custom !== null
+		);
+	}
+
+	function load(): Plan {
+		try {
+			const p = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? 'null');
+			if (isPlan(p)) return p;
+		} catch {}
+		return defaultPlan();
+	}
+
+	let plan = load();
+	// Module picked by tap/click (alternative to dragging), and module being dragged
+	let selected: string | null = null;
+	let dragged: string | null = null;
+	let over: HTMLElement | null = null;
+
+	function lookup(id: string): Module {
+		const c = plan.custom[id];
+		if (c) return { id, name: String(c.name), ects: Number(c.ects) || 0, category: c.category };
+		return modules.get(id) ?? { id, name: `${t.unknown} (${id})`, ects: 0 };
+	}
+
+	const esc = (s: string) => s.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
+	const sum = (ids: string[]) => ids.reduce((acc, id) => acc + lookup(id).ects, 0);
+	const semesterOptions = (selected: number) =>
+		plan.semesters
+			.map((_, i) => `<option value="${i}"${i === selected ? ' selected' : ''}>${t.semester} ${i + 1}</option>`)
+			.join('');
+
+	const card = (m: Module, removable: boolean) => `
+		<div class="mp-card" data-id="${esc(m.id)}" data-category="${esc(m.category ?? '')}" draggable="true" tabindex="0" role="button"
+			title="${esc([categoryName.get(m.category ?? ''), m.note].filter(Boolean).join(' · '))}">
+			<span class="mp-card-meta">${m.code ? `${esc(m.code)} · ` : ''}${m.ects} ECTS</span>
+			<span class="mp-card-actions">
+				${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener" draggable="false" title="${t.details}" aria-label="${t.details}: ${esc(m.name)}">↗</a>` : ''}
+				${removable ? `<button type="button" data-remove="${esc(m.id)}" aria-label="${t.remove}" title="${t.remove}">×</button>` : ''}
+			</span>
+			<span class="mp-card-name">${esc(m.name)}</span>
+		</div>`;
+
+	function render() {
+		const placed = plan.semesters.flat();
+
+		const status = [
+			...catalog.categories.map((c) => {
+				const ects = sum(placed.filter((id) => lookup(id).category === c.id));
+				return { label: c.name[lang], value: `${ects} / ${c.minEcts} ECTS`, ok: ects >= c.minEcts };
+			}),
+			{ label: t.total, value: `${sum(placed)} / ${catalog.totalEcts} ECTS`, ok: sum(placed) >= catalog.totalEcts },
+		];
+		statusList.innerHTML = status
+			.map(
+				(s) =>
+					`<li class="${s.ok ? 'mp-ok' : 'mp-missing'}">${s.ok ? '✓' : '○'} ${esc(s.label).replaceAll('/', '/<wbr>')}<strong>${s.value}</strong></li>`
+			)
+			.join('');
+
+		poolList.innerHTML = [...categoryName]
+			.map(
+				([category, name]) => `
+				<section class="mp-group" data-category="${category}">
+					<h3>${esc(name)}</h3>
+					${[...modules.values()]
+						.filter((m) => m.category === category && !placed.includes(m.id))
+						.map((m) => card(m, false))
+						.join('')}
+				</section>`
+			)
+			.join('');
+		filterPool();
+
+		semestersEl.innerHTML = plan.semesters
+			.map(
+				(ids, i) => `
+				<section class="mp-semester" data-zone="${i}" tabindex="0" aria-label="${t.semester} ${i + 1}">
+					<h3>${t.semester} ${i + 1}<span>${sum(ids)} ECTS</span></h3>
+					${ids.map((id) => card(lookup(id), true)).join('')}
+					${ids.length ? '' : `<p class="mp-hint">${t.dropHere}</p>`}
+				</section>`
+			)
+			.join('');
+
+		countSelect.value = String(plan.semesters.length);
+		customSemester.innerHTML = semesterOptions(0);
+	}
+
+	function filterPool() {
+		const query = search.value.trim().toLowerCase();
+		for (const group of poolList.querySelectorAll<HTMLElement>('.mp-group')) {
+			let visible = 0;
+			for (const c of group.querySelectorAll<HTMLElement>('.mp-card')) {
+				c.hidden = !c.textContent!.toLowerCase().includes(query);
+				if (!c.hidden) visible++;
+			}
+			group.hidden = visible === 0;
+		}
+	}
+
+	function update() {
+		try {
+			localStorage.setItem(STORAGE_KEY, JSON.stringify(plan));
+		} catch {}
+		render();
+	}
+
+	function select(id: string | null) {
+		selected = id;
+		root.classList.toggle('mp-placing', id !== null);
+		for (const c of root.querySelectorAll<HTMLElement>('.mp-card')) c.classList.toggle('mp-selected', c.dataset.id === id);
+	}
+
+	function setOver(zone: HTMLElement | null) {
+		if (over === zone) return;
+		over?.classList.remove('mp-over');
+		zone?.classList.add('mp-over');
+		over = zone;
+	}
+
+	// Moves a module into a semester, or back into the module list ("pool"), which removes it from the plan
+	function move(id: string, zone: string) {
+		plan.semesters = plan.semesters.map((s) => s.filter((x) => x !== id));
+		if (zone === 'pool') delete plan.custom[id];
+		else plan.semesters[Number(zone)].push(id);
+		select(null);
+		update();
+	}
+
+	root.addEventListener('click', (e) => {
+		const target = e.target as HTMLElement;
+		if (target.closest('a')) return;
+		const remove = target.closest<HTMLElement>('[data-remove]');
+		if (remove) return move(remove.dataset.remove!, 'pool');
+		const id = target.closest<HTMLElement>('[data-id]')?.dataset.id;
+		if (id !== undefined) return select(selected === id ? null : id);
+		const zone = target.closest<HTMLElement>('[data-zone]');
+		if (zone && selected !== null && !target.closest('input, select, button, summary, form')) {
+			move(selected, zone.dataset.zone!);
+		}
+	});
+
+	root.addEventListener('keydown', (e) => {
+		const target = e.target as HTMLElement;
+		if ((e.key === 'Enter' || e.key === ' ') && target.matches('[data-id], [data-zone]')) {
+			e.preventDefault();
+			target.click();
+		} else if (e.key === 'Escape') {
+			select(null);
+		}
+	});
+
+	root.addEventListener('dragstart', (e) => {
+		dragged = (e.target as HTMLElement).closest<HTMLElement>('[data-id]')?.dataset.id ?? null;
+		if (dragged === null) return;
+		e.dataTransfer!.setData('text/plain', dragged);
+		e.dataTransfer!.effectAllowed = 'move';
+		select(null);
+		root.classList.add('mp-placing');
+	});
+
+	root.addEventListener('dragover', (e) => {
+		const zone = dragged === null ? null : (e.target as HTMLElement).closest<HTMLElement>('[data-zone]');
+		setOver(zone);
+		if (zone) e.preventDefault();
+	});
+
+	root.addEventListener('drop', (e) => {
+		const zone = (e.target as HTMLElement).closest<HTMLElement>('[data-zone]');
+		if (dragged === null || !zone) return;
+		e.preventDefault();
+		const id = dragged;
+		dragged = null;
+		setOver(null);
+		move(id, zone.dataset.zone!);
+	});
+
+	root.addEventListener('dragend', () => {
+		dragged = null;
+		setOver(null);
+		root.classList.remove('mp-placing');
+	});
+
+	search.addEventListener('input', filterPool);
+
+	countSelect.addEventListener('change', () => {
+		const n = Number(countSelect.value);
+		while (plan.semesters.length < n) plan.semesters.push([]);
+		// Modules from removed semesters move into the new last semester
+		plan.semesters[n - 1].push(...plan.semesters.splice(n).flat());
+		update();
+	});
+
+	customForm.addEventListener('submit', (e) => {
+		e.preventDefault();
+		const data = new FormData(customForm);
+		const id = `custom-${Date.now().toString(36)}`;
+		plan.custom[id] = {
+			name: String(data.get('name')).trim(),
+			ects: Number(data.get('ects')),
+			category: String(data.get('category')),
+		};
+		plan.semesters[Number(data.get('semester'))].push(id);
+		customForm.reset();
+		update();
+	});
+
+	root.querySelector('.mp-download')!.addEventListener('click', () => {
+		const a = document.createElement('a');
+		a.href = 'data:application/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(plan, null, 2));
+		a.download = 'masterplan.json';
+		a.click();
+	});
+
+	root.querySelector('.mp-import')!.addEventListener('click', () => fileInput.click());
+
+	fileInput.addEventListener('change', async () => {
+		const file = fileInput.files?.[0];
+		if (!file) return;
+		try {
+			const p = JSON.parse(await file.text());
+			if (!isPlan(p)) throw new Error('invalid plan');
+			plan = p;
+			update();
+		} catch {
+			alert(t.importError);
+		} finally {
+			fileInput.value = '';
+		}
+	});
+
+	root.querySelector('.mp-reset')!.addEventListener('click', () => {
+		if (!confirm(t.resetConfirm)) return;
+		plan = defaultPlan();
+		update();
+	});
+
+	render();
+</script>
+
+<style is:global>
+	/* Global because the plan is rendered client-side; everything is scoped by .master-planner */
+	.master-planner {
+		display: grid;
+		gap: 1rem;
+		font-size: var(--sl-text-sm);
+	}
+
+	.master-planner [hidden] {
+		display: none !important;
+	}
+
+	.master-planner :is(button, input, select) {
+		font: inherit;
+		color: var(--sl-color-white);
+		background-color: var(--sl-color-black);
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.375rem;
+		padding: 0.25rem 0.5rem;
+	}
+
+	.master-planner button {
+		cursor: pointer;
+	}
+
+	.master-planner button:hover {
+		background-color: var(--sl-color-gray-6);
+	}
+
+	.master-planner ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.master-planner h3 {
+		margin: 0;
+		color: var(--sl-color-white);
+	}
+
+	.master-planner [data-category='required'] {
+		--mp-color: var(--sl-color-gray-3);
+	}
+
+	.master-planner [data-category='methods'] {
+		--mp-color: var(--sl-color-blue);
+	}
+
+	.master-planner [data-category='theory-cs'] {
+		--mp-color: var(--sl-color-purple);
+	}
+
+	.master-planner [data-category='theory-bio'] {
+		--mp-color: var(--sl-color-green);
+	}
+
+	.mp-toolbar {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.mp-status {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		gap: 0.5rem;
+	}
+
+	.mp-status li {
+		display: flex;
+		flex-direction: column;
+		padding: 0.5rem 0.75rem;
+		border: 1px solid;
+		border-radius: 0.5rem;
+	}
+
+	.mp-status .mp-ok {
+		border-color: var(--sl-color-green);
+		background-color: var(--sl-color-green-low);
+	}
+
+	.mp-status .mp-missing {
+		border-color: var(--sl-color-orange);
+		background-color: var(--sl-color-orange-low);
+	}
+
+	.mp-board {
+		display: grid;
+		gap: 1rem;
+		align-items: start;
+	}
+
+	.mp-pool,
+	.mp-semester {
+		padding: 0.75rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.5rem;
+	}
+
+	.mp-pool {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		max-height: 60vh;
+	}
+
+	.mp-pool-list {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		min-height: 0;
+		overflow-y: auto;
+	}
+
+	.mp-group,
+	.mp-semester {
+		display: flex;
+		flex-direction: column;
+		gap: 0.375rem;
+	}
+
+	.mp-group h3 {
+		font-size: var(--sl-text-sm);
+	}
+
+	.mp-group h3::before {
+		content: '';
+		display: inline-block;
+		width: 0.625rem;
+		height: 0.625rem;
+		margin-right: 0.375rem;
+		border-radius: 50%;
+		background-color: var(--mp-color);
+	}
+
+	.mp-semesters {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+		gap: 0.75rem;
+	}
+
+	.mp-semester {
+		min-height: 12rem;
+	}
+
+	.mp-semester h3 {
+		display: flex;
+		justify-content: space-between;
+		gap: 0.5rem;
+		margin-bottom: 0.25rem;
+		font-size: var(--sl-text-base);
+	}
+
+	.mp-hint {
+		margin: auto 0;
+		text-align: center;
+		color: var(--sl-color-gray-3);
+	}
+
+	.mp-card {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		align-items: start;
+		padding: 0.375rem 0.5rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-left: 4px solid var(--mp-color, var(--sl-color-gray-4));
+		border-radius: 0.375rem;
+		background-color: var(--sl-color-black);
+		line-height: 1.3;
+		cursor: grab;
+		-webkit-touch-callout: none;
+	}
+
+	.mp-card-meta {
+		color: var(--sl-color-gray-3);
+		font-size: var(--sl-text-xs);
+	}
+
+	.mp-card-name {
+		grid-column: 1 / -1;
+	}
+
+	.mp-card-actions {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+	}
+
+	.master-planner .mp-card :is(a, button) {
+		padding: 0 0.25rem;
+		border: none;
+		background: none;
+		color: var(--sl-color-gray-3);
+		line-height: 1;
+		text-decoration: none;
+	}
+
+	.master-planner .mp-card :is(a, button):hover {
+		color: var(--sl-color-white);
+	}
+
+	.mp-card.mp-selected {
+		outline: 2px solid var(--sl-color-accent);
+		background-color: var(--sl-color-accent-low);
+	}
+
+	.mp-placing .mp-semester,
+	.mp-placing .mp-pool {
+		border-style: dashed;
+		border-color: var(--sl-color-accent);
+		cursor: pointer;
+	}
+
+	.master-planner .mp-over {
+		background-color: var(--sl-color-accent-low);
+	}
+
+	.mp-custom summary {
+		cursor: pointer;
+	}
+
+	.mp-custom p {
+		margin: 0.5rem 0;
+		color: var(--sl-color-gray-3);
+	}
+
+	.mp-custom form {
+		display: grid;
+		/* minmax(0, …) keeps long category names from widening the form beyond the module list */
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0.5rem;
+	}
+
+	@media (min-width: 50rem) {
+		.mp-board {
+			grid-template-columns: 15rem 1fr;
+		}
+
+		.mp-pool {
+			position: sticky;
+			top: calc(var(--sl-nav-height) + 1rem);
+			max-height: calc(100vh - var(--sl-nav-height) - 2rem);
+		}
+	}
+</style>

@@ -28,3 +28,6 @@ flake.nix
 .envrc
 
 .lycheecache
+
+# Jetbrains
+.idea

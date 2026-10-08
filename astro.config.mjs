@@ -187,6 +187,13 @@ export default defineConfig({
 							},
 							link: 'students/examination-regulations' 
 						},
+						{
+							label: 'Master Planner',
+							translations: {
+								de: 'Master-Planer',
+							},
+							link: 'students/master-planner'
+						},
 						{ 
 							label: 'Link Collection',
 							translations: {
