@@ -3,8 +3,8 @@ interface Props {
   title: string;
 }
 const { title } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const src = `${base}/stundenplan/index.html`;
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const src = `${baseUrl}/stundenplan/index.html`;
 ---
 
 <iframe class="stundenplan-frame" src={src} title={title} scrolling="no"></iframe>
