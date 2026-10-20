@@ -159,6 +159,13 @@ export default defineConfig({
 							},
 							link: 'students/ersti-reader'
 						},
+						{
+							label: 'Course Planner',
+							translations: {
+								de: 'Stundenplaner',
+							},
+							link: 'students/stundenplan'
+						},
 						{ 
 							label: 'Living',
 							translations: {

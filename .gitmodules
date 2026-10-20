@@ -1,0 +1,4 @@
+[submodule "vendor/stundenplan"]
+	path = vendor/stundenplan
+	url = https://github.com/fs-bioinformatics-munich/stundenplan.git
+	branch = main

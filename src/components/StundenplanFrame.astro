@@ -1,0 +1,42 @@
+---
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+const src = `${import.meta.env.BASE_URL}stundenplan/index.html`;
+---
+
+<iframe class="stundenplan-frame" src={src} title={title} scrolling="no"></iframe>
+
+<style is:global>
+  :root { --sl-content-width: 100%; }
+  .stundenplan-frame { display: block; width: 100%; height: 40rem; border: 0; }
+</style>
+
+<script>
+  // The app is same-origin, so the host page can size the iframe to its content
+  // and drop the app's own height cap. The page then has a single scrollbar.
+  const frame = document.querySelector<HTMLIFrameElement>('.stundenplan-frame');
+
+  function fit() {
+    const doc = frame?.contentDocument;
+    if (!frame || !doc?.body) return;
+    doc.documentElement.style.overflow = 'hidden';
+    frame.style.height = `${doc.documentElement.scrollHeight}px`;
+  }
+
+  function init() {
+    const doc = frame?.contentDocument;
+    if (!doc?.body || doc.getElementById('host-overrides')) return;
+    const style = doc.createElement('style');
+    style.id = 'host-overrides';
+    style.textContent = '.grid-scroll { max-height: none !important; }';
+    doc.head.appendChild(style);
+    new ResizeObserver(fit).observe(doc.body);
+    fit();
+  }
+
+  frame?.addEventListener('load', init);
+  // The frame may have finished loading before this script ran.
+  if (frame?.contentDocument?.readyState === 'complete') init();
+</script>

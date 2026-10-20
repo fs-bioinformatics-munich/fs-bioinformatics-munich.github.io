@@ -28,3 +28,4 @@ flake.nix
 .envrc
 
 .lycheecache
+public/stundenplan/
