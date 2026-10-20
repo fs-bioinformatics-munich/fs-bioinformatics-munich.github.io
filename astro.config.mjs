@@ -35,12 +35,15 @@ export default defineConfig({
 				{
 					tag: 'style',
 					content: `
+						:root { --sidebar-left-width: var(--sl-sidebar-width); }
 						@media (min-width: 50rem) {
-							.sidebar-resizer { position: fixed; top: var(--sl-nav-height); bottom: 0; left: calc(var(--sl-sidebar-width) - 4px); width: 8px; cursor: col-resize; z-index: 30; touch-action: none; }
+							.sidebar-pane { width: var(--sidebar-left-width); }
+							html[data-has-sidebar] { --sl-content-inline-start: var(--sidebar-left-width); }
+							.sidebar-resizer { position: fixed; top: var(--sl-nav-height); bottom: 0; left: calc(var(--sidebar-left-width) - 4px); width: 8px; cursor: col-resize; z-index: 30; touch-action: none; }
 							.sidebar-resizer:hover, .sidebar-resizer.dragging { background: var(--sl-color-accent); opacity: 0.5; }
-							html.sidebar-collapsed { --sl-sidebar-width: 0px !important; }
+							html.sidebar-collapsed { --sidebar-left-width: 0px !important; }
 							html.sidebar-collapsed .sidebar-pane, html.sidebar-collapsed .sidebar-resizer { display: none; }
-							.sidebar-toggle { position: fixed; top: calc(var(--sl-nav-height) + 0.5rem); left: var(--sl-sidebar-width); z-index: 31; width: 1.5rem; height: 2.5rem; padding: 0; display: flex; align-items: center; justify-content: center; border: 1px solid var(--sl-color-hairline-shade); border-left: 0; border-radius: 0 0.4rem 0.4rem 0; background: var(--sl-color-bg-sidebar); color: var(--sl-color-gray-2); cursor: pointer; }
+							.sidebar-toggle { position: fixed; top: calc(var(--sl-nav-height) + 0.5rem); left: var(--sidebar-left-width); z-index: 31; width: 1.5rem; height: 2.5rem; padding: 0; display: flex; align-items: center; justify-content: center; border: 1px solid var(--sl-color-hairline-shade); border-left: 0; border-radius: 0 0.4rem 0.4rem 0; background: var(--sl-color-bg-sidebar); color: var(--sl-color-gray-2); cursor: pointer; }
 							.sidebar-toggle:hover { color: var(--sl-color-white); background: var(--sl-color-gray-6); }
 							body.sidebar-resizing { cursor: col-resize; user-select: none; }
 							body.sidebar-resizing iframe { pointer-events: none; }
@@ -56,7 +59,7 @@ export default defineConfig({
 							const root = document.documentElement;
 							const clamp = (w) => Math.min(MAX, Math.max(MIN, w));
 							try { if (localStorage.getItem('sidebar-collapsed') === '1') root.classList.add('sidebar-collapsed'); } catch {}
-							try { const w = +localStorage.getItem(KEY); if (w) root.style.setProperty('--sl-sidebar-width', clamp(w) + 'px'); } catch {}
+							try { const w = +localStorage.getItem(KEY); if (w) root.style.setProperty('--sidebar-left-width', clamp(w) + 'px'); } catch {}
 							addEventListener('DOMContentLoaded', () => {
 								const pane = document.querySelector('.sidebar-pane');
 								if (!pane) return;
@@ -75,7 +78,7 @@ export default defineConfig({
 								document.addEventListener('pointermove', (e) => {
 									if (!dragging) return;
 									width = clamp(e.clientX);
-									root.style.setProperty('--sl-sidebar-width', width + 'px');
+									root.style.setProperty('--sidebar-left-width', width + 'px');
 								});
 								const stop = () => {
 									if (!dragging) return;
@@ -103,7 +106,7 @@ export default defineConfig({
 								});
 								sync();
 								bar.addEventListener('dblclick', () => {
-									root.style.removeProperty('--sl-sidebar-width');
+									root.style.removeProperty('--sidebar-left-width');
 									try { localStorage.removeItem(KEY); } catch {}
 								});
 							});

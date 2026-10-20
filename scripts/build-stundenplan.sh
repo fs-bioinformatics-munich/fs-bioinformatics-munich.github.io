@@ -9,11 +9,16 @@ set -e
 APP_DIR="vendor/stundenplan/app"
 
 if [ ! -f "$APP_DIR/package.json" ]; then
+    if [ -n "$CI" ]; then
+        echo "❌ Submodule vendor/stundenplan missing (checkout with submodules: true)"
+        exit 1
+    fi
     echo "⚠️  Submodule vendor/stundenplan missing, skipping (git submodule update --init)"
     exit 0
 fi
 
 BASE="${ASTRO_BASE:-/}"
+BASE="${BASE%/}/"   # ensure exactly one trailing slash
 DEST="${1:-dist}/stundenplan"
 
 [ -d "$APP_DIR/node_modules" ] || (cd "$APP_DIR" && npm ci)

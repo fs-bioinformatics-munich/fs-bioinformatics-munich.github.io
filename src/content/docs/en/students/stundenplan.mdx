@@ -7,6 +7,6 @@ import StundenplanFrame from "@src/components/StundenplanFrame.astro"
 
 Plan your weekly schedule for the Master's program: pick lectures, see overlaps and add exercise groups.
 
-<a href={`${import.meta.env.BASE_URL}stundenplan/index.html`}>Open the course planner in a full page</a>
+<a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/stundenplan/index.html`}>Open the course planner in a full page</a>
 
 <StundenplanFrame title="Stundenplaner Master" />
