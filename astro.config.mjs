@@ -240,9 +240,9 @@ export default defineConfig({
 							link: 'students/ersti-reader'
 						},
 						{
-							label: 'Course Planner',
+							label: 'Stundenplaner Master',
 							translations: {
-								de: 'Stundenplaner',
+								de: 'Stundenplaner Master',
 							},
 							link: 'students/stundenplan'
 						},
