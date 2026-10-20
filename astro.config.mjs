@@ -31,6 +31,86 @@ export default defineConfig({
 				de: 'Fachschaft Bioinformatik München',
 			},
 			favicon: '/favicon.png',
+			head: [
+				{
+					tag: 'style',
+					content: `
+						@media (min-width: 50rem) {
+							.sidebar-resizer { position: fixed; top: var(--sl-nav-height); bottom: 0; left: calc(var(--sl-sidebar-width) - 4px); width: 8px; cursor: col-resize; z-index: 30; touch-action: none; }
+							.sidebar-resizer:hover, .sidebar-resizer.dragging { background: var(--sl-color-accent); opacity: 0.5; }
+							html.sidebar-collapsed { --sl-sidebar-width: 0px !important; }
+							html.sidebar-collapsed .sidebar-pane, html.sidebar-collapsed .sidebar-resizer { display: none; }
+							.sidebar-toggle { position: fixed; top: calc(var(--sl-nav-height) + 0.5rem); left: var(--sl-sidebar-width); z-index: 31; width: 1.5rem; height: 2.5rem; padding: 0; display: flex; align-items: center; justify-content: center; border: 1px solid var(--sl-color-hairline-shade); border-left: 0; border-radius: 0 0.4rem 0.4rem 0; background: var(--sl-color-bg-sidebar); color: var(--sl-color-gray-2); cursor: pointer; }
+							.sidebar-toggle:hover { color: var(--sl-color-white); background: var(--sl-color-gray-6); }
+							body.sidebar-resizing { cursor: col-resize; user-select: none; }
+							body.sidebar-resizing iframe { pointer-events: none; }
+						}
+						@media (max-width: 49.99rem) { .sidebar-resizer, .sidebar-toggle { display: none; } }
+					`,
+				},
+				{
+					tag: 'script',
+					content: `
+						(() => {
+							const KEY = 'sidebar-width', MIN = 200, MAX = 600;
+							const root = document.documentElement;
+							const clamp = (w) => Math.min(MAX, Math.max(MIN, w));
+							try { if (localStorage.getItem('sidebar-collapsed') === '1') root.classList.add('sidebar-collapsed'); } catch {}
+							try { const w = +localStorage.getItem(KEY); if (w) root.style.setProperty('--sl-sidebar-width', clamp(w) + 'px'); } catch {}
+							addEventListener('DOMContentLoaded', () => {
+								const pane = document.querySelector('.sidebar-pane');
+								if (!pane) return;
+								const bar = document.createElement('div');
+								bar.className = 'sidebar-resizer';
+								bar.setAttribute('role', 'separator');
+								bar.setAttribute('aria-orientation', 'vertical');
+								document.body.appendChild(bar);
+								let width, dragging = false;
+								bar.addEventListener('pointerdown', (e) => {
+									e.preventDefault();
+									dragging = true;
+									bar.classList.add('dragging');
+									document.body.classList.add('sidebar-resizing');
+								});
+								document.addEventListener('pointermove', (e) => {
+									if (!dragging) return;
+									width = clamp(e.clientX);
+									root.style.setProperty('--sl-sidebar-width', width + 'px');
+								});
+								const stop = () => {
+									if (!dragging) return;
+									dragging = false;
+									bar.classList.remove('dragging');
+									document.body.classList.remove('sidebar-resizing');
+									if (width) try { localStorage.setItem(KEY, String(width)); } catch {}
+								};
+								document.addEventListener('pointerup', stop);
+								document.addEventListener('pointercancel', stop);
+								const toggle = document.createElement('button');
+								toggle.className = 'sidebar-toggle';
+								toggle.type = 'button';
+								document.body.appendChild(toggle);
+								const sync = () => {
+									const c = root.classList.contains('sidebar-collapsed');
+									toggle.textContent = c ? '\u203A' : '\u2039';
+									toggle.title = toggle.ariaLabel = c ? 'Show sidebar' : 'Hide sidebar';
+									toggle.setAttribute('aria-expanded', String(!c));
+								};
+								toggle.addEventListener('click', () => {
+									const c = root.classList.toggle('sidebar-collapsed');
+									try { localStorage.setItem('sidebar-collapsed', c ? '1' : '0'); } catch {}
+									sync();
+								});
+								sync();
+								bar.addEventListener('dblclick', () => {
+									root.style.removeProperty('--sl-sidebar-width');
+									try { localStorage.removeItem(KEY); } catch {}
+								});
+							});
+						})();
+					`,
+				},
+			],
 			components: {
 				Header: './src/components/starlight/Header.astro',
 			},
