@@ -43,6 +43,7 @@ jobs:
             fi
           fi
           echo "issue-number=$number" >> "$GITHUB_OUTPUT"
+          echo "issue-number=$number"
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v6
@@ -54,7 +55,9 @@ jobs:
           issue-number: ${{ steps.previous.outputs.issue-number }}
       - name: Save issue number
         if: steps.issue.outputs.issue-number != ''
-        run: echo "${{ steps.issue.outputs.issue-number }}" > issue-number
+        run: |
+          echo "${{ steps.issue.outputs.issue-number }}" > issue-number
+          echo "${{ steps.issue.outputs.issue-number }}"
       - name: Close issue when links are fixed
         if: steps.lychee.outputs.exit_code == 0 && steps.previous.outputs.issue-number != ''
         run: |
