@@ -3,9 +3,11 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "predev": "./scripts/build-stundenplan.sh public",
     "dev": "astro dev",
+    "prestart": "./scripts/build-stundenplan.sh public",
     "start": "astro dev",
-    "build": "astro build && touch dist/.nojekyll",
+    "build": "astro build && ./scripts/build-stundenplan.sh && touch dist/.nojekyll",
     "preview": "astro preview",
     "astro": "astro",
     "test:paths": "./scripts/check-absolute-paths.sh",
