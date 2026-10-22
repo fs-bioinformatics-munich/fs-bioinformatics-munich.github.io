@@ -1,4 +1,77 @@
-<!DOCTYPE html><html lang="en" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Welcome to Our Blog | Munich bioinformatics student council</title><link rel="canonical" href="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><link rel="alternate" hreflang="en" href="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><link rel="alternate" hreflang="de" href="https://bioinfo.fs.lmu.de/de/blog/welcome-to-our-blog/"/><link rel="alternate" hreflang="x-default" href="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><link rel="sitemap" href="/sitemap-index.xml"/><link href="https://bioinfo.fs.lmu.de/blog/rss.xml" rel="alternate" title="Blog" type="application/rss+xml"/><link rel="shortcut icon" href="/favicon.png" type="image/png"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.4"/><meta property="og:title" content="Welcome to Our Blog"/><meta property="og:type" content="article"/><meta property="og:url" content="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><meta property="og:locale" content="en"/><meta property="og:site_name" content="Munich bioinformatics student council"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","datePublished":"2024-01-15T00:00:00.000Z","headline":"Welcome to Our Blog","inLanguage":"en","isPartOf":{"@id":"https://bioinfo.fs.lmu.de/en/blog/#blog","@type":"Blog","name":"Blog","url":"https://bioinfo.fs.lmu.de/en/blog/"},"mainEntityOfPage":"https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/","url":"https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/","author":[{"@type":"Person","@id":"https://bioinfo.fs.lmu.de/en/blog/authors/fs-bioinformatics-team/#author","name":"FS Bioinformatics Team","url":"https://bioinfo.fs.lmu.de"}],"description":"Welcome to the Munich Bioinformatics Student Council blog! Here we'll share updates, events, and helpful information for our community.","keywords":["welcome","announcement"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog","item":"https://bioinfo.fs.lmu.de/en/blog/"},{"@type":"ListItem","position":2,"name":"Welcome to Our Blog"}]}]}</script><script>
+<!DOCTYPE html><html lang="en" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-g5ptsecz"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Welcome to Our Blog | Munich bioinformatics student council</title><link rel="canonical" href="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><link rel="alternate" hreflang="en" href="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><link rel="alternate" hreflang="de" href="https://bioinfo.fs.lmu.de/de/blog/welcome-to-our-blog/"/><link rel="alternate" hreflang="x-default" href="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><link rel="sitemap" href="/sitemap-index.xml"/><style>
+						:root { --sidebar-left-width: var(--sl-sidebar-width); }
+						@media (min-width: 50rem) {
+							.sidebar-pane { width: var(--sidebar-left-width); }
+							html[data-has-sidebar] { --sl-content-inline-start: var(--sidebar-left-width); }
+							.sidebar-resizer { position: fixed; top: var(--sl-nav-height); bottom: 0; left: calc(var(--sidebar-left-width) - 4px); width: 8px; cursor: col-resize; z-index: 30; touch-action: none; }
+							.sidebar-resizer:hover, .sidebar-resizer.dragging { background: var(--sl-color-accent); opacity: 0.5; }
+							html.sidebar-collapsed { --sidebar-left-width: 0px !important; }
+							html.sidebar-collapsed .sidebar-pane, html.sidebar-collapsed .sidebar-resizer { display: none; }
+							.sidebar-toggle { position: fixed; top: calc(var(--sl-nav-height) + 0.5rem); left: var(--sidebar-left-width); z-index: 31; width: 1.5rem; height: 2.5rem; padding: 0; display: flex; align-items: center; justify-content: center; border: 1px solid var(--sl-color-hairline-shade); border-left: 0; border-radius: 0 0.4rem 0.4rem 0; background: var(--sl-color-bg-sidebar); color: var(--sl-color-gray-2); cursor: pointer; }
+							.sidebar-toggle:hover { color: var(--sl-color-white); background: var(--sl-color-gray-6); }
+							body.sidebar-resizing { cursor: col-resize; user-select: none; }
+							body.sidebar-resizing iframe { pointer-events: none; }
+						}
+						@media (max-width: 49.99rem) { .sidebar-resizer, .sidebar-toggle { display: none; } }
+					</style><script>
+						(() => {
+							const KEY = 'sidebar-width', MIN = 200, MAX = 600;
+							const root = document.documentElement;
+							const clamp = (w) => Math.min(MAX, Math.max(MIN, w));
+							try { if (localStorage.getItem('sidebar-collapsed') === '1') root.classList.add('sidebar-collapsed'); } catch {}
+							try { const w = +localStorage.getItem(KEY); if (w) root.style.setProperty('--sidebar-left-width', clamp(w) + 'px'); } catch {}
+							addEventListener('DOMContentLoaded', () => {
+								const pane = document.querySelector('.sidebar-pane');
+								if (!pane) return;
+								const bar = document.createElement('div');
+								bar.className = 'sidebar-resizer';
+								bar.setAttribute('role', 'separator');
+								bar.setAttribute('aria-orientation', 'vertical');
+								document.body.appendChild(bar);
+								let width, dragging = false;
+								bar.addEventListener('pointerdown', (e) => {
+									e.preventDefault();
+									dragging = true;
+									bar.classList.add('dragging');
+									document.body.classList.add('sidebar-resizing');
+								});
+								document.addEventListener('pointermove', (e) => {
+									if (!dragging) return;
+									width = clamp(e.clientX);
+									root.style.setProperty('--sidebar-left-width', width + 'px');
+								});
+								const stop = () => {
+									if (!dragging) return;
+									dragging = false;
+									bar.classList.remove('dragging');
+									document.body.classList.remove('sidebar-resizing');
+									if (width) try { localStorage.setItem(KEY, String(width)); } catch {}
+								};
+								document.addEventListener('pointerup', stop);
+								document.addEventListener('pointercancel', stop);
+								const toggle = document.createElement('button');
+								toggle.className = 'sidebar-toggle';
+								toggle.type = 'button';
+								document.body.appendChild(toggle);
+								const sync = () => {
+									const c = root.classList.contains('sidebar-collapsed');
+									toggle.textContent = c ? '›' : '‹';
+									toggle.title = toggle.ariaLabel = c ? 'Show sidebar' : 'Hide sidebar';
+									toggle.setAttribute('aria-expanded', String(!c));
+								};
+								toggle.addEventListener('click', () => {
+									const c = root.classList.toggle('sidebar-collapsed');
+									try { localStorage.setItem('sidebar-collapsed', c ? '1' : '0'); } catch {}
+									sync();
+								});
+								sync();
+								bar.addEventListener('dblclick', () => {
+									root.style.removeProperty('--sidebar-left-width');
+									try { localStorage.removeItem(KEY); } catch {}
+								});
+							});
+						})();
+					</script><link href="https://bioinfo.fs.lmu.de/blog/rss.xml" rel="alternate" title="Blog" type="application/rss+xml"/><link rel="shortcut icon" href="/favicon.png" type="image/png"/><meta name="generator" content="Astro v7.3.5"/><meta name="generator" content="Starlight v0.42.4"/><meta property="og:title" content="Welcome to Our Blog"/><meta property="og:type" content="article"/><meta property="og:url" content="https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/"/><meta property="og:locale" content="en"/><meta property="og:site_name" content="Munich bioinformatics student council"/><meta name="twitter:card" content="summary_large_image"/><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","datePublished":"2024-01-15T00:00:00.000Z","headline":"Welcome to Our Blog","inLanguage":"en","isPartOf":{"@id":"https://bioinfo.fs.lmu.de/en/blog/#blog","@type":"Blog","name":"Blog","url":"https://bioinfo.fs.lmu.de/en/blog/"},"mainEntityOfPage":"https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/","url":"https://bioinfo.fs.lmu.de/en/blog/welcome-to-our-blog/","author":[{"@type":"Person","@id":"https://bioinfo.fs.lmu.de/en/blog/authors/fs-bioinformatics-team/#author","name":"FS Bioinformatics Team","url":"https://bioinfo.fs.lmu.de"}],"description":"Welcome to the Munich Bioinformatics Student Council blog! Here we'll share updates, events, and helpful information for our community.","keywords":["welcome","announcement"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog","item":"https://bioinfo.fs.lmu.de/en/blog/"},{"@type":"ListItem","position":2,"name":"Welcome to Our Blog"}]}]}</script><script>
 	window.StarlightThemeProvider = (() => {
 		const storedTheme =
 			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
