@@ -1,6 +1,6 @@
 {
  "term": "WS 2026/27",
- "generated": "2026-10-18T01:06:53",
+ "generated": "2026-10-22T22:06:06",
  "catalogs": {
   "methods": {
    "label": "Methoden und Forschung",
@@ -22,10 +22,10 @@
  },
  "total_min": 78,
  "modules": {
-  "CIT323007": {
-   "name": "A Practical Introduction to Data Science",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=4860420&pOrgNr=1",
-   "turnus": "Wintersemester",
+  "IN5030": {
+   "name": "Biostatistische Methoden",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=588991&pOrgNr=1",
+   "turnus": null,
    "ects": 6,
    "ects_sources": {
     "pdf": null,
@@ -34,7 +34,155 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "IN2031": {
+   "name": "Einsatz und Realisierung von Datenbanksystemen",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=261475&pOrgNr=1",
+   "turnus": "Sommersemester",
+   "ects": 6,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 6,
+    "web": null
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "IN5026": {
+   "name": "Genetics of Aging and Cancer",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=1816880&pOrgNr=1",
+   "turnus": null,
+   "ects": 3,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 3,
+    "web": null
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "IN2080": {
+   "name": "Modellierung verteilter Systeme",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=456926&pOrgNr=1",
+   "turnus": "Sommersemester",
+   "ects": 4,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 4,
+    "web": null
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "IN5056": {
+   "name": "Molekulare Virologie I",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=921135&pOrgNr=1",
+   "turnus": null,
+   "ects": 3,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 3,
+    "web": null
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "WZ2381": {
+   "name": "Pflanzensystembiologie (Vorlesung und Seminar)",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=675541&pOrgNr=1",
+   "turnus": "Wintersemester/Sommersemester",
+   "ects": 5,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 5,
+    "web": null
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "WZ2170": {
+   "name": "Proteomics - Analytische Grundlagen und biomedizinische Anwendungen",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=461788&pOrgNr=1",
+   "turnus": "Wintersemester/Sommersemester",
+   "ects": 3,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 3,
+    "web": null
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
+  },
+  "CIT323007": {
+   "name": "A Practical Introduction to Data Science",
+   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=4860420&pOrgNr=1",
+   "turnus": "Wintersemester",
+   "ects": 6,
+   "ects_sources": {
+    "pdf": null,
+    "handbook": 6,
+    "web": 6
+   },
+   "ects_used_from": "handbook",
+   "ects_conflict": false,
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN5036": {
    "name": "Advanced Evolutionary Genomics",
@@ -48,7 +196,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "IN2309": {
    "name": "Advanced Topics of Software Engineering",
@@ -62,7 +218,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "SOT86062": {
    "name": "AI Regulation & Law (3 ECTS)",
@@ -72,11 +236,19 @@
    "ects_sources": {
     "pdf": 3,
     "handbook": 3,
-    "web": null
+    "web": 3
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "IN5022": {
    "name": "Algorithmen auf Sequenzen",
@@ -90,7 +262,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5020": {
    "name": "Algorithmische Bioinformatik: Bäume und Graphen",
@@ -104,7 +284,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5021": {
    "name": "Algorithmische Bioinformatik: Netzwerke, Graphen und Systeme",
@@ -118,7 +306,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5019": {
    "name": "Algorithmische Systembiologie",
@@ -132,7 +328,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5089": {
    "name": "Analysis of high-dimensional biological data",
@@ -146,7 +350,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "WZ2620": {
    "name": "Applications of Evolutionary Theory in Agriculture: Population Genomics of Crop Pathogens and Disease Management",
@@ -160,7 +372,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "SZ0118": {
    "name": "Arabisch A1.1",
@@ -174,7 +394,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0119": {
    "name": "Arabisch A1.2",
@@ -188,7 +416,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0120": {
    "name": "Arabisch A2.1",
@@ -202,7 +438,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0121": {
    "name": "Arabisch A2.2",
@@ -216,7 +460,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0108": {
    "name": "Arabisch B1.1",
@@ -230,7 +482,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0109": {
    "name": "Arabisch B1.2",
@@ -244,7 +504,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0110": {
    "name": "Arabisch B2.1",
@@ -258,7 +526,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0111": {
    "name": "Arabisch B2.2",
@@ -272,7 +548,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0112": {
    "name": "Arabisch C1.1",
@@ -286,7 +570,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0113": {
    "name": "Arabisch C1.2",
@@ -300,7 +592,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0114": {
    "name": "Arabisch C2.1",
@@ -314,7 +614,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0115": {
    "name": "Arabisch C2.2",
@@ -328,7 +636,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0123": {
    "name": "Arabisch Kommunikation A1",
@@ -342,7 +658,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ01013": {
    "name": "Arabisch Kommunikation A2",
@@ -356,7 +680,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN2403": {
    "name": "Artificial Intelligence in Medicine",
@@ -370,7 +702,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN2408": {
    "name": "Artificial Intelligence in Medicine II",
@@ -384,7 +724,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN5035": {
    "name": "Basic Evolutionary Genomics",
@@ -398,7 +746,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "IN5159": {
    "name": "Big Data Management and Analytics",
@@ -412,7 +768,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN5064": {
    "name": "Biochemie V: Lebenszyklus der Proteine",
@@ -426,7 +790,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "IN5065": {
    "name": "Biochemie VI: Modellorganismen",
@@ -440,7 +812,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "IN5066": {
    "name": "Biochemie VII: Genetischer Informationsfluss",
@@ -454,7 +834,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "IN5062": {
    "name": "Biochemie 4 - Zelluläre Biochemie",
@@ -468,21 +856,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
-  },
-  "IN5030": {
-   "name": "Biostatistische Methoden",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=588991&pOrgNr=1",
-   "turnus": null,
-   "ects": 6,
-   "ects_sources": {
-    "pdf": null,
-    "handbook": 6,
-    "web": 6
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "cs"
+   "catalog_from": "pdf"
   },
   "SZ0225": {
    "name": "Chinesisch - China Digital",
@@ -496,7 +878,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0226": {
    "name": "Chinesisch - Chinesische Landeskunde und interkulturelles Training",
@@ -510,7 +900,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0218": {
    "name": "Chinesisch - Wirtschaftschinesisch 1",
@@ -524,7 +922,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0209": {
    "name": "Chinesisch A1.1",
@@ -538,7 +944,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0210": {
    "name": "Chinesisch A1.2",
@@ -552,7 +966,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0211": {
    "name": "Chinesisch A2.1",
@@ -566,7 +988,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0219": {
    "name": "Chinesisch A2.1 - Kommunikation am Arbeitsplatz",
@@ -580,7 +1010,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0212": {
    "name": "Chinesisch A2.2",
@@ -594,7 +1032,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0221": {
    "name": "Chinesisch A2.2 - Kommunikation am Arbeitsplatz",
@@ -608,7 +1054,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0213": {
    "name": "Chinesisch B1.1",
@@ -622,7 +1076,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0214": {
    "name": "Chinesisch B1.2",
@@ -636,7 +1098,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0217": {
    "name": "Chinesisch B2.1",
@@ -650,7 +1120,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0220": {
    "name": "Chinesisch B2.1 - Wissenschaftliches Chinesisch",
@@ -664,7 +1142,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0224": {
    "name": "Chinesisch B2.2 - Wirtschaftschinesisch",
@@ -678,7 +1164,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "WZ2693": {
    "name": "Cognitive Neuroscience",
@@ -692,7 +1186,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "CLA30803": {
    "name": "Cognitive Science: Denken, Erkennen und Wissen",
@@ -702,11 +1204,19 @@
    "ects_sources": {
     "pdf": 3,
     "handbook": 3,
-    "web": null
+    "web": 3
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "MA5617": {
    "name": "Computational Methods for Single-cell Biology",
@@ -720,7 +1230,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5088": {
    "name": "Computational Methods in Evolutionary Biology",
@@ -734,7 +1252,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "CIT4230001": {
    "name": "Computational Modeling for System Genetics",
@@ -744,11 +1270,19 @@
    "ects_sources": {
     "pdf": 6,
     "handbook": 6,
-    "web": 4
+    "web": null
    },
    "ects_used_from": "pdf",
-   "ects_conflict": true,
-   "catalog": "methods"
+   "ects_conflict": false,
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": null
+   },
+   "catalog_from": "pdf"
   },
   "EI7646": {
    "name": "Computational Neuroscience: Eine Ringvorlesung von Modellen bis zu Anwendungen",
@@ -762,7 +1296,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "IN2375": {
    "name": "Computer Vision III: Detection, Segmentation, and Tracking",
@@ -776,7 +1318,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "SZ1501": {
    "name": "Dänisch A1",
@@ -790,7 +1340,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1502": {
    "name": "Dänisch A2",
@@ -804,7 +1362,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1503": {
    "name": "Dänisch B1",
@@ -818,7 +1384,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN2339": {
    "name": "Data Analysis and Visualization in R",
@@ -828,11 +1402,19 @@
    "ects_sources": {
     "pdf": 6,
     "handbook": 6,
-    "web": 6
+    "web": null
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": null
+   },
+   "catalog_from": "pdf"
   },
   "SOT46401": {
    "name": "Data Ethics and Governance",
@@ -842,11 +1424,19 @@
    "ects_sources": {
     "pdf": 6,
     "handbook": 6,
-    "web": null
+    "web": 6
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "IN5042": {
    "name": "Data Mining Algorithmen I",
@@ -860,7 +1450,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "SOT86060": {
    "name": "Data Regulation & Law (3 ECTS)",
@@ -870,11 +1468,19 @@
    "ects_sources": {
     "pdf": 3,
     "handbook": 3,
-    "web": null
+    "web": 3
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "IN2003": {
    "name": "Efficient Algorithms and Data Structures",
@@ -888,7 +1494,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "IN2004": {
    "name": "Effiziente Algorithmen und Datenstrukturen II",
@@ -902,7 +1516,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "IN5128": {
    "name": "Einführung in Computational Neuroscience",
@@ -916,7 +1538,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "WZ2048": {
    "name": "Einführung in die Biologie und Diagnostik pathogener Bakterien",
@@ -930,21 +1560,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
-  },
-  "IN2031": {
-   "name": "Einsatz und Realisierung von Datenbanksystemen",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=261475&pOrgNr=1",
-   "turnus": "Sommersemester",
-   "ects": 6,
-   "ects_sources": {
+   "catalog": "bio",
+   "catalog_sources": {
     "pdf": null,
-    "handbook": 6,
-    "web": 6
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "cs"
+   "catalog_from": "handbook"
   },
   "IN5129": {
    "name": "Epigenetik",
@@ -958,7 +1582,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "CLA21107": {
    "name": "Ethik des Rechts",
@@ -968,11 +1600,19 @@
    "ects_sources": {
     "pdf": 2,
     "handbook": 2,
-    "web": null
+    "web": 2
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "WZ2375": {
    "name": "Evolution von Krankheitserregern",
@@ -986,7 +1626,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "IN5037": {
    "name": "Evolutionary Genetics",
@@ -1000,7 +1648,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "IN2379": {
    "name": "Fortgeschrittene Datenverarbeitungs- und Visualisierungstechniken",
@@ -1014,7 +1670,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5073": {
    "name": "Fortgeschrittenen-Praktikum Bioinformatik",
@@ -1028,7 +1692,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "SZ0501": {
    "name": "Französisch A1.1",
@@ -1042,7 +1714,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0522": {
    "name": "Französisch A1.1 + A1.2",
@@ -1056,7 +1736,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0502": {
    "name": "Französisch A1.2",
@@ -1070,7 +1758,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0529": {
    "name": "Französisch A2 - Communication orale et écrite",
@@ -1084,7 +1780,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0503": {
    "name": "Französisch A2.1",
@@ -1098,7 +1802,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0527": {
    "name": "Französisch A2.1 + A2.2",
@@ -1112,7 +1824,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0504": {
    "name": "Französisch A2.2",
@@ -1126,7 +1846,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0530": {
    "name": "Französisch B1 plus",
@@ -1140,7 +1868,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0512": {
    "name": "Französisch B1/B2 - Cours de conversation: La société française",
@@ -1154,7 +1890,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0505": {
    "name": "Französisch B1.1",
@@ -1168,7 +1912,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0526": {
    "name": "Französisch B1.1 + B1.2",
@@ -1182,7 +1934,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ05061": {
    "name": "Französisch B1.2",
@@ -1196,7 +1956,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0514": {
    "name": "Französisch B2 - Cours de conversation",
@@ -1210,7 +1978,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0517": {
    "name": "Französisch B2 - Cours de préparation à un échange universitaire",
@@ -1224,7 +2000,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0507": {
    "name": "Französisch B2 - Le français pour la profession",
@@ -1238,7 +2022,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0518": {
    "name": "Französisch B2 Technisches Französisch",
@@ -1252,7 +2044,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0511": {
    "name": "Französisch B2/C1 - La France actuelle",
@@ -1266,7 +2066,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0515": {
    "name": "Französisch C1 - Cours de conversation supérieure",
@@ -1280,7 +2088,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0523": {
    "name": "Französisch C1 - Le français des affaires",
@@ -1294,7 +2110,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0528": {
    "name": "Französisch C1 - s'exprimer à l'écrit comme à l'oral",
@@ -1308,21 +2132,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
-  },
-  "IN5026": {
-   "name": "Genetics of Aging and Cancer",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=1816880&pOrgNr=1",
-   "turnus": null,
-   "ects": 3,
-   "ects_sources": {
+   "catalog": "interdisc",
+   "catalog_sources": {
     "pdf": null,
-    "handbook": 3,
-    "web": 3
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "bio"
+   "catalog_from": "handbook"
   },
   "CIT803001": {
    "name": "Genomics of Human Diseases",
@@ -1336,7 +2154,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "SZ1304": {
    "name": "Hebräisch A1.1",
@@ -1350,7 +2176,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1305": {
    "name": "Hebräisch A1.2",
@@ -1364,7 +2198,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1306": {
    "name": "Hebräisch A2.1",
@@ -1378,7 +2220,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "CIT803000": {
    "name": "Human Genomics",
@@ -1392,7 +2242,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "IN2346": {
    "name": "Introduction to Deep Learning",
@@ -1406,7 +2264,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "SZ0602": {
    "name": "Italienisch A1.1",
@@ -1420,7 +2286,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0601": {
    "name": "Italienisch A1.1 + A1.2 - Intensiv",
@@ -1434,7 +2308,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0605": {
    "name": "Italienisch A1.2",
@@ -1448,7 +2330,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0623": {
    "name": "Italienisch A1.2 + A2.1 - Intensiv",
@@ -1462,7 +2352,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0606": {
    "name": "Italienisch A2.1",
@@ -1476,7 +2374,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0607": {
    "name": "Italienisch A2.1 + A2.2 - Intensiv",
@@ -1490,7 +2396,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0608": {
    "name": "Italienisch A2.2",
@@ -1504,7 +2418,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0624": {
    "name": "Italienisch A2.2 + B1.1 - Intensiv",
@@ -1518,7 +2440,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0630": {
    "name": "Italienisch B1/B2 - Corso di conversazione",
@@ -1532,7 +2462,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0632": {
    "name": "Italienisch B1/B2 – Grammatica compatta",
@@ -1546,7 +2484,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0619": {
    "name": "Italienisch B1/B2 - La società italiana oggi",
@@ -1560,7 +2506,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0609": {
    "name": "Italienisch B1.1",
@@ -1574,7 +2528,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0631": {
    "name": "Italienisch B1.1 + B1.2 - intensiv",
@@ -1588,7 +2550,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ06091": {
    "name": "Italienisch B1.2",
@@ -1602,7 +2572,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0616": {
    "name": "Italienisch B2/ C1 - Comunicare in italiano: lingua e conversazione",
@@ -1616,7 +2594,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0618": {
    "name": "Italienisch B2.1",
@@ -1630,7 +2616,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0633": {
    "name": "Italienisch B2.1 + B2.2 - Intensiv",
@@ -1644,7 +2638,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0620": {
    "name": "Italienisch B2.2",
@@ -1658,7 +2660,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0604": {
    "name": "Italienisch C1 - Comunicare in italiano: lingua e conversazione",
@@ -1672,7 +2682,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0635": {
    "name": "Italienisch C1.1",
@@ -1686,7 +2704,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ06081": {
    "name": "Italienisch für Medizinstudierende A2.2/B1.1",
@@ -1700,7 +2726,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0705": {
    "name": "Japanisch A1.1",
@@ -1714,7 +2748,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ07052": {
    "name": "Japanisch A1.1 + A1.2",
@@ -1728,7 +2770,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0706": {
    "name": "Japanisch A1.2",
@@ -1742,7 +2792,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0707": {
    "name": "Japanisch A1.3",
@@ -1756,7 +2814,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0718": {
    "name": "Japanisch A1.3 + A1.4",
@@ -1770,7 +2836,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0709": {
    "name": "Japanisch A1.4",
@@ -1784,7 +2858,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0723": {
    "name": "Japanisch A2 - Kommunikation plus",
@@ -1798,7 +2880,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0711": {
    "name": "Japanisch A2 Kommunikation",
@@ -1812,7 +2902,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0708": {
    "name": "Japanisch A2.1",
@@ -1826,7 +2924,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0719": {
    "name": "Japanisch A2.1 + A2.2",
@@ -1840,7 +2946,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0710": {
    "name": "Japanisch A2.2",
@@ -1854,7 +2968,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0716": {
    "name": "Japanisch A2.3 + A2.4",
@@ -1868,7 +2990,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0717": {
    "name": "Japanisch B1 Kommunikation",
@@ -1882,7 +3012,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0720": {
    "name": "Japanisch B1.1",
@@ -1896,7 +3034,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0721": {
    "name": "Japanisch B1.2",
@@ -1910,7 +3056,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0722": {
    "name": "Japanisch B2 Kommunikation",
@@ -1924,7 +3078,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0222": {
    "name": "Kantonesisch A1.1",
@@ -1938,7 +3100,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0223": {
    "name": "Kantonesisch A1.2",
@@ -1952,7 +3122,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ2001": {
    "name": "Katalanisch A1",
@@ -1966,7 +3144,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN5043": {
    "name": "Knowledge Discovery in Databases II",
@@ -1980,7 +3166,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "SZ1808": {
    "name": "Koreanisch A1.1",
@@ -1994,7 +3188,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1809": {
    "name": "Koreanisch A1.2",
@@ -2008,7 +3210,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1804": {
    "name": "Koreanisch A2.1",
@@ -2022,7 +3232,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1805": {
    "name": "Koreanisch A2.2",
@@ -2036,7 +3254,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1810": {
    "name": "Koreanisch B1.1",
@@ -2050,7 +3276,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1813": {
    "name": "Koreanisch B1.1 + B1.2 - Grammatik",
@@ -2064,7 +3298,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1812": {
    "name": "Koreanisch B1.1 plus B1.2 - Vorbereitung auf die Sprachprüfung TOPIK",
@@ -2078,7 +3320,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1807": {
    "name": "Koreanisch B1.2",
@@ -2092,7 +3342,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1814": {
    "name": "Koreanisch: Korean Conversation Practice for Intermediate level",
@@ -2106,7 +3364,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN2064": {
    "name": "Machine Learning",
@@ -2120,7 +3386,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN5075": {
    "name": "Machine Learning",
@@ -2134,7 +3408,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "SOT86066": {
    "name": "Machine Learning and Society (3 ECTS)",
@@ -2144,11 +3426,19 @@
    "ects_sources": {
     "pdf": 3,
     "handbook": 3,
-    "web": null
+    "web": 3
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "IN2357": {
    "name": "Machine Learning for Computer Vision",
@@ -2162,7 +3452,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "IN2323": {
    "name": "Machine Learning for Graphs and Sequential Data",
@@ -2176,7 +3474,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN2393": {
    "name": "Machine Learning for Regulatory Genomics",
@@ -2190,7 +3496,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN2370": {
    "name": "Masterpraktikum Bioinformatik",
@@ -2204,7 +3518,13 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": null
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
   },
   "IN2218": {
    "name": "Master's Thesis",
@@ -2218,7 +3538,13 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": null
+   "catalog": null,
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [],
+    "web": null
+   },
+   "catalog_from": null
   },
   "IN5187": {
    "name": "Masterseminar Ethik und Bioinformatik",
@@ -2232,7 +3558,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "MA3601": {
    "name": "Mathematical Models in Biology",
@@ -2246,7 +3580,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "WZ8128": {
    "name": "Methoden der Genomanalyse",
@@ -2260,7 +3602,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "WZ2372": {
    "name": "Mikroorganismen als Krankheitserreger",
@@ -2274,7 +3624,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "WZ2621": {
    "name": "Modellierung biologischer Makromoleküle",
@@ -2288,21 +3646,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "methods"
-  },
-  "IN2080": {
-   "name": "Modellierung verteilter Systeme",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=456926&pOrgNr=1",
-   "turnus": "Sommersemester",
-   "ects": 4,
-   "ects_sources": {
+   "catalog": "methods",
+   "catalog_sources": {
     "pdf": null,
-    "handbook": 4,
-    "web": 4
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "cs"
+   "catalog_from": "handbook"
   },
   "WZ1174": {
    "name": "Molecular Biology of Biotechnologically Relevant Fungi",
@@ -2316,7 +3668,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "PH2019": {
    "name": "Molekulardynamik-Simulationen",
@@ -2330,7 +3690,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "ME2648": {
    "name": "Molekulare Onkologie",
@@ -2344,21 +3712,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "bio"
-  },
-  "IN5056": {
-   "name": "Molekulare Virologie I",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=921135&pOrgNr=1",
-   "turnus": null,
-   "ects": 3,
-   "ects_sources": {
-    "pdf": null,
-    "handbook": 3,
-    "web": 3
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "bio"
+   "catalog_from": "pdf"
   },
   "LS20060": {
    "name": "Multiomics Profiling for Microbiome Data",
@@ -2372,7 +3734,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN2361": {
    "name": "Natural Language Processing",
@@ -2382,11 +3752,19 @@
    "ects_sources": {
     "pdf": null,
     "handbook": 6,
-    "web": 5
+    "web": 6
    },
    "ects_used_from": "handbook",
-   "ects_conflict": true,
-   "catalog": "cs"
+   "ects_conflict": false,
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "WZ2457": {
    "name": "Neurobiologie",
@@ -2400,7 +3778,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "handbook"
   },
   "SZ1601": {
    "name": "Niederländisch A1",
@@ -2414,7 +3800,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1602": {
    "name": "Niederländisch A2",
@@ -2428,7 +3822,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1606": {
    "name": "Niederländisch B1",
@@ -2442,7 +3844,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1609": {
    "name": "Niederländisch B1.1",
@@ -2456,7 +3866,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1701": {
    "name": "Norwegisch A1",
@@ -2470,7 +3888,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1702": {
    "name": "Norwegisch A2",
@@ -2484,7 +3910,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1703": {
    "name": "Norwegisch B1",
@@ -2498,7 +3932,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1704": {
    "name": "Norwegisch B2",
@@ -2512,7 +3954,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN5085": {
    "name": "Parallel and High Performance Computing",
@@ -2526,7 +3976,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "IN2147": {
    "name": "Parallele Programmierung",
@@ -2540,7 +3998,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "handbook"
   },
   "IN5116": {
    "name": "Perlen der Bioinformatik: Algorithmen",
@@ -2554,7 +4020,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN5096": {
    "name": "Perlen der Bioinformatik: ENCODE",
@@ -2568,7 +4042,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN2052": {
    "name": "Petrinetze",
@@ -2582,21 +4064,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
-  },
-  "WZ2381": {
-   "name": "Pflanzensystembiologie (Vorlesung und Seminar)",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=675541&pOrgNr=1",
-   "turnus": "Wintersemester/Sommersemester",
-   "ects": 5,
-   "ects_sources": {
-    "pdf": null,
-    "handbook": 5,
-    "web": 5
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "bio"
+   "catalog_from": "pdf"
   },
   "SZ0818": {
    "name": "Portugiesisch - Português para hispanofalantes A1",
@@ -2610,7 +4086,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0815": {
    "name": "Portugiesisch - Português para hispanofalantes A1 + A2",
@@ -2624,7 +4108,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0819": {
    "name": "Portugiesisch - Português para hispanofalantes A2",
@@ -2638,7 +4130,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0801": {
    "name": "Portugiesisch A1",
@@ -2652,7 +4152,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0806": {
    "name": "Portugiesisch A2.1",
@@ -2666,7 +4174,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0807": {
    "name": "Portugiesisch A2.2",
@@ -2680,7 +4196,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0809": {
    "name": "Portugiesisch B1.1",
@@ -2694,7 +4218,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0808": {
    "name": "Portugiesisch B1.2",
@@ -2708,7 +4240,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0816": {
    "name": "Portugiesisch B2.1",
@@ -2722,7 +4262,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0817": {
    "name": "Portugiesisch B2.2",
@@ -2736,7 +4284,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0820": {
    "name": "Portugiesisch C1 - comunicação oral e escrita",
@@ -2750,7 +4306,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN2221": {
    "name": "Protein Prediction I for Bioinformaticians",
@@ -2764,7 +4328,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "IN2230": {
    "name": "Protein Prediction II for Bioinformaticians",
@@ -2778,7 +4350,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "WZ2580": {
    "name": "Protein-Engineering",
@@ -2792,21 +4372,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "bio"
-  },
-  "WZ2170": {
-   "name": "Proteomics - Analytische Grundlagen und biomedizinische Anwendungen",
-   "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=461788&pOrgNr=1",
-   "turnus": "Wintersemester/Sommersemester",
-   "ects": 3,
-   "ects_sources": {
+   "catalog": "bio",
+   "catalog_sources": {
     "pdf": null,
-    "handbook": 3,
-    "web": 3
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
    },
-   "ects_used_from": "handbook",
-   "ects_conflict": false,
-   "catalog": "bio"
+   "catalog_from": "handbook"
   },
   "WZ2439": {
    "name": "Proteomics: Analytische Grundlagen und Biomedizinische Anwendungen",
@@ -2816,11 +4390,19 @@
    "ects_sources": {
     "pdf": 6,
     "handbook": 5,
-    "web": 5
+    "web": 6
    },
    "ects_used_from": "pdf",
    "ects_conflict": true,
-   "catalog": "bio"
+   "catalog": "bio",
+   "catalog_sources": {
+    "pdf": "bio",
+    "handbook": [
+     "bio"
+    ],
+    "web": "bio"
+   },
+   "catalog_from": "pdf"
   },
   "SZ0908": {
    "name": "Russisch - Einführung in die Wissenschaftssprache ab B1",
@@ -2834,7 +4416,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0910": {
    "name": "Russisch - Kommunikationskurs B1/B2",
@@ -2848,7 +4438,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0909": {
    "name": "Russisch als Herkunftssprache ab B1",
@@ -2862,7 +4460,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0901": {
    "name": "Russisch A1.1",
@@ -2876,7 +4482,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0902": {
    "name": "Russisch A1.2",
@@ -2890,7 +4504,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0903": {
    "name": "Russisch A2.1",
@@ -2904,7 +4526,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0904": {
    "name": "Russisch A2.2",
@@ -2918,7 +4548,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0911": {
    "name": "Russisch B1/B2 - Systematische Grammatik",
@@ -2932,7 +4570,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0905": {
    "name": "Russisch B1.1",
@@ -2946,7 +4592,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0906": {
    "name": "Russisch B1.2",
@@ -2960,7 +4614,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ0907": {
    "name": "Russisch B2.1",
@@ -2974,7 +4636,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1001": {
    "name": "Schwedisch A1",
@@ -2988,7 +4658,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1002": {
    "name": "Schwedisch A2",
@@ -3002,7 +4680,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1015": {
    "name": "Schwedisch A2-B1: Kommunikation",
@@ -3016,7 +4702,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1003": {
    "name": "Schwedisch B1",
@@ -3030,7 +4724,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1016": {
    "name": "Schwedisch B1.1",
@@ -3044,7 +4746,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1004": {
    "name": "Schwedisch B2",
@@ -3058,7 +4768,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1017": {
    "name": "Schwedisch B2-C1",
@@ -3072,7 +4790,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1012": {
    "name": "Schwedisch B2.1",
@@ -3086,7 +4812,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1013": {
    "name": "Schwedisch B2.2",
@@ -3100,7 +4834,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1007": {
    "name": "Schwedisch C1",
@@ -3114,7 +4856,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1014": {
    "name": "Schwedisch C1.1",
@@ -3128,7 +4878,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1201": {
    "name": "Spanisch A1",
@@ -3142,7 +4900,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1208": {
    "name": "Spanisch A1 - AVE (online)",
@@ -3156,7 +4922,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1207": {
    "name": "Spanisch A1 + A2.1",
@@ -3170,7 +4944,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1237": {
    "name": "Spanisch A1.1",
@@ -3184,7 +4966,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1239": {
    "name": "Spanisch A1.1 + A1.2",
@@ -3198,7 +4988,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1238": {
    "name": "Spanisch A1.2",
@@ -3212,7 +5010,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1230": {
    "name": "Spanisch A2 - Grammatik Training-Curso práctico de gramática",
@@ -3226,7 +5032,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1231": {
    "name": "Spanisch A2 plus - Sicherheit in Wortschatz und Grammatik",
@@ -3240,7 +5054,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1202": {
    "name": "Spanisch A2.1",
@@ -3254,7 +5076,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ12031": {
    "name": "Spanisch A2.1 + A2.2",
@@ -3268,7 +5098,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1203": {
    "name": "Spanisch A2.2",
@@ -3282,7 +5120,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1229": {
    "name": "Spanisch B1 – Grammatik Training-Curso práctico de gramática",
@@ -3296,7 +5142,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1236": {
    "name": "Spanisch B1 - Tandem",
@@ -3310,7 +5164,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1218": {
    "name": "Spanisch B1.1",
@@ -3324,7 +5186,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1225": {
    "name": "Spanisch B1.1 + B1.2",
@@ -3338,7 +5208,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1216": {
    "name": "Spanisch B1.2",
@@ -3352,7 +5230,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1228": {
    "name": "Spanisch B2 - Español para la Ciencia und Tecnología",
@@ -3366,7 +5252,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1232": {
    "name": "Spanisch B2 plus - Vorbereitung auf C1",
@@ -3380,7 +5274,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1219": {
    "name": "Spanisch B2.1",
@@ -3394,7 +5296,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1217": {
    "name": "Spanisch B2.2",
@@ -3408,7 +5318,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1212": {
    "name": "Spanisch C1 - España y América Latina ayer y hoy",
@@ -3422,7 +5340,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1209": {
    "name": "Spanisch C1 - La actualidad en España y América Latina",
@@ -3436,7 +5362,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1227": {
    "name": "Spanisch C1.1",
@@ -3450,7 +5384,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1234": {
    "name": "Spanisch C1.1 - Más allá de los límites",
@@ -3464,7 +5406,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1235": {
    "name": "Spanisch C1.2",
@@ -3478,7 +5428,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "WZ0402": {
    "name": "Strukturbioinformatik",
@@ -3492,7 +5450,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "handbook"
   },
   "WZ8119": {
    "name": "Systems BioMedicine",
@@ -3506,7 +5472,15 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "methods"
+   "catalog": "methods",
+   "catalog_sources": {
+    "pdf": "methods",
+    "handbook": [
+     "methods"
+    ],
+    "web": "methods"
+   },
+   "catalog_from": "pdf"
   },
   "ED0038": {
    "name": "Technik, Wirtschaft und Gesellschaft",
@@ -3516,11 +5490,19 @@
    "ects_sources": {
     "pdf": 3,
     "handbook": 3,
-    "web": null
+    "web": 3
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   },
   "SZ1408": {
    "name": "Türkisch - Kommunikation A2",
@@ -3534,7 +5516,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1404": {
    "name": "Türkisch A1.1",
@@ -3548,7 +5538,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1405": {
    "name": "Türkisch A1.2",
@@ -3562,7 +5560,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1402": {
    "name": "Türkisch A2.1",
@@ -3576,7 +5582,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "SZ1403": {
    "name": "Türkisch A2.2",
@@ -3590,7 +5604,15 @@
    },
    "ects_used_from": "handbook",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": null,
+    "handbook": [
+     "interdisc"
+    ],
+    "web": null
+   },
+   "catalog_from": "handbook"
   },
   "IN2026": {
    "name": "Visual Data Analytics",
@@ -3604,21 +5626,37 @@
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "cs"
+   "catalog": "cs",
+   "catalog_sources": {
+    "pdf": "cs",
+    "handbook": [
+     "cs"
+    ],
+    "web": "cs"
+   },
+   "catalog_from": "pdf"
   },
   "CLA21109": {
    "name": "Was kann ich wissen? - Klassiker der Erkenntnistheorie",
    "url": "https://campus.tum.de/tumonline/WBMODHB.wbShowMHBReadOnly?pKnotenNr=1057421&pOrgNr=1",
-   "turnus": "Wintersemester",
+   "turnus": "Unregelmäßig",
    "ects": 2,
    "ects_sources": {
     "pdf": 2,
     "handbook": 2,
-    "web": null
+    "web": 2
    },
    "ects_used_from": "pdf",
    "ects_conflict": false,
-   "catalog": "interdisc"
+   "catalog": "interdisc",
+   "catalog_sources": {
+    "pdf": "interdisc",
+    "handbook": [
+     "interdisc"
+    ],
+    "web": "interdisc"
+   },
+   "catalog_from": "pdf"
   }
  },
  "courses": [
@@ -3909,7 +5947,7 @@
    "credit_module": "WZ2170",
    "ects": 3,
    "ects_conflict": false,
-   "catalog": "bio",
+   "catalog": null,
    "language": "English",
    "lecturers": [
     {
@@ -4718,7 +6756,16 @@
      "room": "203, Seminarraum (2911.02.203)",
      "first": "2026-10-21",
      "last": "2027-02-03",
-     "n": 13
+     "n": 11
+    },
+    {
+     "day": 3,
+     "start": "19:00",
+     "end": "21:45",
+     "room": "203, Seminarraum (2911.02.203)",
+     "first": "2026-11-11",
+     "last": "2026-11-11",
+     "n": 1
     },
     {
      "day": 1,
@@ -4852,12 +6899,21 @@
     },
     {
      "day": 3,
+     "start": "16:45",
+     "end": "18:45",
+     "room": "203, Seminarraum (2911.02.203)",
+     "first": "2026-10-28",
+     "last": "2026-11-11",
+     "n": 2
+    },
+    {
+     "day": 3,
      "start": "17:15",
      "end": "18:45",
      "room": "203, Seminarraum (2911.02.203)",
      "first": "2026-10-21",
      "last": "2027-02-03",
-     "n": 12
+     "n": 10
     }
    ]
   },
@@ -5104,7 +7160,7 @@
     {
      "day": 3,
      "start": "15:00",
-     "end": "18:15",
+     "end": "18:45",
      "room": "100, Seminarraum (2911.01.100)",
      "first": "2026-12-09",
      "last": "2027-02-03",
@@ -5425,7 +7481,16 @@
      "room": "0170, Unterricht (0501.EG.170)",
      "first": "2026-10-22",
      "last": "2026-12-17",
-     "n": 8
+     "n": 7
+    },
+    {
+     "day": 4,
+     "start": "17:30",
+     "end": "20:00",
+     "room": "Online: Videokonferenz",
+     "first": "2026-11-05",
+     "last": "2026-11-05",
+     "n": 1
     },
     {
      "day": 3,
@@ -5450,9 +7515,9 @@
      "start": "16:45",
      "end": "19:15",
      "room": "2026, Karlstraße-Seminarraum (2906.02.026)",
-     "first": "2026-10-21",
+     "first": "2026-10-28",
      "last": "2026-12-16",
-     "n": 9
+     "n": 8
     },
     {
      "day": 1,
@@ -5462,6 +7527,15 @@
      "first": "2026-10-19",
      "last": "2026-11-30",
      "n": 7
+    },
+    {
+     "day": 6,
+     "start": "10:00",
+     "end": "12:30",
+     "room": "Online: Videokonferenz",
+     "first": "2026-12-12",
+     "last": "2026-12-12",
+     "n": 1
     }
    ]
   },
@@ -5942,7 +8016,7 @@
      "room": "Online: Videokonferenz",
      "first": "2026-10-22",
      "last": "2027-02-04",
-     "n": 13
+     "n": 12
     },
     {
      "day": 4,
@@ -5952,6 +8026,15 @@
      "first": "2026-10-22",
      "last": "2027-02-04",
      "n": 12
+    },
+    {
+     "day": 5,
+     "start": "09:45",
+     "end": "13:00",
+     "room": "Online: Videokonferenz",
+     "first": "2026-11-06",
+     "last": "2026-11-06",
+     "n": 1
     },
     {
      "day": 5,
@@ -6415,7 +8498,16 @@
      "room": "002, Seminarraum (RG) (2903.EG.002)",
      "first": "2026-10-22",
      "last": "2027-02-04",
-     "n": 13
+     "n": 12
+    },
+    {
+     "day": 4,
+     "start": "16:45",
+     "end": "18:15",
+     "room": "Online: Videokonferenz",
+     "first": "2026-10-29",
+     "last": "2026-10-29",
+     "n": 1
     }
    ]
   },
@@ -6925,17 +9017,7 @@
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950941813",
    "category": "language",
-   "slots": [
-    {
-     "day": 1,
-     "start": "09:45",
-     "end": "11:15",
-     "room": "01.5901.013, Seminarraum (5901.01.013)",
-     "first": "2026-10-19",
-     "last": "2027-02-01",
-     "n": 14
-    }
-   ]
+   "slots": []
   },
   {
    "id": 950941814,
@@ -7135,7 +9217,7 @@
      "day": 5,
      "start": "08:00",
      "end": "10:30",
-     "room": "Externer Ort (siehe Anmerkung)",
+     "room": "Online: Videokonferenz",
      "first": "2026-12-04",
      "last": "2026-12-04",
      "n": 1
@@ -8250,7 +10332,7 @@
    ],
    "credit_module": "IN2361",
    "ects": 6,
-   "ects_conflict": true,
+   "ects_conflict": false,
    "catalog": "cs",
    "language": "English",
    "lecturers": [
@@ -9105,7 +11187,17 @@
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950943958",
    "category": "lecture",
-   "slots": []
+   "slots": [
+    {
+     "day": 5,
+     "start": "10:00",
+     "end": "12:00",
+     "room": "00.13.009A, Seminarraum (5613.EG.009A)",
+     "first": "2026-10-16",
+     "last": "2027-02-05",
+     "n": 15
+    }
+   ]
   },
   {
    "id": 950944118,
@@ -9143,9 +11235,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950944118/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950944118",
@@ -9958,11 +12050,11 @@
     },
     {
      "day": 5,
-     "start": "13:30",
+     "start": "14:00",
      "end": "16:00",
-     "room": "Externer Ort (siehe Anmerkung)",
-     "first": "2026-11-27",
-     "last": "2026-11-27",
+     "room": "607, Seminarraum (2907.06.607)",
+     "first": "2026-11-20",
+     "last": "2026-11-20",
      "n": 1
     },
     {
@@ -10005,9 +12097,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950949934/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950949934",
@@ -10044,9 +12136,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950949936/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950949936",
@@ -10118,7 +12210,26 @@
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950974890",
    "category": "lecture",
-   "slots": []
+   "slots": [
+    {
+     "day": 2,
+     "start": "16:00",
+     "end": "18:00",
+     "room": "00.13.009A, Seminarraum (5613.EG.009A)",
+     "first": "2026-10-13",
+     "last": "2027-02-02",
+     "n": 15
+    },
+    {
+     "day": 4,
+     "start": "14:00",
+     "end": "16:00",
+     "room": "00.13.009A, Seminarraum (5613.EG.009A)",
+     "first": "2026-10-15",
+     "last": "2027-02-04",
+     "n": 14
+    }
+   ]
   },
   {
    "id": 950977108,
@@ -10784,9 +12895,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950940508/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950940508",
@@ -11069,9 +13180,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950942687/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950942687",
@@ -11079,27 +13190,87 @@
    "groups": [
     {
      "name": "Group01",
-     "slots": []
+     "slots": [
+      {
+       "day": 2,
+       "start": "08:00",
+       "end": "10:00",
+       "room": "00.08.038, Unterrichtsraum ohne Infrastruktur (5608.EG.038)",
+       "first": "2026-10-20",
+       "last": "2027-02-02",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group02",
-     "slots": []
+     "slots": [
+      {
+       "day": 2,
+       "start": "12:00",
+       "end": "14:00",
+       "room": "00.13.008, Unterrichtsraum ohne Infrastruktur (5613.EG.008)",
+       "first": "2026-10-20",
+       "last": "2027-02-02",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group03",
-     "slots": []
+     "slots": [
+      {
+       "day": 3,
+       "start": "08:00",
+       "end": "10:00",
+       "room": "02.07.023, Unterrichtsraum ohne Infrastruktur (5607.02.023)",
+       "first": "2026-10-21",
+       "last": "2027-02-03",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group04",
-     "slots": []
+     "slots": [
+      {
+       "day": 3,
+       "start": "12:00",
+       "end": "14:00",
+       "room": "03.13.010, Unterrichtsraum ohne Infrastruktur (5613.03.010)",
+       "first": "2026-10-21",
+       "last": "2027-02-03",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group05",
-     "slots": []
+     "slots": [
+      {
+       "day": 4,
+       "start": "08:00",
+       "end": "10:00",
+       "room": "00.13.008, Unterrichtsraum ohne Infrastruktur (5613.EG.008)",
+       "first": "2026-10-22",
+       "last": "2027-02-04",
+       "n": 13
+      }
+     ]
     },
     {
      "name": "Group06",
-     "slots": []
+     "slots": [
+      {
+       "day": 4,
+       "start": "14:00",
+       "end": "16:00",
+       "room": "03.11.018, Seminarraum (5611.03.018)",
+       "first": "2026-10-22",
+       "last": "2027-02-04",
+       "n": 13
+      }
+     ]
     },
     {
      "name": "Group07",
@@ -11256,9 +13427,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950944239/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950944239",
@@ -11380,9 +13551,9 @@
     }
    ],
    "registration": {
-    "open": true,
-    "status": "RUNNING",
-    "info": "LV-Anmeldung möglich",
+    "open": false,
+    "status": "NONE",
+    "info": "Anmeldung abgelaufen",
     "url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950949935/registrationProcedures"
    },
    "course_url": "https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/950949935",
@@ -11528,35 +13699,115 @@
     },
     {
      "name": "Group 2",
-     "slots": []
+     "slots": [
+      {
+       "day": 3,
+       "start": "10:00",
+       "end": "12:00",
+       "room": "00.08.038, Unterrichtsraum ohne Infrastruktur (5608.EG.038)",
+       "first": "2026-10-14",
+       "last": "2027-02-03",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group 3",
-     "slots": []
+     "slots": [
+      {
+       "day": 3,
+       "start": "12:00",
+       "end": "14:00",
+       "room": "00.08.038, Unterrichtsraum ohne Infrastruktur (5608.EG.038)",
+       "first": "2026-10-14",
+       "last": "2027-02-03",
+       "n": 15
+      }
+     ]
     },
     {
      "name": "Group 4",
-     "slots": []
+     "slots": [
+      {
+       "day": 3,
+       "start": "14:00",
+       "end": "16:00",
+       "room": "00.08.038, Unterrichtsraum ohne Infrastruktur (5608.EG.038)",
+       "first": "2026-10-14",
+       "last": "2027-02-03",
+       "n": 15
+      }
+     ]
     },
     {
      "name": "Group 5",
-     "slots": []
+     "slots": [
+      {
+       "day": 4,
+       "start": "08:00",
+       "end": "10:00",
+       "room": "01.10.011, Unterrichtsraum ohne Infrastruktur (5610.01.011)",
+       "first": "2026-10-15",
+       "last": "2027-02-04",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group 6",
-     "slots": []
+     "slots": [
+      {
+       "day": 4,
+       "start": "12:00",
+       "end": "14:00",
+       "room": "00.08.038, Unterrichtsraum ohne Infrastruktur (5608.EG.038)",
+       "first": "2026-10-15",
+       "last": "2027-02-04",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group 7",
-     "slots": []
+     "slots": [
+      {
+       "day": 4,
+       "start": "16:00",
+       "end": "18:00",
+       "room": "00.13.009A, Seminarraum (5613.EG.009A)",
+       "first": "2026-10-15",
+       "last": "2027-02-04",
+       "n": 14
+      }
+     ]
     },
     {
      "name": "Group 8",
-     "slots": []
+     "slots": [
+      {
+       "day": 5,
+       "start": "12:00",
+       "end": "14:00",
+       "room": "01.09.014, Unterrichtsraum ohne Infrastruktur (5609.01.014)",
+       "first": "2026-10-16",
+       "last": "2027-02-05",
+       "n": 15
+      }
+     ]
     },
     {
      "name": "Group 9",
-     "slots": []
+     "slots": [
+      {
+       "day": 5,
+       "start": "14:00",
+       "end": "16:00",
+       "room": "01.09.014, Unterrichtsraum ohne Infrastruktur (5609.01.014)",
+       "first": "2026-10-16",
+       "last": "2027-02-05",
+       "n": 15
+      }
+     ]
     },
     {
      "name": "Group 10",
@@ -11611,11 +13862,738 @@
  "no_dates": [
   950940257,
   950941654,
+  950941813,
   950942291,
   950943775,
-  950943958,
   950944871,
-  950945793,
-  950974890
+  950945793
+ ],
+ "cit_modules": [
+  {
+   "module_id": "IN5022",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5022_W_AlgorithmenAufSequenzen.pdf",
+   "pdf_file": "data/cit_modules/IN5022.pdf",
+   "title": "Algorithms on Sequences",
+   "type": "Vorlesung mit Übungen",
+   "credits": 9,
+   "teaching_form": "4V + 2Ü",
+   "language": "Deutsch",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 180,
+    "total": 270
+   },
+   "turnus": "unregelmäßig",
+   "responsible": "Prof. Dr. Volker Heun",
+   "lecturers": [
+    "Prof. Dr. Volker Heun"
+   ],
+   "manual_fields": [],
+   "id": "IN5022",
+   "name": "Algorithmen auf Sequenzen",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": 9,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5020",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5020_W_AlgoBioinfBaeumeUndGraphen.pdf",
+   "pdf_file": "data/cit_modules/IN5020.pdf",
+   "title": "Algorithmic Bioinformatics: Trees and Graphs",
+   "type": "Vorlesung mit Übungen",
+   "credits": 9,
+   "teaching_form": "4V + 2Ü",
+   "language": "Deutsch",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 180,
+    "total": 270
+   },
+   "turnus": "unregelmäßig",
+   "responsible": "Prof. Dr. Volker Heun",
+   "lecturers": [
+    "Prof. Dr. Volker Heun"
+   ],
+   "manual_fields": [],
+   "id": "IN5020",
+   "name": "Algorithmische Bioinformatik: Bäume und Graphen",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": 9,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5021",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5021_AlgoBioinfNetzGraphundSyst.pdf",
+   "pdf_file": "data/cit_modules/IN5021.pdf",
+   "title": "Algorithmic Bioinformatics: Networks, Graphs and Systems",
+   "type": "Vorlesung mit Übungen",
+   "credits": 9,
+   "teaching_form": "4V + 2Ü",
+   "language": "Deutsch/Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 180,
+    "total": 270
+   },
+   "turnus": "Sommersemester",
+   "responsible": "Prof. Dr. Ralf Zimmer",
+   "lecturers": [
+    "Prof. Dr. Ralf Zimmer Prof. Dr. Caroline Friedel"
+   ],
+   "manual_fields": [],
+   "id": "IN5021",
+   "name": "Algorithmische Bioinformatik: Systeme und Netzwerke",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": 9,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5019",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5019_W_AlgoBioinfSystembiologie.pdf",
+   "pdf_file": "data/cit_modules/IN5019.pdf",
+   "title": "Algorithmic Systems Biology",
+   "type": "Vorlesung mit Übungen",
+   "credits": 9,
+   "teaching_form": "4V + 2Ü",
+   "language": "Deutsch oder Englisch (wird vom Dozenten zum Vorlesungsbeginn bekannt gegeben)",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 180,
+    "total": 270
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. Ralf Zimmer",
+   "lecturers": [
+    "Prof. Dr. Ralf Zimmer Prof. Dr. Caroline Friedel"
+   ],
+   "manual_fields": [],
+   "id": "IN5019",
+   "name": "Algorithmische Systembiologie",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": 9,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5088",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5088_CompMethEvolBiol.pdf",
+   "pdf_file": "data/cit_modules/IN5088.pdf",
+   "title": "Computational Methods in Evolutionary Biology",
+   "type": "Vorlesung mit Übung",
+   "credits": 9,
+   "teaching_form": "4V + 3Ü",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 105,
+    "self": 165,
+    "total": 270
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. Dirk Metzler",
+   "lecturers": [
+    "Prof. Dr. Dirk Metzler"
+   ],
+   "manual_fields": [],
+   "id": "IN5088",
+   "name": "Computational Methods in Evolutionary Biology",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": 9,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5073",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5073_FortgeschrittenenpraktikumBioinformatik_2021.pdf",
+   "pdf_file": "data/cit_modules/IN5073.pdf",
+   "title": "Advanced Lab Course Bioinformatics",
+   "type": "Praktikum Lab course",
+   "credits": 12,
+   "teaching_form": "6 Pr",
+   "language": "Deutsch/Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 270,
+    "total": 360
+   },
+   "turnus": "Winter-/ Sommersemester; on demand",
+   "responsible": "Prof. Dr. Burkhard Rost, Prof. Dr. Ralf Zimmer",
+   "lecturers": [
+    "Alle Professoren der Bioinformatik"
+   ],
+   "manual_fields": [],
+   "id": "IN5073",
+   "name": "Fortgeschrittenen-Praktikum Bioinformatik",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 12,
+    "handbook": 12,
+    "web": 12,
+    "module_pdf": 12
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5116",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5116_W_PerlenBioinfAlgorithmen.pdf",
+   "pdf_file": "data/cit_modules/IN5116.pdf",
+   "title": "Bioinformatics Pearls: Algorithmics",
+   "type": "Vorlesung mit Übungen",
+   "credits": 9,
+   "teaching_form": "4V + 2Ü",
+   "language": "English",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 180,
+    "total": 270
+   },
+   "turnus": "Unregelmäßig",
+   "responsible": "Prof. Dr. Ralf Zimmer",
+   "lecturers": [
+    "Prof. Dr. Ralf Zimmer"
+   ],
+   "manual_fields": [],
+   "id": "IN5116",
+   "name": "Perlen der Bioinformatik: Algorithmen",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": 9,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5096",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5096_W_PerlenBioinfENCODE.pdf",
+   "pdf_file": "data/cit_modules/IN5096.pdf",
+   "title": "Bioinformatics Pearls: ENCODE",
+   "type": "Vorlesung mit Übungen",
+   "credits": 9,
+   "teaching_form": "4V + 2Ü",
+   "language": "English",
+   "level": "Master",
+   "workload": {
+    "presence": 90,
+    "self": 180,
+    "total": 270
+   },
+   "turnus": "unregelmäßig",
+   "responsible": "Prof. Dr. Ralf Zimmer",
+   "lecturers": [
+    "Prof. Dr. Ralf Zimmer Prof. Dr. Caroline Friedel"
+   ],
+   "manual_fields": [],
+   "id": "IN5096",
+   "name": "Perlen der Bioinformatik: ENCODE",
+   "catalog": "methods",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 9,
+    "handbook": null,
+    "web": 9,
+    "module_pdf": 9
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5089",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5089_Analysis_of_high-dimensional_biological_data.pdf",
+   "pdf_file": "data/cit_modules/IN5089.pdf",
+   "title": "Analysis of high-dimensional biological data",
+   "type": "Lecture with exercise",
+   "credits": 6,
+   "teaching_form": "3V + 1Ü",
+   "language": "English",
+   "level": "Master",
+   "workload": {
+    "presence": 60,
+    "self": 120,
+    "total": 180
+   },
+   "turnus": "Sommersemester",
+   "responsible": "Prof. Dr. Christian L. Müller",
+   "lecturers": [
+    "Prof. Dr. Christian L. Müller"
+   ],
+   "manual_fields": [],
+   "id": "IN5089",
+   "name": "Analysis of High-Dimensional Biological Data",
+   "catalog": "cs",
+   "credits_used_from": "handbook",
+   "credits_sources": {
+    "pdf": null,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5159",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5159_Big_Data_Management_and_Analytics.pdf",
+   "pdf_file": "data/cit_modules/IN5159.pdf",
+   "title": "Big Data Management and Analytics",
+   "type": "Vorlesung mit Übung",
+   "credits": 6,
+   "teaching_form": "3V + 2Ü",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 75,
+    "self": 105,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof- Dr. Matthias Schubert",
+   "lecturers": [
+    "Prof. Dr. Matthias Schubert"
+   ],
+   "manual_fields": [],
+   "id": "IN5159",
+   "name": "Big Data Management and Analytics",
+   "catalog": "cs",
+   "credits_used_from": "handbook",
+   "credits_sources": {
+    "pdf": null,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5042",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5042_Data_Mining_Algorithmen_I.pdf",
+   "pdf_file": "data/cit_modules/IN5042.pdf",
+   "title": "Data Mining Algorithms I",
+   "type": "Vorlesung mit Übung",
+   "credits": 6,
+   "teaching_form": "3V + 2Ü",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 75,
+    "self": 105,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. Thomas Seidl",
+   "lecturers": [
+    "Prof. Dr. Thomas Seidl"
+   ],
+   "manual_fields": [],
+   "id": "IN5042",
+   "name": "Data Mining Algorithms I",
+   "catalog": "cs",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 6,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5043",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5043_W_Knowledge_Discovery_in_Databases_2.pdf",
+   "pdf_file": "data/cit_modules/IN5043.pdf",
+   "title": "Knowledge Discovery in Databases II",
+   "type": "Vorlesung mit Übung",
+   "credits": 6,
+   "teaching_form": "3V + 2Ü",
+   "language": "Deutsch",
+   "level": "Master",
+   "workload": {
+    "presence": 75,
+    "self": 105,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "PD Dr. Matthias Schubert",
+   "lecturers": [
+    "PD Dr. Matthias Schubert"
+   ],
+   "manual_fields": [],
+   "id": "IN5043",
+   "name": "Data Mining Algorithms II",
+   "catalog": "cs",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 6,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5176",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5176_DeepLearningandArtificialIntelligence_Schubert_2021.10.13.pdf",
+   "pdf_file": "data/cit_modules/IN5176.pdf",
+   "title": "Deep Learning and Artificial Intelligence",
+   "type": "Vorlesung mit Übung",
+   "credits": 6,
+   "teaching_form": "3V + 2Ü",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 75,
+    "self": 105,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. Matthias Schubert",
+   "lecturers": [
+    "Prof. Dr. Matthias Schubert"
+   ],
+   "manual_fields": [],
+   "id": "IN5176",
+   "name": "Deep Learning and Artificial Intelligence",
+   "catalog": "cs",
+   "credits_used_from": "web",
+   "credits_sources": {
+    "pdf": null,
+    "handbook": null,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5085",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5085_W_ParallelComputingGA.pdf",
+   "pdf_file": "data/cit_modules/IN5085.pdf",
+   "title": "Parallel Computing: Foundations and Applications",
+   "type": "Vorlesung mit Übung",
+   "credits": 6,
+   "teaching_form": "3V + 2Ü",
+   "language": "Deutsch",
+   "level": "Master",
+   "workload": {
+    "presence": 75,
+    "self": 105,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. Dieter Kranzlmüller",
+   "lecturers": [
+    "Prof. Dr. Dieter Kranzlmüller Dr. Karl Fürlinger"
+   ],
+   "manual_fields": [],
+   "id": "IN5085",
+   "name": "Parallel and High Performance Computing",
+   "catalog": "cs",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 6,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5036",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5036_W_AdvancedEvolutionaryGenomics.pdf",
+   "pdf_file": "data/cit_modules/IN5036.pdf",
+   "title": "Fortgeschrittene evolutionäre Genomik",
+   "type": "Vorlesung",
+   "credits": 3,
+   "teaching_form": "2V",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 30,
+    "self": 60,
+    "total": 90
+   },
+   "turnus": "Sommersemester",
+   "responsible": "Prof. Dr. John Parsch",
+   "lecturers": [
+    "Prof. Dr. John Parsch"
+   ],
+   "manual_fields": [],
+   "id": "IN5036",
+   "name": "Advanced Evolutionary Genomics",
+   "catalog": "bio",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 3,
+    "handbook": 3,
+    "web": 3,
+    "module_pdf": 3
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5035",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5035_W_BasicEvolutionaryGenomics.pdf",
+   "pdf_file": "data/cit_modules/IN5035.pdf",
+   "title": "Grundlegende evolutionäre Genomik",
+   "type": "Vorlesung",
+   "credits": 3,
+   "teaching_form": "2V",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 30,
+    "self": 60,
+    "total": 90
+   },
+   "turnus": "Sommersemester",
+   "responsible": "Prof. Dr. John Parsch",
+   "lecturers": [
+    "Prof. Dr. John Parsch"
+   ],
+   "manual_fields": [],
+   "id": "IN5035",
+   "name": "Basic Evolutionary Genomics",
+   "catalog": "bio",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 3,
+    "handbook": 3,
+    "web": 3,
+    "module_pdf": 3
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5062",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5062_Biochemie_IV_Zellulaere_Biochemie.pdf",
+   "pdf_file": "data/cit_modules/IN5062.pdf",
+   "title": "Biochemistry 4 – Cellular Biochemistry",
+   "type": "Vorlesung",
+   "credits": 6,
+   "teaching_form": "Vorlesung, 4 SWS",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 60,
+    "self": 120,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. Ulrike Gaul",
+   "lecturers": [
+    "Prof. Dr. Ulrike Gaul"
+   ],
+   "manual_fields": [],
+   "id": "IN5062",
+   "name": "Biochemie 4 - Zelluläre Biochemie",
+   "catalog": "bio",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 6,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5064",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5064_Biochemie_V_Life_Cycle_of_Proteins.pdf",
+   "pdf_file": "data/cit_modules/IN5064.pdf",
+   "title": "Biochemistry V - Life cycle of proteins",
+   "type": "Vorlesung",
+   "credits": 3,
+   "teaching_form": "Vorlesung, 2 SWS",
+   "language": "Deutsch / Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 30,
+    "self": 60,
+    "total": 90
+   },
+   "turnus": "WS, jährlich",
+   "responsible": "",
+   "lecturers": [
+    "Prof. Beckmann"
+   ],
+   "manual_fields": [],
+   "id": "IN5064",
+   "name": "Biochemie 5 -Lebenszyklus der Proteine",
+   "catalog": "bio",
+   "credits_used_from": "handbook",
+   "credits_sources": {
+    "pdf": null,
+    "handbook": 3,
+    "web": 3,
+    "module_pdf": 3
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5065",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5065_Biochemie_VI_Model_Organisms.pdf",
+   "pdf_file": "data/cit_modules/IN5065.pdf",
+   "title": "Biochemistry VI - model organisms",
+   "type": "Vorlesung",
+   "credits": 3,
+   "teaching_form": "Vorlesung, 2 SWS",
+   "language": "Deutsch / Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 30,
+    "self": 60,
+    "total": 90
+   },
+   "turnus": "SS, jährlich",
+   "responsible": "",
+   "lecturers": [
+    "Prof. Gaul"
+   ],
+   "manual_fields": [],
+   "id": "IN5065",
+   "name": "Biochemie 6 - Modellorganismen",
+   "catalog": "bio",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 3,
+    "handbook": 3,
+    "web": 3,
+    "module_pdf": 3
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5066",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5066_Biochemie_VII_Flow_of_Genetic_Information.pdf",
+   "pdf_file": "data/cit_modules/IN5066.pdf",
+   "title": "Biochemistry VII - flow of genetic information",
+   "type": "Vorlesung",
+   "credits": 3,
+   "teaching_form": "Vorlesung, 2 SWS",
+   "language": "Deutsch / Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 30,
+    "self": 60,
+    "total": 90
+   },
+   "turnus": "WS, jährlich",
+   "responsible": "",
+   "lecturers": [
+    "Prof. Hopfner"
+   ],
+   "manual_fields": [],
+   "id": "IN5066",
+   "name": "Biochemie 7 - Genetischer Informationsfluss",
+   "catalog": "bio",
+   "credits_used_from": "handbook",
+   "credits_sources": {
+    "pdf": null,
+    "handbook": 3,
+    "web": 3,
+    "module_pdf": 3
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "IN5037",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/IN5037_W_Evolutionary_Genetics.pdf",
+   "pdf_file": "data/cit_modules/IN5037.pdf",
+   "title": "Evolutionäre Genetik",
+   "type": "Vorlesung",
+   "credits": 6,
+   "teaching_form": "4V",
+   "language": "Englisch",
+   "level": "Master",
+   "workload": {
+    "presence": 60,
+    "self": 120,
+    "total": 180
+   },
+   "turnus": "Wintersemester",
+   "responsible": "Prof. Dr. John Parsch",
+   "lecturers": [
+    "Prof. Dr. John Parsch"
+   ],
+   "manual_fields": [],
+   "id": "IN5037",
+   "name": "Evolutionary Genetics",
+   "catalog": "bio",
+   "credits_used_from": "pdf",
+   "credits_sources": {
+    "pdf": 6,
+    "handbook": 6,
+    "web": 6,
+    "module_pdf": 6
+   },
+   "credits_conflict": false
+  },
+  {
+   "module_id": "CIT802000",
+   "pdf_url": "https://www.cit.tum.de/fileadmin/w00byx/cit/Studium/Studiengaenge/Bachelor_Bioinformatik/LMU_Module/CIT802000_Scientific_Writing_Bioinformatics.pdf",
+   "pdf_file": "data/cit_modules/CIT802000.pdf",
+   "title": "Wissenschaftliches Schreiben für Bioinformatik",
+   "type": "Seminar",
+   "credits": 3,
+   "teaching_form": "2S",
+   "language": "Deutsch oder Englisch (wird zum Beginn der Veranstaltung bekannt gegeben)",
+   "level": "Master",
+   "workload": {
+    "presence": 30,
+    "self": 60,
+    "total": 90
+   },
+   "turnus": "Jährlich (Wintersemester; bei Bedarf zusätzlich oder alternativ auch im Sommersemester)",
+   "responsible": "Prof. Dr. Caroline Friedel",
+   "lecturers": [
+    "Prof. Dr. Caroline Friedel"
+   ],
+   "manual_fields": [],
+   "id": "CIT802000",
+   "name": "Wissenschaftliches Schreiben für Bioinformatik",
+   "catalog": "interdisc",
+   "credits_used_from": "web",
+   "credits_sources": {
+    "pdf": null,
+    "handbook": null,
+    "web": 3,
+    "module_pdf": 3
+   },
+   "credits_conflict": false
+  }
  ]
 }
