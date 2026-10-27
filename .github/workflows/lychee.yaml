@@ -15,14 +15,6 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v7
-      - name: Restore lychee cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            .lycheecache
-            issue-number
-          key: cache-lychee-${{ github.sha }}
-          restore-keys: cache-lychee-
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2
@@ -32,16 +24,7 @@ jobs:
       - name: Get previous issue number
         id: previous
         run: |
-          number=""
-          if [ -f issue-number ]; then
-            candidate=$(cat issue-number)
-            cat issue-number
-            state=$(gh issue view "$candidate" --json state --jq .state 2>/dev/null || true)
-            echo $state
-            if [ "$state" = "OPEN" ]; then
-              number="$candidate"
-            fi
-          fi
+          number="$(gh issue list --label 'link-checking,automated-issue' --limit 1 --json number --jq '.[0].number')"
           echo "issue-number=$number" >> "$GITHUB_OUTPUT"
           echo "issue-number=$number"
       - name: Create Issue From File
@@ -53,11 +36,6 @@ jobs:
           content-filepath: ./lychee/out.md
           labels: link-checking, automated-issue
           issue-number: ${{ steps.previous.outputs.issue-number }}
-      - name: Save issue number
-        if: steps.issue.outputs.issue-number != ''
-        run: |
-          echo "${{ steps.issue.outputs.issue-number }}" > issue-number
-          echo "${{ steps.issue.outputs.issue-number }}"
       - name: Close issue when links are fixed
         if: steps.lychee.outputs.exit_code == 0 && steps.previous.outputs.issue-number != ''
         run: |
